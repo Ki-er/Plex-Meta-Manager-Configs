@@ -1,0 +1,84 @@
+[2022-05-20 17:24:16,729] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:24:16,729] [plex_meta_manager.py:437]  [INFO]     |                                DC Live Action Collection in Movies                                 |
+[2022-05-20 17:24:16,729] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:24:16,730] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-20 17:24:16,730] [plex_meta_manager.py:443]  [INFO]     |=============================== Validating DC Live Action Attributes ===============================|
+[2022-05-20 17:24:16,730] [builder.py:365]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:24:16,731] [builder.py:366]            [DEBUG]    | Validating Method: schedule                                                                        |
+[2022-05-20 17:24:16,731] [builder.py:370]            [DEBUG]    | Value: weekly(friday)                                                                              |
+[2022-05-20 17:24:16,731] [builder.py:423]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:24:16,731] [builder.py:424]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-05-20 17:24:16,732] [builder.py:428]            [DEBUG]    | Value: sync                                                                                        |
+[2022-05-20 17:24:16,732] [builder.py:570]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:24:16,732] [builder.py:571]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-05-20 17:24:16,732] [builder.py:572]            [DEBUG]    | Value: release                                                                                     |
+[2022-05-20 17:24:16,733] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:24:16,733] [builder.py:592]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-05-20 17:24:16,733] [builder.py:593]            [DEBUG]    | Value: https://www.imdb.com/list/ls084122077                                                       |
+[2022-05-20 17:24:18,248] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:24:18,250] [builder.py:592]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-05-20 17:24:18,251] [builder.py:593]            [DEBUG]    | Value: default                                                                                     |
+[2022-05-20 17:24:18,251] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:24:18,251] [builder.py:592]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-05-20 17:24:18,251] [builder.py:593]            [DEBUG]    | Value: *509                                                                                        |
+[2022-05-20 17:24:18,290] [plex.py:721]               [DEBUG]    |                                                                                                    |
+[2022-05-20 17:24:18,290] [plex.py:724]               [DEBUG]    | Looking for: DC Live Action                                                                        |
+[2022-05-20 17:24:18,290] [builder.py:749]            [INFO]     |                                                                                                    |
+[2022-05-20 17:24:18,290] [builder.py:750]            [INFO]     | Validation Successful                                                                              |
+[2022-05-20 17:24:18,291] [plex_meta_manager.py:447]  [INFO]     |                                                                                                    |
+[2022-05-20 17:24:18,291] [plex_meta_manager.py:449]  [INFO]     |================================ Running DC Live Action Collection =================================|
+[2022-05-20 17:24:18,292] [plex_meta_manager.py:461]  [INFO]     |                                                                                                    |
+[2022-05-20 17:24:18,292] [plex_meta_manager.py:462]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-05-20 17:24:18,292] [plex_meta_manager.py:472]  [DEBUG]    |                                                                                                    |
+[2022-05-20 17:24:18,292] [plex_meta_manager.py:473]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls084122077', 'limit': 0}                   |
+[2022-05-20 17:24:18,293] [plex_meta_manager.py:474]  [INFO]     |                                                                                                    |
+[2022-05-20 17:24:18,293] [imdb.py:176]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls084122077                                        |
+[2022-05-20 17:24:23,059] [imdb.py:127]               [DEBUG]    | 25 IMDb IDs Found: ['tt0078346', 'tt0081573', 'tt0086393', 'tt0094074', 'tt0327554', 'tt0372784', 'tt0348150', 'tt0468569', 'tt0831887', 'tt0409459', 'tt1133985', 'tt1345836', 'tt0770828', 'tt2975590', 'tt1386697', 'tt0451279', 'tt0974015', 'tt1477834', 'tt0448115', 'tt7286456', 'tt7713068', 'tt7126948', 'tt0399146', 'tt12361974', 'tt1877830'] |
+[2022-05-20 17:24:23,059] [builder.py:1424]           [DEBUG]    |                                                                                                    |
+[2022-05-20 17:24:23,059] [builder.py:1425]           [DEBUG]    | 25 IDs Found: [('tt0078346', 'imdb'), ('tt0081573', 'imdb'), ('tt0086393', 'imdb'), ('tt0094074', 'imdb'), ('tt0327554', 'imdb'), ('tt0372784', 'imdb'), ('tt0348150', 'imdb'), ('tt0468569', 'imdb'), ('tt0831887', 'imdb'), ('tt0409459', 'imdb'), ('tt1133985', 'imdb'), ('tt1345836', 'imdb'), ('tt0770828', 'imdb'), ('tt2975590', 'imdb'), ('tt1386697', 'imdb'), ('tt0451279', 'imdb'), ('tt0974015', 'imdb'), ('tt1477834', 'imdb'), ('tt0448115', 'imdb'), ('tt7286456', 'imdb'), ('tt7713068', 'imdb'), ('tt7126948', 'imdb'), ('tt0399146', 'imdb'), ('tt12361974', 'imdb'), ('tt1877830', 'imdb')] |
+[2022-05-20 17:24:23,060] [builder.py:1426]           [DEBUG]    |                                                                                                    |
+[2022-05-20 17:24:26,113] [builder.py:1892]           [INFO]     |                                                                                                    |
+[2022-05-20 17:24:26,115] [builder.py:1893]           [INFO]     |=============================== Adding to DC Live Action Collection ================================|
+[2022-05-20 17:24:26,115] [builder.py:1894]           [INFO]     |                                                                                                    |
+[2022-05-20 17:24:26,115] [builder.py:1908]           [INFO]     |  1/25 | DC Live Action Collection | + | Superman (1978)                                            |
+[2022-05-20 17:24:27,593] [builder.py:1908]           [INFO]     |  2/25 | DC Live Action Collection | + | Superman II (1980)                                         |
+[2022-05-20 17:24:29,135] [builder.py:1908]           [INFO]     |  3/25 | DC Live Action Collection | + | Superman III (1983)                                        |
+[2022-05-20 17:24:30,669] [builder.py:1908]           [INFO]     |  4/25 | DC Live Action Collection | + | Superman IV: The Quest for Peace (1987)                    |
+[2022-05-20 17:24:32,070] [builder.py:1908]           [INFO]     |  5/25 | DC Live Action Collection | + | Catwoman (2004)                                            |
+[2022-05-20 17:24:33,568] [builder.py:1908]           [INFO]     |  6/25 | DC Live Action Collection | + | Batman Begins (2005)                                       |
+[2022-05-20 17:24:35,089] [builder.py:1908]           [INFO]     |  7/25 | DC Live Action Collection | + | Superman Returns (2006)                                    |
+[2022-05-20 17:24:36,609] [builder.py:1908]           [INFO]     |  8/25 | DC Live Action Collection | + | The Dark Knight (2008)                                     |
+[2022-05-20 17:24:38,110] [builder.py:1908]           [INFO]     |  9/25 | DC Live Action Collection | + | The Spirit (2008)                                          |
+[2022-05-20 17:24:39,742] [builder.py:1908]           [INFO]     | 10/25 | DC Live Action Collection | + | Watchmen (2009)                                            |
+[2022-05-20 17:24:42,727] [builder.py:1908]           [INFO]     | 11/25 | DC Live Action Collection | + | Green Lantern (2011)                                       |
+[2022-05-20 17:24:44,216] [builder.py:1908]           [INFO]     | 12/25 | DC Live Action Collection | + | The Dark Knight Rises (2012)                               |
+[2022-05-20 17:24:45,709] [builder.py:1908]           [INFO]     | 13/25 | DC Live Action Collection | + | Man of Steel (2013)                                        |
+[2022-05-20 17:24:47,128] [builder.py:1908]           [INFO]     | 14/25 | DC Live Action Collection | + | Batman v Superman: Dawn of Justice (2016)                  |
+[2022-05-20 17:24:48,834] [builder.py:1908]           [INFO]     | 15/25 | DC Live Action Collection | + | Suicide Squad (2016)                                       |
+[2022-05-20 17:24:50,306] [builder.py:1908]           [INFO]     | 16/25 | DC Live Action Collection | + | Wonder Woman (2017)                                        |
+[2022-05-20 17:24:51,792] [builder.py:1908]           [INFO]     | 17/25 | DC Live Action Collection | + | Justice League (2017)                                      |
+[2022-05-20 17:24:53,259] [builder.py:1908]           [INFO]     | 18/25 | DC Live Action Collection | + | Aquaman (2018)                                             |
+[2022-05-20 17:24:55,108] [builder.py:1908]           [INFO]     | 19/25 | DC Live Action Collection | + | Shazam! (2019)                                             |
+[2022-05-20 17:24:57,077] [builder.py:1908]           [INFO]     | 20/25 | DC Live Action Collection | + | Joker (2019)                                               |
+[2022-05-20 17:24:58,574] [builder.py:1908]           [INFO]     | 21/25 | DC Live Action Collection | + | Birds of Prey (2020)                                       |
+[2022-05-20 17:25:00,332] [builder.py:1908]           [INFO]     | 22/25 | DC Live Action Collection | + | Wonder Woman 1984 (2020)                                   |
+[2022-05-20 17:25:01,686] [builder.py:1908]           [INFO]     | 23/25 | DC Live Action Collection | + | A History of Violence (2005)                               |
+[2022-05-20 17:25:03,195] [builder.py:1908]           [INFO]     | 24/25 | DC Live Action Collection | + | Zack Snyder's Justice League (2021)                        |
+[2022-05-20 17:25:04,746] [builder.py:1908]           [INFO]     | 25/25 | DC Live Action Collection | + | The Batman (2022)                                          |
+[2022-05-20 17:25:06,261] [builder.py:1933]           [INFO]     |                                                                                                    |
+[2022-05-20 17:25:06,262] [builder.py:1934]           [INFO]     | 25 Movies Processed                                                                                |
+[2022-05-20 17:25:06,303] [builder.py:2410]           [INFO]     |                                                                                                    |
+[2022-05-20 17:25:06,305] [builder.py:2411]           [INFO]     |========================== Updating Details of DC Live Action Collection ===========================|
+[2022-05-20 17:25:06,305] [builder.py:2412]           [INFO]     |                                                                                                    |
+[2022-05-20 17:25:06,305] [builder.py:2473]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Sort Title | *509
+                                                                 | 
+[2022-05-20 17:25:06,652] [builder.py:2477]           [INFO]     | Details: have been updated
+[2022-05-20 17:25:06,652] [builder.py:2480]           [INFO]     | 
+[2022-05-20 17:25:06,653] [builder.py:2568]           [INFO]     | No poster collection detail or asset folder found
+[2022-05-20 17:25:06,653] [builder.py:2601]           [INFO]     | No background collection detail or asset folder found
+[2022-05-20 17:25:08,838] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-20 17:25:08,838] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-20 17:25:08,838] [plex_meta_manager.py:577]  [INFO]     |                                 Finished DC Live Action Collection                                 |
+[2022-05-20 17:25:08,838] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:00:52                                    |
+[2022-05-20 17:25:08,838] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

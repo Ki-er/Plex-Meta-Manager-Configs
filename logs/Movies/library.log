@@ -1,0 +1,179 @@
+[2022-05-26 02:04:07,196] [plex_meta_manager.py:211]  [INFO]     |                                                                                                    |
+[2022-05-26 02:04:07,196] [plex_meta_manager.py:212]  [INFO]     |====================================================================================================|
+[2022-05-26 02:04:07,197] [plex_meta_manager.py:212]  [INFO]     |                                           Movies Library                                           |
+[2022-05-26 02:04:07,197] [plex_meta_manager.py:212]  [INFO]     |====================================================================================================|
+[2022-05-26 02:04:07,197] [plex_meta_manager.py:217]  [DEBUG]    |                                                                                                    |
+[2022-05-26 02:04:07,197] [plex_meta_manager.py:218]  [DEBUG]    | Mapping Name: Movies                                                                               |
+[2022-05-26 02:04:07,198] [plex_meta_manager.py:219]  [DEBUG]    | Folder Name: Movies                                                                                |
+[2022-05-26 02:04:07,198] [plex_meta_manager.py:220]  [DEBUG]    | Missing Path: //config/Movies_missing.yml                                                          |
+[2022-05-26 02:04:07,198] [plex_meta_manager.py:222]  [DEBUG]    | Asset Directory: //config/assets                                                                   |
+[2022-05-26 02:04:07,199] [plex_meta_manager.py:223]  [DEBUG]    | Asset Folders: True                                                                                |
+[2022-05-26 02:04:07,199] [plex_meta_manager.py:224]  [DEBUG]    | Create Asset Folders: False                                                                        |
+[2022-05-26 02:04:07,199] [plex_meta_manager.py:225]  [DEBUG]    | Download URL Assets: False                                                                         |
+[2022-05-26 02:04:07,199] [plex_meta_manager.py:226]  [DEBUG]    | Sync Mode: append                                                                                  |
+[2022-05-26 02:04:07,200] [plex_meta_manager.py:227]  [DEBUG]    | Minimum Items: 1                                                                                   |
+[2022-05-26 02:04:07,200] [plex_meta_manager.py:228]  [DEBUG]    | Delete Below Minimum: True                                                                         |
+[2022-05-26 02:04:07,200] [plex_meta_manager.py:229]  [DEBUG]    | Delete Not Scheduled: False                                                                        |
+[2022-05-26 02:04:07,201] [plex_meta_manager.py:230]  [DEBUG]    | Default Collection Order: None                                                                     |
+[2022-05-26 02:04:07,201] [plex_meta_manager.py:231]  [DEBUG]    | Missing Only Released: False                                                                       |
+[2022-05-26 02:04:07,201] [plex_meta_manager.py:232]  [DEBUG]    | Only Filter Missing: False                                                                         |
+[2022-05-26 02:04:07,201] [plex_meta_manager.py:233]  [DEBUG]    | Show Unmanaged: True                                                                               |
+[2022-05-26 02:04:07,202] [plex_meta_manager.py:234]  [DEBUG]    | Show Filtered: False                                                                               |
+[2022-05-26 02:04:07,202] [plex_meta_manager.py:235]  [DEBUG]    | Show Missing: True                                                                                 |
+[2022-05-26 02:04:07,202] [plex_meta_manager.py:236]  [DEBUG]    | Show Missing Assets: True                                                                          |
+[2022-05-26 02:04:07,202] [plex_meta_manager.py:237]  [DEBUG]    | Save Missing: True                                                                                 |
+[2022-05-26 02:04:07,203] [plex_meta_manager.py:238]  [DEBUG]    | Clean Bundles: False                                                                               |
+[2022-05-26 02:04:07,203] [plex_meta_manager.py:239]  [DEBUG]    | Empty Trash: False                                                                                 |
+[2022-05-26 02:04:07,203] [plex_meta_manager.py:240]  [DEBUG]    | Optimize: False                                                                                    |
+[2022-05-26 02:04:07,203] [plex_meta_manager.py:241]  [DEBUG]    | Timeout: 60                                                                                        |
+[2022-05-26 02:04:07,204] [plex_meta_manager.py:251]  [INFO]     |                                                                                                    |
+[2022-05-26 02:04:07,204] [plex_meta_manager.py:252]  [INFO]     |====================================== Mapping Movies Library ======================================|
+[2022-05-26 02:04:07,204] [plex_meta_manager.py:253]  [INFO]     |                                                                                                    |
+[2022-05-26 02:04:07,205] [plex.py:476]               [INFO]     | Loading All Movies from Library: Movies                                                            |
+[2022-05-26 02:07:35,463] [plex.py:485]               [INFO]     | Loaded 24111 Movies                                                                                |
+[2022-05-26 02:07:35,463] [library.py:246]            [INFO]     | Mapping Movie Library: Movies                                                                      |
+[2022-05-26 02:07:35,463] [library.py:247]            [INFO]     |                                                                                                    |
+[2022-05-26 02:07:35,704] [convert.py:335]            [INFO]     | Mapping Error | local://612853                                 | No match in Plex for "Abraham"    |
+[2022-05-26 02:07:35,742] [convert.py:332]            [DEBUG]    | TMDb: [], IMDb: [], TVDb: [157616]                                                                 |
+[2022-05-26 02:07:35,742] [convert.py:335]            [INFO]     | Mapping Error | plex://movie/605a2dfa51c175002ca84b0e          | No ID to convert for "AEW Double or Nothing 2020" |
+[2022-05-26 02:07:35,756] [convert.py:332]            [DEBUG]    | TMDb: [], IMDb: [], TVDb: [141262]                                                                 |
+[2022-05-26 02:07:35,756] [convert.py:335]            [INFO]     | Mapping Error | plex://movie/5f78c6d38d67e000418469a6          | No ID to convert for "AEW Full Gear 2020" |
+[2022-05-26 02:07:35,770] [convert.py:332]            [DEBUG]    | TMDb: [], IMDb: [], TVDb: [136602]                                                                 |
+[2022-05-26 02:07:35,770] [convert.py:335]            [INFO]     | Mapping Error | plex://movie/5f02cb2e554fdc0040dafc08          | No ID to convert for "AEW Revolution 2020" |
+[2022-05-26 02:07:35,773] [convert.py:335]            [INFO]     | Mapping Error | local://781265                                 | No match in Plex for "After Porn Ends" |
+[2022-05-26 02:07:35,774] [convert.py:335]            [INFO]     | Mapping Error | local://781264                                 | No match in Plex for "After Porn Ends 2" |
+[2022-05-26 02:07:35,776] [convert.py:335]            [INFO]     | Mapping Error | local://781120                                 | No match in Plex for "Agatha Raisin and the Quiche of Death" |
+[2022-05-26 02:07:36,064] [convert.py:332]            [DEBUG]    | TMDb: [], IMDb: [], TVDb: [128614]                                                                 |
+[2022-05-26 02:07:36,064] [convert.py:335]            [INFO]     | Mapping Error | plex://movie/5ea7db9353ad100045e87e43          | No ID to convert for "Alice in Dreamland" |
+[2022-05-26 02:07:36,854] [convert.py:335]            [INFO]     | Mapping Error | local://779759                                 | No match in Plex for "Anne of Green Gables the Continuing Story" |
+[2022-05-26 02:07:36,869] [convert.py:335]            [INFO]     | Mapping Error | local://809607                                 | No match in Plex for "Annie"      |
+[2022-05-26 02:07:37,283] [convert.py:332]            [DEBUG]    | TMDb: [], IMDb: [], TVDb: [133616]                                                                 |
+[2022-05-26 02:07:37,283] [convert.py:335]            [INFO]     | Mapping Error | plex://movie/5e833d13d78d060041e4d341          | No ID to convert for "The Assent" |
+[2022-05-26 02:07:37,305] [convert.py:335]            [INFO]     | Mapping Error | local://779191                                 | No match in Plex for "Aurora Teagarden Mysteries Reunited and It Feels So Deadly" |
+[2022-05-26 02:07:37,355] [convert.py:332]            [DEBUG]    | TMDb: [], IMDb: [], TVDb: [159108]                                                                 |
+[2022-05-26 02:07:37,355] [convert.py:335]            [INFO]     | Mapping Error | plex://movie/60798a910b35f60035191445          | No ID to convert for "B2: Stealth at War" |
+[2022-05-26 02:07:37,862] [convert.py:335]            [INFO]     | Mapping Error | local://771274                                 | No match in Plex for "A Beautiful Place to Die a Marthas Vineyard Mystery" |
+[2022-05-26 02:07:38,061] [convert.py:335]            [INFO]     | Mapping Error | local://613677                                 | No match in Plex for "Best Dog India" |
+[2022-05-26 02:07:38,092] [convert.py:332]            [DEBUG]    | TMDb: [], IMDb: [], TVDb: [19338]                                                                  |
+[2022-05-26 02:07:38,092] [convert.py:335]            [INFO]     | Mapping Error | plex://movie/61b0f7ab04bef371fc37ede5          | No ID to convert for "Bigger Stronger Faster*" |
+[2022-05-26 02:07:38,096] [convert.py:335]            [INFO]     | Mapping Error | local://778950                                 | No match in Plex for "Bill Burr One Night Stand" |
+[2022-05-26 02:07:38,098] [convert.py:335]            [INFO]     | Mapping Error | local://783927                                 | No match in Plex for "Bill Hicks One Night Stand" |
+[2022-05-26 02:07:38,840] [convert.py:335]            [INFO]     | Mapping Error | local://783764                                 | No match in Plex for "Blood Redd" |
+[2022-05-26 02:07:38,853] [convert.py:335]            [INFO]     | Mapping Error | local://783670                                 | No match in Plex for "Bonnie and Clyde" |
+[2022-05-26 02:07:38,889] [convert.py:335]            [INFO]     | Mapping Error | local://782979                                 | No match in Plex for "Bunny Lake Is Missing" |
+[2022-05-26 02:07:39,389] [convert.py:335]            [INFO]     | Mapping Error | local://783497                                 | No match in Plex for "Calls"      |
+[2022-05-26 02:07:39,395] [convert.py:335]            [INFO]     | Mapping Error | local://794762                                 | No match in Plex for "Caprica"    |
+[2022-05-26 02:07:40,001] [convert.py:335]            [INFO]     | Mapping Error | local://782844                                 | No match in Plex for "A Cat in the Brain" |
+[2022-05-26 02:07:40,004] [convert.py:335]            [INFO]     | Mapping Error | local://588600                                 | No match in Plex for "Category 7 the End of the World" |
+[2022-05-26 02:07:40,226] [convert.py:335]            [INFO]     | Mapping Error | local://783557                                 | No match in Plex for "A Christmas Carol" |
+[2022-05-26 02:07:40,240] [convert.py:335]            [INFO]     | Mapping Error | local://782372                                 | No match in Plex for "Chronicle Mysteries Recovered" |
+[2022-05-26 02:07:40,240] [convert.py:335]            [INFO]     | Mapping Error | local://782369                                 | No match in Plex for "Chronicle Mysteries the Wrong Man" |
+[2022-05-26 02:07:40,241] [convert.py:335]            [INFO]     | Mapping Error | local://782365                                 | No match in Plex for "Chronicle Mysteries Vines That Bind" |
+[2022-05-26 02:07:40,244] [convert.py:335]            [INFO]     | Mapping Error | local://808333                                 | No match in Plex for "Cinderella III a Twist in Time" |
+[2022-05-26 02:07:40,251] [convert.py:335]            [INFO]     | Mapping Error | local://781634                                 | No match in Plex for "Classic Albums Amy Winehouse Back to Black" |
+[2022-05-26 02:07:40,255] [convert.py:335]            [INFO]     | Mapping Error | local://806061                                 | No match in Plex for "The Clockwork Girl" |
+[2022-05-26 02:07:40,675] [convert.py:335]            [INFO]     | Mapping Error | local://647523                                 | No match in Plex for "Controlling Britney Spears" |
+[2022-05-26 02:07:41,080] [convert.py:335]            [INFO]     | Mapping Error | local://781754                                 | No match in Plex for "Crossword Mysteries Riddle Me Dead" |
+[2022-05-26 02:07:41,777] [convert.py:335]            [INFO]     | Mapping Error | local://781239                                 | No match in Plex for "Dead Drop"  |
+[2022-05-26 02:07:41,802] [convert.py:335]            [INFO]     | Mapping Error | local://781046                                 | No match in Plex for "Death Riders" |
+[2022-05-26 02:07:43,580] [convert.py:335]            [INFO]     | Mapping Error | local://780819                                 | No match in Plex for "Doctor Who the Day of the Doctor" |
+[2022-05-26 02:07:43,581] [convert.py:335]            [INFO]     | Mapping Error | local://780815                                 | No match in Plex for "Doctor Who the Doctor the Widow and the Wardrobe" |
+[2022-05-26 02:07:43,581] [convert.py:335]            [INFO]     | Mapping Error | local://780812                                 | No match in Plex for "Doctor Who the Time of the Doctor" |
+[2022-05-26 02:07:43,934] [convert.py:335]            [INFO]     | Mapping Error | local://580584                                 | No match in Plex for "Echoes in the Darkness" |
+[2022-05-26 02:07:44,392] [convert.py:335]            [INFO]     | Mapping Error | local://808270                                 | No match in Plex for "Elephant Kingdom" |
+[2022-05-26 02:07:44,415] [convert.py:335]            [INFO]     | Mapping Error | local://806557                                 | No match in Plex for "The Even Stevens Movie" |
+[2022-05-26 02:07:47,180] [convert.py:332]            [DEBUG]    | TMDb: [], IMDb: [], TVDb: [98929]                                                                  |
+[2022-05-26 02:07:47,181] [convert.py:335]            [INFO]     | Mapping Error | plex://movie/5ea7e710fb9b770040361435          | No ID to convert for "Gigantis the Fire Monster" |
+[2022-05-26 02:07:48,117] [convert.py:335]            [INFO]     | Mapping Error | local://809697                                 | No match in Plex for "The Grinch Grinches the Cat in the Hat" |
+[2022-05-26 02:07:48,127] [convert.py:335]            [INFO]     | Mapping Error | local://649995                                 | No match in Plex for "Hailey Dean Mysteries a Will to Kill" |
+[2022-05-26 02:07:48,176] [convert.py:335]            [INFO]     | Mapping Error | local://807856                                 | No match in Plex for "Halloweentown High" |
+[2022-05-26 02:07:48,176] [convert.py:335]            [INFO]     | Mapping Error | local://666390                                 | No match in Plex for "Halo Nightfall" |
+[2022-05-26 02:07:48,560] [convert.py:335]            [INFO]     | Mapping Error | local://803546                                 | No match in Plex for "Home Run Showdown" |
+[2022-05-26 02:07:49,034] [convert.py:335]            [INFO]     | Mapping Error | local://778886                                 | No match in Plex for "Ice"        |
+[2022-05-26 02:07:49,037] [convert.py:335]            [INFO]     | Mapping Error | local://613454                                 | No match in Plex for "The Iceman Tapes Conversations With a Killer" |
+[2022-05-26 02:07:49,057] [convert.py:332]            [DEBUG]    | TMDb: [], IMDb: [], TVDb: [332585]                                                                 |
+[2022-05-26 02:07:49,057] [convert.py:335]            [INFO]     | Mapping Error | plex://movie/61ebeab16de4bff2b091f10d          | No ID to convert for "Impact Wrestling Sacrifice 2022" |
+[2022-05-26 02:07:49,510] [convert.py:335]            [INFO]     | Mapping Error | local://654985                                 | No match in Plex for "Inventing David Geffen" |
+[2022-05-26 02:07:49,514] [convert.py:335]            [INFO]     | Mapping Error | local://809846                                 | No match in Plex for "Iron Sky"   |
+[2022-05-26 02:07:49,778] [convert.py:332]            [DEBUG]    | TMDb: [], IMDb: [], TVDb: [138103]                                                                 |
+[2022-05-26 02:07:49,778] [convert.py:335]            [INFO]     | Mapping Error | plex://movie/5f29094507a64c0040104f25          | No ID to convert for "The Jack in the Box" |
+[2022-05-26 02:07:49,783] [convert.py:335]            [INFO]     | Mapping Error | local://716698                                 | No match in Plex for "The Jane Doe Murders" |
+[2022-05-26 02:07:50,190] [convert.py:335]            [INFO]     | Mapping Error | local://612989                                 | No match in Plex for "Jesus"      |
+[2022-05-26 02:07:50,537] [convert.py:332]            [DEBUG]    | TMDb: [], IMDb: [], TVDb: [99928]                                                                  |
+[2022-05-26 02:07:50,537] [convert.py:335]            [INFO]     | Mapping Error | plex://movie/5ea7e7361452720042d6b027          | No ID to convert for "Joe Lycett: I'm About to Lose Control And I Think Joe Lycett, Live" |
+[2022-05-26 02:07:51,036] [convert.py:335]            [INFO]     | Mapping Error | local://809739                                 | No match in Plex for "Lassie the Voyager" |
+[2022-05-26 02:07:54,328] [convert.py:335]            [INFO]     | Mapping Error | local://784113                                 | No match in Plex for "The Little Princess" |
+[2022-05-26 02:07:55,888] [convert.py:335]            [INFO]     | Mapping Error | local://63008                                  | No match in Plex for "Marvel's Infinity Saga the Sacred Timeline" |
+[2022-05-26 02:07:56,773] [convert.py:335]            [INFO]     | Mapping Error | local://618545                                 | No match in Plex for "Miles Davis Birth of the Cool" |
+[2022-05-26 02:07:56,799] [convert.py:335]            [INFO]     | Mapping Error | local://707738                                 | No match in Plex for "Mitch Hedberg Uncut" |
+[2022-05-26 02:07:57,330] [convert.py:335]            [INFO]     | Mapping Error | local://588991                                 | No match in Plex for "A Murder of Crows" |
+[2022-05-26 02:07:57,628] [convert.py:335]            [INFO]     | Mapping Error | local://666829                                 | No match in Plex for "Mystery 101 Killer Timing" |
+[2022-05-26 02:07:58,697] [convert.py:335]            [INFO]     | Mapping Error | local://665011                                 | No match in Plex for "No Direction Home Bob Dylan" |
+[2022-05-26 02:07:58,703] [convert.py:335]            [INFO]     | Mapping Error | local://648367                                 | No match in Plex for "North Korea Life Inside the Secret State" |
+[2022-05-26 02:07:59,734] [convert.py:335]            [INFO]     | Mapping Error | local://587836                                 | No match in Plex for "Parades.End.2012.Part5.720p.BluRay.H264.AAC-RARBG" |
+[2022-05-26 02:08:00,992] [convert.py:332]            [DEBUG]    | TMDb: [], IMDb: [], TVDb: [31384]                                                                  |
+[2022-05-26 02:08:00,992] [convert.py:335]            [INFO]     | Mapping Error | plex://movie/5ea7ddeadcece1004133460a          | No ID to convert for "PSYCHO-PASS Sinners of the System: Case.3 - In the Realm Beyond Is ____" |
+[2022-05-26 02:08:01,934] [convert.py:335]            [INFO]     | Mapping Error | local://806931                                 | No match in Plex for "The Rainbow Tribe" |
+[2022-05-26 02:08:05,778] [convert.py:332]            [DEBUG]    | TMDb: [], IMDb: [], TVDb: [107478]                                                                 |
+[2022-05-26 02:08:05,778] [convert.py:335]            [INFO]     | Mapping Error | plex://movie/5ea7d95a51a04c003f19785a          | No ID to convert for "The Shonku Diaries: A Unicorn Adventure" |
+[2022-05-26 02:08:06,034] [convert.py:335]            [INFO]     | Mapping Error | local://809811                                 | No match in Plex for "Sneakerella" |
+[2022-05-26 02:08:06,359] [convert.py:335]            [INFO]     | Mapping Error | local://759997                                 | No match in Plex for "Solomon"    |
+[2022-05-26 02:08:06,428] [convert.py:335]            [INFO]     | Mapping Error | local://809706                                 | No match in Plex for "Spunky's Circus Adventure" |
+[2022-05-26 02:08:06,443] [convert.py:335]            [INFO]     | Mapping Error | local://612988                                 | No match in Plex for "St Paul"    |
+[2022-05-26 02:08:07,362] [convert.py:335]            [INFO]     | Mapping Error | local://809847                                 | No match in Plex for "Sweet Land" |
+[2022-05-26 02:08:07,969] [convert.py:332]            [DEBUG]    | TMDb: [], IMDb: [], TVDb: [127965]                                                                 |
+[2022-05-26 02:08:07,970] [convert.py:335]            [INFO]     | Mapping Error | plex://movie/5ea7db85020425003dfdd5b9          | No ID to convert for "Tight Loose" |
+[2022-05-26 02:08:07,985] [convert.py:332]            [DEBUG]    | TMDb: [], IMDb: [], TVDb: [136036]                                                                 |
+[2022-05-26 02:08:07,985] [convert.py:335]            [INFO]     | Mapping Error | plex://movie/5ed8a634c569d3004118c5e8          | No ID to convert for " Tijuana Bible" |
+[2022-05-26 02:08:08,249] [convert.py:335]            [INFO]     | Mapping Error | local://575557                                 | No match in Plex for "To Catch a Killer" |
+[2022-05-26 02:08:09,106] [convert.py:335]            [INFO]     | Mapping Error | local://778959                                 | No match in Plex for "Top Gear Middle East Special" |
+[2022-05-26 02:08:10,651] [convert.py:335]            [INFO]     | Mapping Error | local://764682                                 | No match in Plex for "V C Andrews Hidden Jewel" |
+[2022-05-26 02:08:11,082] [convert.py:335]            [INFO]     | Mapping Error | local://809678                                 | No match in Plex for "The Wayfarers" |
+[2022-05-26 02:08:13,163] [convert.py:335]            [INFO]     | Mapping Error | local://620362                                 | No match in Plex for "XIII the Conspiracy" |
+[2022-05-26 02:08:13,566] [library.py:261]            [INFO]     |                                                                                                    |
+[2022-05-26 02:08:13,566] [library.py:262]            [INFO]     | Processed 24111 Movies                                                                             |
+[2022-05-26 02:08:13,566] [plex_meta_manager.py:261]  [INFO]     |                                                                                                    |
+[2022-05-26 02:08:13,566] [plex_meta_manager.py:262]  [INFO]     |====================================================================================================|
+[2022-05-26 02:08:13,567] [plex_meta_manager.py:262]  [INFO]     |                                    Running People Metadata File                                    |
+[2022-05-26 02:08:13,567] [plex_meta_manager.py:262]  [INFO]     |                                      config/Movies/People.yml                                      |
+[2022-05-26 02:08:13,567] [plex_meta_manager.py:262]  [INFO]     |====================================================================================================|
+[2022-05-26 02:08:13,567] [plex_meta_manager.py:275]  [INFO]     |                                                                                                    |
+[2022-05-26 02:08:13,567] [plex_meta_manager.py:276]  [INFO]     |====================================================================================================|
+[2022-05-26 02:08:13,567] [plex_meta_manager.py:276]  [INFO]     |                                            Collections                                             |
+[2022-05-26 02:08:13,568] [plex_meta_manager.py:276]  [INFO]     |====================================================================================================|
+[2022-05-26 02:10:18,124] [plex_meta_manager.py:261]  [INFO]     |                                                                                                    |
+[2022-05-26 02:10:18,124] [plex_meta_manager.py:262]  [INFO]     |====================================================================================================|
+[2022-05-26 02:10:18,124] [plex_meta_manager.py:262]  [INFO]     |                                  Running Franchises Metadata File                                  |
+[2022-05-26 02:10:18,124] [plex_meta_manager.py:262]  [INFO]     |                                    config/Movies/Franchises.yml                                    |
+[2022-05-26 02:10:18,124] [plex_meta_manager.py:262]  [INFO]     |====================================================================================================|
+[2022-05-26 02:10:18,125] [plex_meta_manager.py:275]  [INFO]     |                                                                                                    |
+[2022-05-26 02:10:18,125] [plex_meta_manager.py:276]  [INFO]     |====================================================================================================|
+[2022-05-26 02:10:18,125] [plex_meta_manager.py:276]  [INFO]     |                                            Collections                                             |
+[2022-05-26 02:10:18,125] [plex_meta_manager.py:276]  [INFO]     |====================================================================================================|
+[2022-05-26 02:15:05,704] [plex_meta_manager.py:261]  [INFO]     |                                                                                                    |
+[2022-05-26 02:15:05,704] [plex_meta_manager.py:262]  [INFO]     |====================================================================================================|
+[2022-05-26 02:15:05,705] [plex_meta_manager.py:262]  [INFO]     |                                   Running Studios Metadata File                                    |
+[2022-05-26 02:15:05,705] [plex_meta_manager.py:262]  [INFO]     |                                     config/Movies/Studios.yml                                      |
+[2022-05-26 02:15:05,705] [plex_meta_manager.py:262]  [INFO]     |====================================================================================================|
+[2022-05-26 02:15:05,705] [plex_meta_manager.py:275]  [INFO]     |                                                                                                    |
+[2022-05-26 02:15:05,705] [plex_meta_manager.py:276]  [INFO]     |====================================================================================================|
+[2022-05-26 02:15:05,706] [plex_meta_manager.py:276]  [INFO]     |                                            Collections                                             |
+[2022-05-26 02:15:05,706] [plex_meta_manager.py:276]  [INFO]     |====================================================================================================|
+[2022-05-26 02:15:49,537] [plex_meta_manager.py:261]  [INFO]     |                                                                                                    |
+[2022-05-26 02:15:49,537] [plex_meta_manager.py:262]  [INFO]     |====================================================================================================|
+[2022-05-26 02:15:49,537] [plex_meta_manager.py:262]  [INFO]     |                                   Running Holiday Metadata File                                    |
+[2022-05-26 02:15:49,537] [plex_meta_manager.py:262]  [INFO]     |                                     config/Movies/Holiday.yml                                      |
+[2022-05-26 02:15:49,538] [plex_meta_manager.py:262]  [INFO]     |====================================================================================================|
+[2022-05-26 02:15:49,538] [plex_meta_manager.py:275]  [INFO]     |                                                                                                    |
+[2022-05-26 02:15:49,538] [plex_meta_manager.py:276]  [INFO]     |====================================================================================================|
+[2022-05-26 02:15:49,539] [plex_meta_manager.py:276]  [INFO]     |                                            Collections                                             |
+[2022-05-26 02:15:49,539] [plex_meta_manager.py:276]  [INFO]     |====================================================================================================|
+[2022-05-26 02:15:49,861] [plex_meta_manager.py:261]  [INFO]     |                                                                                                    |
+[2022-05-26 02:15:49,861] [plex_meta_manager.py:262]  [INFO]     |====================================================================================================|
+[2022-05-26 02:15:49,861] [plex_meta_manager.py:262]  [INFO]     |                                    Running Charts Metadata File                                    |
+[2022-05-26 02:15:49,862] [plex_meta_manager.py:262]  [INFO]     |                                      config/Movies/Charts.yml                                      |
+[2022-05-26 02:15:49,862] [plex_meta_manager.py:262]  [INFO]     |====================================================================================================|
+[2022-05-26 02:15:49,862] [plex_meta_manager.py:275]  [INFO]     |                                                                                                    |
+[2022-05-26 02:15:49,862] [plex_meta_manager.py:276]  [INFO]     |====================================================================================================|
+[2022-05-26 02:15:49,863] [plex_meta_manager.py:276]  [INFO]     |                                            Collections                                             |
+[2022-05-26 02:15:49,863] [plex_meta_manager.py:276]  [INFO]     |====================================================================================================|

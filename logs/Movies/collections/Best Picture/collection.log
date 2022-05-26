@@ -1,0 +1,17 @@
+[2022-05-20 17:11:42,886] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:11:42,886] [plex_meta_manager.py:437]  [INFO]     |                                 Best Picture Collection in Movies                                  |
+[2022-05-20 17:11:42,886] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:11:42,887] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-20 17:11:42,887] [plex_meta_manager.py:443]  [INFO]     |================================ Validating Best Picture Attributes ================================|
+[2022-05-20 17:11:42,887] [builder.py:365]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:11:42,887] [builder.py:366]            [DEBUG]    | Validating Method: schedule                                                                        |
+[2022-05-20 17:11:42,888] [builder.py:370]            [DEBUG]    | Value: yearly(03/01)                                                                               |
+[2022-05-20 17:11:42,888] [plex_meta_manager.py:562]  [INFO]     |                                                                                                    |
+                                                                 | Scheduled yearly on March 1st
+                                                                 | 
+                                                                 | Collection Best Picture not scheduled to run
+[2022-05-20 17:11:42,889] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-20 17:11:42,890] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-20 17:11:42,890] [plex_meta_manager.py:577]  [INFO]     |                                  Finished Best Picture Collection                                  |
+[2022-05-20 17:11:42,890] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-05-20 17:11:42,891] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

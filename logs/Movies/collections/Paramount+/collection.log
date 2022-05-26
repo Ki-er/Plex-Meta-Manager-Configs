@@ -1,0 +1,90 @@
+[2022-05-20 17:35:05,702] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:35:05,703] [plex_meta_manager.py:437]  [INFO]     |                                  Paramount+ Collection in Movies                                   |
+[2022-05-20 17:35:05,703] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:35:05,703] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-20 17:35:05,703] [plex_meta_manager.py:443]  [INFO]     |================================= Validating Paramount+ Attributes =================================|
+[2022-05-20 17:35:05,704] [builder.py:365]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:35:05,704] [builder.py:366]            [DEBUG]    | Validating Method: schedule                                                                        |
+[2022-05-20 17:35:05,704] [builder.py:370]            [DEBUG]    | Value: daily                                                                                       |
+[2022-05-20 17:35:05,705] [builder.py:423]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:35:05,705] [builder.py:424]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-05-20 17:35:05,705] [builder.py:428]            [DEBUG]    | Value: sync                                                                                        |
+[2022-05-20 17:35:05,706] [builder.py:570]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:35:05,706] [builder.py:571]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-05-20 17:35:05,706] [builder.py:572]            [DEBUG]    | Value: release                                                                                     |
+[2022-05-20 17:35:05,707] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:35:05,707] [builder.py:592]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-05-20 17:35:05,707] [builder.py:593]            [DEBUG]    | Value: https://www.imdb.com/list/ls574137821                                                       |
+[2022-05-20 17:35:07,430] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:35:07,433] [builder.py:592]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-05-20 17:35:07,433] [builder.py:593]            [DEBUG]    | Value: default                                                                                     |
+[2022-05-20 17:35:07,433] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:35:07,434] [builder.py:592]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-05-20 17:35:07,434] [builder.py:593]            [DEBUG]    | Value: *606                                                                                        |
+[2022-05-20 17:35:07,476] [plex.py:721]               [DEBUG]    |                                                                                                    |
+[2022-05-20 17:35:07,476] [plex.py:724]               [DEBUG]    | Looking for: Paramount+                                                                            |
+[2022-05-20 17:35:07,477] [builder.py:749]            [INFO]     |                                                                                                    |
+[2022-05-20 17:35:07,477] [builder.py:750]            [INFO]     | Validation Successful                                                                              |
+[2022-05-20 17:35:07,479] [plex_meta_manager.py:447]  [INFO]     |                                                                                                    |
+[2022-05-20 17:35:07,479] [plex_meta_manager.py:449]  [INFO]     |================================== Running Paramount+ Collection ===================================|
+[2022-05-20 17:35:07,480] [plex_meta_manager.py:461]  [INFO]     |                                                                                                    |
+[2022-05-20 17:35:07,480] [plex_meta_manager.py:462]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-05-20 17:35:07,480] [plex_meta_manager.py:472]  [DEBUG]    |                                                                                                    |
+[2022-05-20 17:35:07,480] [plex_meta_manager.py:473]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls574137821', 'limit': 0}                   |
+[2022-05-20 17:35:07,481] [plex_meta_manager.py:474]  [INFO]     |                                                                                                    |
+[2022-05-20 17:35:07,481] [imdb.py:176]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls574137821                                        |
+[2022-05-20 17:35:12,430] [imdb.py:127]               [DEBUG]    | 26 IMDb IDs Found: ['tt4823776', 'tt6654210', 'tt14006530', 'tt10515988', 'tt15005868', 'tt8337158', 'tt16375288', 'tt11832046', 'tt9054192', 'tt2397461', 'tt5215462', 'tt12801326', 'tt12979636', 'tt11379380', 'tt14303400', 'tt8999372', 'tt4512946', 'tt13646976', 'tt15392020', 'tt15430722', 'tt11272066', 'tt14505430', 'tt13567374', 'tt15091500', 'tt15052172', 'tt15939340'] |
+[2022-05-20 17:35:12,430] [builder.py:1424]           [DEBUG]    |                                                                                                    |
+[2022-05-20 17:35:12,431] [builder.py:1425]           [DEBUG]    | 26 IDs Found: [('tt4823776', 'imdb'), ('tt6654210', 'imdb'), ('tt14006530', 'imdb'), ('tt10515988', 'imdb'), ('tt15005868', 'imdb'), ('tt8337158', 'imdb'), ('tt16375288', 'imdb'), ('tt11832046', 'imdb'), ('tt9054192', 'imdb'), ('tt2397461', 'imdb'), ('tt5215462', 'imdb'), ('tt12801326', 'imdb'), ('tt12979636', 'imdb'), ('tt11379380', 'imdb'), ('tt14303400', 'imdb'), ('tt8999372', 'imdb'), ('tt4512946', 'imdb'), ('tt13646976', 'imdb'), ('tt15392020', 'imdb'), ('tt15430722', 'imdb'), ('tt11272066', 'imdb'), ('tt14505430', 'imdb'), ('tt13567374', 'imdb'), ('tt15091500', 'imdb'), ('tt15052172', 'imdb'), ('tt15939340', 'imdb')] |
+[2022-05-20 17:35:12,431] [builder.py:1426]           [DEBUG]    |                                                                                                    |
+[2022-05-20 17:35:14,586] [builder.py:1892]           [INFO]     |                                                                                                    |
+[2022-05-20 17:35:14,588] [builder.py:1893]           [INFO]     |================================= Adding to Paramount+ Collection ==================================|
+[2022-05-20 17:35:14,588] [builder.py:1894]           [INFO]     |                                                                                                    |
+[2022-05-20 17:35:14,589] [builder.py:1908]           [INFO]     |  1/13 | Paramount+ Collection | + | Infinite (2021)                                                |
+[2022-05-20 17:35:16,950] [builder.py:1908]           [INFO]     |  2/13 | Paramount+ Collection | + | Paranormal Activity: Next of Kin (2021)                        |
+[2022-05-20 17:35:19,405] [builder.py:1908]           [INFO]     |  3/13 | Paramount+ Collection | + | South Park: Post COVID (2021)                                  |
+[2022-05-20 17:35:21,781] [builder.py:1908]           [INFO]     |  4/13 | Paramount+ Collection | + | South Park: Post Covid - The Return of Covid (2021)            |
+[2022-05-20 17:35:24,229] [builder.py:1908]           [INFO]     |  5/13 | Paramount+ Collection | + | Queenpins (2021)                                               |
+[2022-05-20 17:35:26,770] [builder.py:1908]           [INFO]     |  6/13 | Paramount+ Collection | + | Console Wars (2020)                                            |
+[2022-05-20 17:35:29,237] [builder.py:1908]           [INFO]     |  7/13 | Paramount+ Collection | + | 76 Days (2020)                                                 |
+[2022-05-20 17:35:31,591] [builder.py:1908]           [INFO]     |  8/13 | Paramount+ Collection | + | Cher and the Loneliest Elephant (2021)                         |
+[2022-05-20 17:35:33,980] [builder.py:1908]           [INFO]     |  9/13 | Paramount+ Collection | + | Sir Alex Ferguson: Never Give In (2021)                        |
+[2022-05-20 17:35:36,469] [builder.py:1908]           [INFO]     | 10/13 | Paramount+ Collection | + | Woman in Motion (2021)                                         |
+[2022-05-20 17:35:38,526] [builder.py:1908]           [INFO]     | 11/13 | Paramount+ Collection | + | Bring Your Own Brigade (2021)                                  |
+[2022-05-20 17:35:40,765] [builder.py:1908]           [INFO]     | 12/13 | Paramount+ Collection | + | Oasis Knebworth 1996 (2021)                                    |
+[2022-05-20 17:35:43,013] [builder.py:1908]           [INFO]     | 13/13 | Paramount+ Collection | + | Madame X (2021)                                                |
+[2022-05-20 17:35:45,405] [builder.py:1933]           [INFO]     |                                                                                                    |
+[2022-05-20 17:35:45,406] [builder.py:1934]           [INFO]     | 13 Movies Processed                                                                                |
+[2022-05-20 17:35:45,406] [builder.py:2171]           [INFO]     |                                                                                                    |
+[2022-05-20 17:35:45,406] [builder.py:2172]           [INFO]     |=============================== Missing Movies from Library: Movies ================================|
+[2022-05-20 17:35:45,406] [builder.py:2173]           [INFO]     |                                                                                                    |
+[2022-05-20 17:35:45,411] [builder.py:2185]           [INFO]     | Paramount+ Collection | ? | The SpongeBob Movie: Sponge on the Run (2020) (TMDb: 400160)           |
+[2022-05-20 17:35:46,076] [builder.py:2185]           [INFO]     | Paramount+ Collection | ? | The J Team (2021) (TMDb: 798293)                                       |
+[2022-05-20 17:35:46,491] [builder.py:2185]           [INFO]     | Paramount+ Collection | ? | Rumble (2021) (TMDb: 598331)                                           |
+[2022-05-20 17:35:46,495] [builder.py:2185]           [INFO]     | Paramount+ Collection | ? | PAW Patrol: The Movie (2021) (TMDb: 675445)                            |
+[2022-05-20 17:35:47,079] [builder.py:2185]           [INFO]     | Paramount+ Collection | ? | Clifford the Big Red Dog (2021) (TMDb: 585245)                         |
+[2022-05-20 17:35:47,471] [builder.py:2185]           [INFO]     | Paramount+ Collection | ? | Hunger Ward (2020) (TMDb: 757697)                                      |
+[2022-05-20 17:35:47,744] [builder.py:2185]           [INFO]     | Paramount+ Collection | ? | Going to Pot: The High and Low of It (2021) (TMDb: 820202)             |
+[2022-05-20 17:35:48,197] [builder.py:2185]           [INFO]     | Paramount+ Collection | ? | The 26th Street Garage: The FBI's Untold Story of 9/11 (2021) (TMDb: 872352) |
+[2022-05-20 17:35:48,794] [builder.py:2185]           [INFO]     | Paramount+ Collection | ? | Destination Porto: The Unimaginable Journey (2021) (TMDb: 879598)      |
+[2022-05-20 17:35:49,079] [builder.py:2185]           [INFO]     | Paramount+ Collection | ? | Unknown Dimension: The Story of Paranormal Activity (2021) (TMDb: 869434) |
+[2022-05-20 17:35:49,424] [builder.py:2185]           [INFO]     | Paramount+ Collection | ? | Ascension (2021) (TMDb: 822138)                                        |
+[2022-05-20 17:35:49,729] [builder.py:2185]           [INFO]     | Paramount+ Collection | ? | Sabaya (2021) (TMDb: 776555)                                           |
+[2022-05-20 17:35:50,153] [builder.py:2185]           [INFO]     | Paramount+ Collection | ? | Madame X Presents: Madame Xtra Q&A (2021) (TMDb: 916354)               |
+[2022-05-20 17:35:50,154] [builder.py:2189]           [INFO]     |                                                                                                    |
+[2022-05-20 17:35:50,154] [builder.py:2190]           [INFO]     | 13 Movies Missing                                                                                  |
+[2022-05-20 17:35:50,259] [builder.py:2410]           [INFO]     |                                                                                                    |
+[2022-05-20 17:35:50,260] [builder.py:2411]           [INFO]     |============================ Updating Details of Paramount+ Collection =============================|
+[2022-05-20 17:35:50,260] [builder.py:2412]           [INFO]     |                                                                                                    |
+[2022-05-20 17:35:50,260] [builder.py:2473]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Sort Title | *606
+                                                                 | 
+[2022-05-20 17:35:50,680] [builder.py:2477]           [INFO]     | Details: have been updated
+[2022-05-20 17:35:50,680] [builder.py:2480]           [INFO]     | 
+[2022-05-20 17:35:50,680] [builder.py:2568]           [INFO]     | No poster collection detail or asset folder found
+[2022-05-20 17:35:50,681] [builder.py:2601]           [INFO]     | No background collection detail or asset folder found
+[2022-05-20 17:35:52,493] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-20 17:35:52,494] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-20 17:35:52,494] [plex_meta_manager.py:577]  [INFO]     |                                   Finished Paramount+ Collection                                   |
+[2022-05-20 17:35:52,495] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:00:46                                    |
+[2022-05-20 17:35:52,495] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

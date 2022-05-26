@@ -1,0 +1,90 @@
+[2022-05-20 17:11:43,137] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:11:43,138] [plex_meta_manager.py:437]  [INFO]     |                                     Pixar Collection in Movies                                     |
+[2022-05-20 17:11:43,138] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:11:43,138] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-20 17:11:43,138] [plex_meta_manager.py:443]  [INFO]     |=================================== Validating Pixar Attributes ====================================|
+[2022-05-20 17:11:43,138] [builder.py:365]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:11:43,139] [builder.py:366]            [DEBUG]    | Validating Method: schedule                                                                        |
+[2022-05-20 17:11:43,139] [builder.py:370]            [DEBUG]    | Value: weekly(friday)                                                                              |
+[2022-05-20 17:11:43,139] [builder.py:423]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:11:43,139] [builder.py:424]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-05-20 17:11:43,139] [builder.py:428]            [DEBUG]    | Value: sync                                                                                        |
+[2022-05-20 17:11:43,140] [builder.py:570]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:11:43,140] [builder.py:571]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-05-20 17:11:43,140] [builder.py:572]            [DEBUG]    | Value: release                                                                                     |
+[2022-05-20 17:11:43,140] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:11:43,141] [builder.py:592]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-05-20 17:11:43,141] [builder.py:593]            [DEBUG]    | Value: https://www.imdb.com/list/ls084018331                                                       |
+[2022-05-20 17:11:44,938] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:11:44,940] [builder.py:592]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-05-20 17:11:44,941] [builder.py:593]            [DEBUG]    | Value: default                                                                                     |
+[2022-05-20 17:11:44,941] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:11:44,941] [builder.py:592]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-05-20 17:11:44,942] [builder.py:593]            [DEBUG]    | Value: *500                                                                                        |
+[2022-05-20 17:11:44,986] [plex.py:721]               [DEBUG]    |                                                                                                    |
+[2022-05-20 17:11:44,986] [plex.py:724]               [DEBUG]    | Looking for: Pixar                                                                                 |
+[2022-05-20 17:11:44,986] [builder.py:749]            [INFO]     |                                                                                                    |
+[2022-05-20 17:11:44,986] [builder.py:750]            [INFO]     | Validation Successful                                                                              |
+[2022-05-20 17:11:44,989] [plex_meta_manager.py:447]  [INFO]     |                                                                                                    |
+[2022-05-20 17:11:44,989] [plex_meta_manager.py:449]  [INFO]     |===================================== Running Pixar Collection =====================================|
+[2022-05-20 17:11:44,989] [plex_meta_manager.py:461]  [INFO]     |                                                                                                    |
+[2022-05-20 17:11:44,990] [plex_meta_manager.py:462]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-05-20 17:11:44,990] [plex_meta_manager.py:472]  [DEBUG]    |                                                                                                    |
+[2022-05-20 17:11:44,990] [plex_meta_manager.py:473]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls084018331', 'limit': 0}                   |
+[2022-05-20 17:11:44,990] [plex_meta_manager.py:474]  [INFO]     |                                                                                                    |
+[2022-05-20 17:11:44,990] [imdb.py:176]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls084018331                                        |
+[2022-05-20 17:11:49,688] [imdb.py:127]               [DEBUG]    | 26 IMDb IDs Found: ['tt0114709', 'tt0120623', 'tt0120363', 'tt0198781', 'tt0266543', 'tt0317705', 'tt0317219', 'tt0382932', 'tt0910970', 'tt1049413', 'tt0435761', 'tt1216475', 'tt1217209', 'tt1453405', 'tt2096673', 'tt1979388', 'tt2277860', 'tt3606752', 'tt2380307', 'tt3606756', 'tt1979376', 'tt7146812', 'tt2948372', 'tt12801262', 'tt8097030', 'tt10298810'] |
+[2022-05-20 17:11:49,689] [builder.py:1424]           [DEBUG]    |                                                                                                    |
+[2022-05-20 17:11:49,689] [builder.py:1425]           [DEBUG]    | 26 IDs Found: [('tt0114709', 'imdb'), ('tt0120623', 'imdb'), ('tt0120363', 'imdb'), ('tt0198781', 'imdb'), ('tt0266543', 'imdb'), ('tt0317705', 'imdb'), ('tt0317219', 'imdb'), ('tt0382932', 'imdb'), ('tt0910970', 'imdb'), ('tt1049413', 'imdb'), ('tt0435761', 'imdb'), ('tt1216475', 'imdb'), ('tt1217209', 'imdb'), ('tt1453405', 'imdb'), ('tt2096673', 'imdb'), ('tt1979388', 'imdb'), ('tt2277860', 'imdb'), ('tt3606752', 'imdb'), ('tt2380307', 'imdb'), ('tt3606756', 'imdb'), ('tt1979376', 'imdb'), ('tt7146812', 'imdb'), ('tt2948372', 'imdb'), ('tt12801262', 'imdb'), ('tt8097030', 'imdb'), ('tt10298810', 'imdb')] |
+[2022-05-20 17:11:49,689] [builder.py:1426]           [DEBUG]    |                                                                                                    |
+[2022-05-20 17:11:51,736] [builder.py:1892]           [INFO]     |                                                                                                    |
+[2022-05-20 17:11:51,737] [builder.py:1893]           [INFO]     |==================================== Adding to Pixar Collection ====================================|
+[2022-05-20 17:11:51,737] [builder.py:1894]           [INFO]     |                                                                                                    |
+[2022-05-20 17:11:51,737] [builder.py:1908]           [INFO]     | 1/6 | Pixar Collection | + | Ratatouille (2007)                                                    |
+[2022-05-20 17:11:55,117] [builder.py:1908]           [INFO]     | 2/6 | Pixar Collection | + | WALL·E (2008)                                                         |
+[2022-05-20 17:11:56,458] [builder.py:1908]           [INFO]     | 3/6 | Pixar Collection | + | Toy Story 3 (2010)                                                    |
+[2022-05-20 17:11:57,848] [builder.py:1908]           [INFO]     | 4/6 | Pixar Collection | + | Toy Story 4 (2019)                                                    |
+[2022-05-20 17:12:01,255] [builder.py:1908]           [INFO]     | 5/6 | Pixar Collection | + | Onward (2020)                                                         |
+[2022-05-20 17:12:04,273] [builder.py:1908]           [INFO]     | 6/6 | Pixar Collection | + | Soul (2020)                                                           |
+[2022-05-20 17:12:07,897] [builder.py:1933]           [INFO]     |                                                                                                    |
+[2022-05-20 17:12:07,898] [builder.py:1934]           [INFO]     | 6 Movies Processed                                                                                 |
+[2022-05-20 17:12:07,898] [builder.py:2171]           [INFO]     |                                                                                                    |
+[2022-05-20 17:12:07,898] [builder.py:2172]           [INFO]     |=============================== Missing Movies from Library: Movies ================================|
+[2022-05-20 17:12:07,898] [builder.py:2173]           [INFO]     |                                                                                                    |
+[2022-05-20 17:12:07,901] [builder.py:2185]           [INFO]     | Pixar Collection | ? | Toy Story (1995) (TMDb: 862)                                                |
+[2022-05-20 17:12:08,535] [builder.py:2185]           [INFO]     | Pixar Collection | ? | A Bug's Life (1998) (TMDb: 9487)                                            |
+[2022-05-20 17:12:08,640] [builder.py:2185]           [INFO]     | Pixar Collection | ? | Toy Story 2 (1999) (TMDb: 863)                                              |
+[2022-05-20 17:12:08,646] [builder.py:2185]           [INFO]     | Pixar Collection | ? | Monsters, Inc. (2001) (TMDb: 585)                                           |
+[2022-05-20 17:12:08,651] [builder.py:2185]           [INFO]     | Pixar Collection | ? | Finding Nemo (2003) (TMDb: 12)                                              |
+[2022-05-20 17:12:08,656] [builder.py:2185]           [INFO]     | Pixar Collection | ? | The Incredibles (2004) (TMDb: 9806)                                         |
+[2022-05-20 17:12:08,754] [builder.py:2185]           [INFO]     | Pixar Collection | ? | Cars (2006) (TMDb: 920)                                                     |
+[2022-05-20 17:12:08,759] [builder.py:2185]           [INFO]     | Pixar Collection | ? | Up (2009) (TMDb: 14160)                                                     |
+[2022-05-20 17:12:08,873] [builder.py:2185]           [INFO]     | Pixar Collection | ? | Cars 2 (2011) (TMDb: 49013)                                                 |
+[2022-05-20 17:12:09,473] [builder.py:2185]           [INFO]     | Pixar Collection | ? | Brave (2012) (TMDb: 62177)                                                  |
+[2022-05-20 17:12:09,590] [builder.py:2185]           [INFO]     | Pixar Collection | ? | Monsters University (2013) (TMDb: 62211)                                    |
+[2022-05-20 17:12:09,594] [builder.py:2185]           [INFO]     | Pixar Collection | ? | Inside Out (2015) (TMDb: 150540)                                            |
+[2022-05-20 17:12:10,030] [builder.py:2185]           [INFO]     | Pixar Collection | ? | The Good Dinosaur (2015) (TMDb: 105864)                                     |
+[2022-05-20 17:12:10,156] [builder.py:2185]           [INFO]     | Pixar Collection | ? | Finding Dory (2016) (TMDb: 127380)                                          |
+[2022-05-20 17:12:10,256] [builder.py:2185]           [INFO]     | Pixar Collection | ? | Cars 3 (2017) (TMDb: 260514)                                                |
+[2022-05-20 17:12:10,261] [builder.py:2185]           [INFO]     | Pixar Collection | ? | Coco (2017) (TMDb: 354912)                                                  |
+[2022-05-20 17:12:10,384] [builder.py:2185]           [INFO]     | Pixar Collection | ? | Incredibles 2 (2018) (TMDb: 260513)                                         |
+[2022-05-20 17:12:10,388] [builder.py:2185]           [INFO]     | Pixar Collection | ? | Luca (2021) (TMDb: 508943)                                                  |
+[2022-05-20 17:12:10,393] [builder.py:2185]           [INFO]     | Pixar Collection | ? | Turning Red (2022) (TMDb: 508947)                                           |
+[2022-05-20 17:12:10,738] [builder.py:2185]           [INFO]     | Pixar Collection | ? | Lightyear (2022) (TMDb: 718789)                                             |
+[2022-05-20 17:12:10,738] [builder.py:2189]           [INFO]     |                                                                                                    |
+[2022-05-20 17:12:10,739] [builder.py:2190]           [INFO]     | 20 Movies Missing                                                                                  |
+[2022-05-20 17:12:10,805] [builder.py:2410]           [INFO]     |                                                                                                    |
+[2022-05-20 17:12:10,805] [builder.py:2411]           [INFO]     |=============================== Updating Details of Pixar Collection ===============================|
+[2022-05-20 17:12:10,806] [builder.py:2412]           [INFO]     |                                                                                                    |
+[2022-05-20 17:12:10,806] [builder.py:2473]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Sort Title | *500
+                                                                 | 
+[2022-05-20 17:12:11,177] [builder.py:2477]           [INFO]     | Details: have been updated
+[2022-05-20 17:12:11,178] [builder.py:2480]           [INFO]     | 
+[2022-05-20 17:12:11,178] [builder.py:2568]           [INFO]     | No poster collection detail or asset folder found
+[2022-05-20 17:12:11,178] [builder.py:2601]           [INFO]     | No background collection detail or asset folder found
+[2022-05-20 17:12:13,103] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-20 17:12:13,104] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-20 17:12:13,104] [plex_meta_manager.py:577]  [INFO]     |                                     Finished Pixar Collection                                      |
+[2022-05-20 17:12:13,104] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:00:29                                    |
+[2022-05-20 17:12:13,104] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

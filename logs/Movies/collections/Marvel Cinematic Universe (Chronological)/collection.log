@@ -1,0 +1,30 @@
+[2022-05-20 17:16:34,437] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:16:34,437] [plex_meta_manager.py:437]  [INFO]     |                   Marvel Cinematic Universe (Chronological) Collection in Movies                   |
+[2022-05-20 17:16:34,437] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:16:34,438] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-20 17:16:34,438] [plex_meta_manager.py:443]  [INFO]     |================= Validating Marvel Cinematic Universe (Chronological) Attributes ==================|
+[2022-05-20 17:16:34,438] [builder.py:365]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:16:34,438] [builder.py:366]            [DEBUG]    | Validating Method: schedule                                                                        |
+[2022-05-20 17:16:34,439] [builder.py:370]            [DEBUG]    | Value: weekly(friday)                                                                              |
+[2022-05-20 17:16:34,439] [builder.py:423]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:16:34,439] [builder.py:424]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-05-20 17:16:34,439] [builder.py:428]            [DEBUG]    | Value: append                                                                                      |
+[2022-05-20 17:16:34,440] [builder.py:570]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:16:34,440] [builder.py:571]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-05-20 17:16:34,440] [builder.py:572]            [DEBUG]    | Value: custom                                                                                      |
+[2022-05-20 17:16:34,440] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:16:34,440] [builder.py:592]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-05-20 17:16:34,441] [builder.py:593]            [DEBUG]    | Value: https://trakt.tv/users/jawann2002/lists/marvel-cinematic-universe-movies?sort=rank,asc      |
+[2022-05-20 17:16:34,441] [plex_meta_manager.py:566]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 445, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library)
+                                                                 |   File "/modules/builder.py", line 602, in __init__
+                                                                 |     raise Failed(f"{self.Type} Error: {method_final} requires Trakt to be configured")
+                                                                 | modules.util.Failed: Collection Error: trakt_list requires Trakt to be configured
+                                                                 | 
+[2022-05-20 17:16:34,442] [plex_meta_manager.py:567]  [ERROR]    | Collection Error: trakt_list requires Trakt to be configured
+[2022-05-20 17:16:34,442] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-20 17:16:34,443] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-20 17:16:34,443] [plex_meta_manager.py:577]  [INFO]     |                   Finished Marvel Cinematic Universe (Chronological) Collection                    |
+[2022-05-20 17:16:34,443] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-05-20 17:16:34,443] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

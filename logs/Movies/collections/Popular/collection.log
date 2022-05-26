@@ -1,0 +1,145 @@
+[2022-05-21 09:03:49,727] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-21 09:03:49,727] [plex_meta_manager.py:437]  [INFO]     |                                    Popular Collection in Movies                                    |
+[2022-05-21 09:03:49,728] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-21 09:03:49,728] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-21 09:03:49,728] [plex_meta_manager.py:443]  [INFO]     |================================== Validating Popular Attributes ===================================|
+[2022-05-21 09:03:49,729] [builder.py:241]            [DEBUG]    |                                                                                                    |
+[2022-05-21 09:03:49,729] [builder.py:242]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-05-21 09:03:49,729] [meta.py:109]               [DEBUG]    | Value: ordereddict([('name', 'Chart'), ('num', 3)])                                                |
+[2022-05-21 09:03:49,730] [builder.py:423]            [DEBUG]    |                                                                                                    |
+[2022-05-21 09:03:49,730] [builder.py:424]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-05-21 09:03:49,730] [builder.py:428]            [DEBUG]    | Value: sync                                                                                        |
+[2022-05-21 09:03:49,731] [builder.py:497]            [DEBUG]    |                                                                                                    |
+[2022-05-21 09:03:49,731] [builder.py:498]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-05-21 09:03:49,731] [builder.py:503]            [DEBUG]    | Value: random                                                                                      |
+[2022-05-21 09:03:49,809] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-21 09:03:49,809] [builder.py:592]            [DEBUG]    | Validating Method: tmdb_popular                                                                    |
+[2022-05-21 09:03:49,809] [builder.py:593]            [DEBUG]    | Value: 40                                                                                          |
+[2022-05-21 09:03:49,810] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-21 09:03:49,810] [builder.py:592]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-05-21 09:03:49,810] [builder.py:593]            [DEBUG]    | Value: ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short'), ('limit', 40)]) |
+[2022-05-21 09:03:51,265] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-21 09:03:51,266] [builder.py:592]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-05-21 09:03:51,266] [builder.py:593]            [DEBUG]    | Value: Popular Movies across the internet                                                          |
+[2022-05-21 09:03:51,266] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-21 09:03:51,267] [builder.py:592]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-05-21 09:03:51,267] [builder.py:593]            [DEBUG]    | Value: +1_3Popular                                                                                 |
+[2022-05-21 09:03:52,214] [builder.py:749]            [INFO]     |                                                                                                    |
+[2022-05-21 09:03:52,214] [builder.py:750]            [INFO]     | Validation Successful                                                                              |
+[2022-05-21 09:03:52,214] [plex_meta_manager.py:447]  [INFO]     |                                                                                                    |
+[2022-05-21 09:03:52,215] [plex_meta_manager.py:449]  [INFO]     |==================================== Running Popular Collection ====================================|
+[2022-05-21 09:03:52,215] [plex_meta_manager.py:455]  [INFO]     |                                                                                                    |
+[2022-05-21 09:03:52,215] [plex_meta_manager.py:456]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: random
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Popular
+[2022-05-21 09:03:52,216] [plex_meta_manager.py:461]  [INFO]     | 
+[2022-05-21 09:03:52,216] [plex_meta_manager.py:462]  [INFO]     | Sync Mode: sync
+[2022-05-21 09:03:52,216] [plex_meta_manager.py:472]  [DEBUG]    | 
+[2022-05-21 09:03:52,216] [plex_meta_manager.py:473]  [DEBUG]    | Builder: tmdb_popular: 40
+[2022-05-21 09:03:52,216] [plex_meta_manager.py:474]  [INFO]     | 
+[2022-05-21 09:03:52,475] [tmdb.py:310]               [INFO]     | Processing TMDb Popular: 40 Movies
+[2022-05-21 09:03:52,476] [builder.py:1424]           [DEBUG]    | 
+[2022-05-21 09:03:52,477] [builder.py:1425]           [DEBUG]    | 40 IDs Found: [(752623, 'tmdb'), (675353, 'tmdb'), (639933, 'tmdb'), (526896, 'tmdb'), (836225, 'tmdb'), (335787, 'tmdb'), (414906, 'tmdb'), (634649, 'tmdb'), (453395, 'tmdb'), (629542, 'tmdb'), (628900, 'tmdb'), (785985, 'tmdb'), (508947, 'tmdb'), (406759, 'tmdb'), (763285, 'tmdb'), (893370, 'tmdb'), (883502, 'tmdb'), (799876, 'tmdb'), (284052, 'tmdb'), (829557, 'tmdb'), (606402, 'tmdb'), (568124, 'tmdb'), (951470, 'tmdb'), (294793, 'tmdb'), (585083, 'tmdb'), (696806, 'tmdb'), (845885, 'tmdb'), (774825, 'tmdb'), (338953, 'tmdb'), (919689, 'tmdb'), (661791, 'tmdb'), (768744, 'tmdb'), (937337, 'tmdb'), (580489, 'tmdb'), (823625, 'tmdb'), (438695, 'tmdb'), (635302, 'tmdb'), (524434, 'tmdb'), (566525, 'tmdb'), (801071, 'tmdb')]
+[2022-05-21 09:03:52,477] [builder.py:1426]           [DEBUG]    | 
+[2022-05-21 09:03:55,384] [plex_meta_manager.py:472]  [DEBUG]    | 
+[2022-05-21 09:03:55,385] [plex_meta_manager.py:473]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short', 'limit': 40}
+[2022-05-21 09:03:55,385] [plex_meta_manager.py:474]  [INFO]     | 
+[2022-05-21 09:03:55,386] [imdb.py:176]               [INFO]     | Processing IMDb List: 40 Items at https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short
+[2022-05-21 09:03:59,367] [imdb.py:127]               [DEBUG]    | 40 IMDb IDs Found: ['tt9419884', 'tt1630029', 'tt11138512', 'tt1877830', 'tt13320622', 'tt6710474', 'tt1745960', 'tt1798632', 'tt5315212', 'tt1879016', 'tt12996154', 'tt1464335', 'tt1211837', 'tt10886166', 'tt4123432', 'tt13560574', 'tt8115900', 'tt10872600', 'tt0499549', 'tt7657566', 'tt10648342', 'tt0092099', 'tt12412888', 'tt18924506', 'tt0068646', 'tt14506528', 'tt11291274', 'tt0376136', 'tt13822738', 'tt4998632', 'tt1160419', 'tt11703710', 'tt8367814', 'tt8041270', 'tt14479746', 'tt1477834', 'tt10698680', 'tt13249596', 'tt10731256', 'tt0325980']
+[2022-05-21 09:03:59,368] [builder.py:1424]           [DEBUG]    | 
+[2022-05-21 09:03:59,368] [builder.py:1425]           [DEBUG]    | 40 IDs Found: [('tt9419884', 'imdb'), ('tt1630029', 'imdb'), ('tt11138512', 'imdb'), ('tt1877830', 'imdb'), ('tt13320622', 'imdb'), ('tt6710474', 'imdb'), ('tt1745960', 'imdb'), ('tt1798632', 'imdb'), ('tt5315212', 'imdb'), ('tt1879016', 'imdb'), ('tt12996154', 'imdb'), ('tt1464335', 'imdb'), ('tt1211837', 'imdb'), ('tt10886166', 'imdb'), ('tt4123432', 'imdb'), ('tt13560574', 'imdb'), ('tt8115900', 'imdb'), ('tt10872600', 'imdb'), ('tt0499549', 'imdb'), ('tt7657566', 'imdb'), ('tt10648342', 'imdb'), ('tt0092099', 'imdb'), ('tt12412888', 'imdb'), ('tt18924506', 'imdb'), ('tt0068646', 'imdb'), ('tt14506528', 'imdb'), ('tt11291274', 'imdb'), ('tt0376136', 'imdb'), ('tt13822738', 'imdb'), ('tt4998632', 'imdb'), ('tt1160419', 'imdb'), ('tt11703710', 'imdb'), ('tt8367814', 'imdb'), ('tt8041270', 'imdb'), ('tt14479746', 'imdb'), ('tt1477834', 'imdb'), ('tt10698680', 'imdb'), ('tt13249596', 'imdb'), ('tt10731256', 'imdb'), ('tt0325980', 'imdb')]
+[2022-05-21 09:03:59,368] [builder.py:1426]           [DEBUG]    | 
+[2022-05-21 09:04:02,231] [builder.py:1482]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt13249596
+[2022-05-21 09:04:02,350] [builder.py:1892]           [INFO]     | 
+[2022-05-21 09:04:02,350] [builder.py:1893]           [INFO]     |=================================== Adding to Popular Collection ===================================|
+[2022-05-21 09:04:02,350] [builder.py:1894]           [INFO]     |                                                                                                    |
+[2022-05-21 09:04:02,839] [builder.py:1908]           [INFO]     |  1/50 | Popular Collection | = | The Lost City (2022)                                              |
+[2022-05-21 09:04:02,840] [builder.py:1908]           [INFO]     |  2/50 | Popular Collection | = | Sonic the Hedgehog 2 (2022)                                       |
+[2022-05-21 09:04:02,840] [builder.py:1908]           [INFO]     |  3/50 | Popular Collection | = | The Northman (2022)                                               |
+[2022-05-21 09:04:02,841] [builder.py:1908]           [INFO]     |  4/50 | Popular Collection | = | Morbius (2022)                                                    |
+[2022-05-21 09:04:02,841] [builder.py:1908]           [INFO]     |  5/50 | Popular Collection | = | The Exorcism of God (2021)                                        |
+[2022-05-21 09:04:02,842] [builder.py:1908]           [INFO]     |  6/50 | Popular Collection | = | Uncharted (2022)                                                  |
+[2022-05-21 09:04:02,842] [builder.py:1908]           [INFO]     |  7/50 | Popular Collection | = | The Batman (2022)                                                 |
+[2022-05-21 09:04:02,843] [builder.py:1908]           [INFO]     |  8/50 | Popular Collection | = | Spider-Man: No Way Home (2021)                                    |
+[2022-05-21 09:04:02,843] [builder.py:1908]           [INFO]     |  9/50 | Popular Collection | = | The Bad Guys (2022)                                               |
+[2022-05-21 09:04:02,844] [builder.py:1908]           [INFO]     | 10/50 | Popular Collection | = | The Contractor (2022)                                             |
+[2022-05-21 09:04:02,844] [builder.py:1908]           [INFO]     | 11/50 | Popular Collection | = | Turning Red (2022)                                                |
+[2022-05-21 09:04:02,845] [builder.py:1908]           [INFO]     | 12/50 | Popular Collection | = | Moonfall (2022)                                                   |
+[2022-05-21 09:04:02,846] [builder.py:1908]           [INFO]     | 13/50 | Popular Collection | = | Ambulance (2022)                                                  |
+[2022-05-21 09:04:02,846] [builder.py:1908]           [INFO]     | 14/50 | Popular Collection | = | Fortress: Sniper's Eye (2022)                                     |
+[2022-05-21 09:04:02,847] [builder.py:1908]           [INFO]     | 15/50 | Popular Collection | = | The Outfit (2022)                                                 |
+[2022-05-21 09:04:02,847] [builder.py:1908]           [INFO]     | 16/50 | Popular Collection | = | Doctor Strange (2016)                                             |
+[2022-05-21 09:04:02,848] [builder.py:1908]           [INFO]     | 17/50 | Popular Collection | = | 365 Days: This Day (2022)                                         |
+[2022-05-21 09:04:02,849] [builder.py:1908]           [INFO]     | 18/50 | Popular Collection | = | Yaksha: Ruthless Operations (2022)                                |
+[2022-05-21 09:04:02,849] [builder.py:1908]           [INFO]     | 19/50 | Popular Collection | = | Encanto (2021)                                                    |
+[2022-05-21 09:04:02,850] [builder.py:1908]           [INFO]     | 20/50 | Popular Collection | = | Silverton Siege (2022)                                            |
+[2022-05-21 09:04:02,850] [builder.py:1908]           [INFO]     | 21/50 | Popular Collection | = | All the Old Knives (2022)                                         |
+[2022-05-21 09:04:02,851] [builder.py:1908]           [INFO]     | 22/50 | Popular Collection | = | Hotel Transylvania 4: Transformania (2022)                        |
+[2022-05-21 09:04:02,852] [builder.py:1908]           [INFO]     | 23/50 | Popular Collection | = | The Adam Project (2022)                                           |
+[2022-05-21 09:04:02,852] [builder.py:1908]           [INFO]     | 24/50 | Popular Collection | = | The Ice Age Adventures of Buck Wild (2022)                        |
+[2022-05-21 09:04:02,853] [builder.py:1908]           [INFO]     | 25/50 | Popular Collection | = | Fantastic Beasts: The Secrets of Dumbledore (2022)                |
+[2022-05-21 09:04:02,854] [builder.py:1908]           [INFO]     | 26/50 | Popular Collection | = | War of the Worlds: Annihilation (2021)                            |
+[2022-05-21 09:04:02,854] [builder.py:1908]           [INFO]     | 27/50 | Popular Collection | = | Venom: Let There Be Carnage (2021)                                |
+[2022-05-21 09:04:02,855] [builder.py:1908]           [INFO]     | 28/50 | Popular Collection | = | Blacklight (2022)                                                 |
+[2022-05-21 09:04:02,856] [builder.py:1908]           [INFO]     | 29/50 | Popular Collection | = | Sing 2 (2021)                                                     |
+[2022-05-21 09:04:02,856] [builder.py:1908]           [INFO]     | 30/50 | Popular Collection | = | Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train (2020)     |
+[2022-05-21 09:04:02,857] [builder.py:1908]           [INFO]     | 31/50 | Popular Collection | = | Eternals (2021)                                                   |
+[2022-05-21 09:04:02,857] [builder.py:1908]           [INFO]     | 32/50 | Popular Collection | = | Shang-Chi and the Legend of the Ten Rings (2021)                  |
+[2022-05-21 09:04:02,858] [builder.py:1908]           [INFO]     | 33/50 | Popular Collection | = | The Jack in the Box: Awakening (2022)                             |
+[2022-05-21 09:04:02,858] [builder.py:1908]           [INFO]     | 34/50 | Popular Collection | = | Everything Everywhere All at Once (2022)                          |
+[2022-05-21 09:04:02,859] [builder.py:1908]           [INFO]     | 35/50 | Popular Collection | = | Firestarter (2022)                                                |
+[2022-05-21 09:04:02,859] [builder.py:1908]           [INFO]     | 36/50 | Popular Collection | = | Senior Year (2022)                                                |
+[2022-05-21 09:04:02,860] [builder.py:1908]           [INFO]     | 37/50 | Popular Collection | = | Operation Mincemeat (2021)                                        |
+[2022-05-21 09:04:02,860] [builder.py:1908]           [INFO]     | 38/50 | Popular Collection | = | 365 Days (2020)                                                   |
+[2022-05-21 09:04:02,861] [builder.py:1908]           [INFO]     | 39/50 | Popular Collection | = | X (2022)                                                          |
+[2022-05-21 09:04:02,862] [builder.py:1908]           [INFO]     | 40/50 | Popular Collection | = | Avatar (2009)                                                     |
+[2022-05-21 09:04:02,862] [builder.py:1908]           [INFO]     | 41/50 | Popular Collection | = | Death on the Nile (2022)                                          |
+[2022-05-21 09:04:02,863] [builder.py:1908]           [INFO]     | 42/50 | Popular Collection | = | Top Gun (1986)                                                    |
+[2022-05-21 09:04:02,863] [builder.py:1908]           [INFO]     | 43/50 | Popular Collection | = | 2000 Mules (2022)                                                 |
+[2022-05-21 09:04:02,864] [builder.py:1908]           [INFO]     | 44/50 | Popular Collection | = | The Godfather (1972)                                              |
+[2022-05-21 09:04:02,864] [builder.py:1908]           [INFO]     | 45/50 | Popular Collection | = | Along for the Ride (2022)                                         |
+[2022-05-21 09:04:02,865] [builder.py:1908]           [INFO]     | 46/50 | Popular Collection | = | The Rum Diary (2011)                                              |
+[2022-05-21 09:04:02,865] [builder.py:1908]           [INFO]     | 47/50 | Popular Collection | = | Dune (2021)                                                       |
+[2022-05-21 09:04:02,866] [builder.py:1908]           [INFO]     | 48/50 | Popular Collection | = | The Gentlemen (2019)                                              |
+[2022-05-21 09:04:02,866] [builder.py:1908]           [INFO]     | 49/50 | Popular Collection | = | Aquaman (2018)                                                    |
+[2022-05-21 09:04:02,867] [builder.py:1908]           [INFO]     | 50/50 | Popular Collection | = | Pirates of the Caribbean: The Curse of the Black Pearl (2003)     |
+[2022-05-21 09:04:02,867] [builder.py:1933]           [INFO]     |                                                                                                    |
+[2022-05-21 09:04:02,868] [builder.py:1934]           [INFO]     | 50 Movies Processed                                                                                |
+[2022-05-21 09:04:02,869] [builder.py:2171]           [INFO]     |                                                                                                    |
+[2022-05-21 09:04:02,869] [builder.py:2172]           [INFO]     |=============================== Missing Movies from Library: Movies ================================|
+[2022-05-21 09:04:02,869] [builder.py:2173]           [INFO]     |                                                                                                    |
+[2022-05-21 09:04:02,874] [builder.py:2185]           [INFO]     | Popular Collection | ? | Doctor Strange in the Multiverse of Madness (2022) (TMDb: 453395)         |
+[2022-05-21 09:04:02,878] [builder.py:2185]           [INFO]     | Popular Collection | ? | The Takedown (2022) (TMDb: 785985)                                        |
+[2022-05-21 09:04:02,883] [builder.py:2185]           [INFO]     | Popular Collection | ? | Virus:32 (2022) (TMDb: 893370)                                            |
+[2022-05-21 09:04:02,888] [builder.py:2185]           [INFO]     | Popular Collection | ? | Dark Blood (2021) (TMDb: 845885)                                          |
+[2022-05-21 09:04:02,895] [builder.py:2185]           [INFO]     | Popular Collection | ? | The Grandmother (2022) (TMDb: 661791)                                     |
+[2022-05-21 09:04:02,900] [builder.py:2185]           [INFO]     | Popular Collection | ? | My Hero Academia: World Heroes' Mission (2021) (TMDb: 768744)             |
+[2022-05-21 09:04:02,906] [builder.py:2185]           [INFO]     | Popular Collection | ? | What a Father! (2022) (TMDb: 937337)                                      |
+[2022-05-21 09:04:02,912] [builder.py:2185]           [INFO]     | Popular Collection | ? | Avatar: The Way of Water (2022) (TMDb: 76600)                             |
+[2022-05-21 09:04:02,917] [builder.py:2185]           [INFO]     | Popular Collection | ? | Top Gun: Maverick (2022) (TMDb: 361743)                                   |
+[2022-05-21 09:04:02,921] [builder.py:2185]           [INFO]     | Popular Collection | ? | Thor: Love and Thunder (2022) (TMDb: 616037)                              |
+[2022-05-21 09:04:02,925] [builder.py:2185]           [INFO]     | Popular Collection | ? | The Unbearable Weight of Massive Talent (2022) (TMDb: 648579)             |
+[2022-05-21 09:04:02,930] [builder.py:2185]           [INFO]     | Popular Collection | ? | Downton Abbey: A New Era (2022) (TMDb: 820446)                            |
+[2022-05-21 09:04:02,935] [builder.py:2185]           [INFO]     | Popular Collection | ? | Jurassic World Dominion (2022) (TMDb: 507086)                             |
+[2022-05-21 09:04:02,940] [builder.py:2185]           [INFO]     | Popular Collection | ? | Thar (2022) (TMDb: 941596)                                                |
+[2022-05-21 09:04:02,943] [builder.py:2185]           [INFO]     | Popular Collection | ? | K.G.F: Chapter 2 (2022) (TMDb: 587412)                                    |
+[2022-05-21 09:04:02,948] [builder.py:2185]           [INFO]     | Popular Collection | ? | Don't Worry Darling (2022) (TMDb: 619730)                                 |
+[2022-05-21 09:04:02,948] [builder.py:2189]           [INFO]     |                                                                                                    |
+[2022-05-21 09:04:02,948] [builder.py:2190]           [INFO]     | 16 Movies Missing                                                                                  |
+[2022-05-21 09:04:03,078] [builder.py:2410]           [INFO]     |                                                                                                    |
+[2022-05-21 09:04:03,078] [builder.py:2411]           [INFO]     |============================== Updating Details of Popular Collection ==============================|
+[2022-05-21 09:04:03,079] [builder.py:2412]           [INFO]     |                                                                                                    |
+[2022-05-21 09:04:03,079] [builder.py:2418]           [INFO]     | Detail: summary will update Collection Summary                                                     |
+[2022-05-21 09:04:03,079] [builder.py:2473]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | 
+[2022-05-21 09:04:03,399] [builder.py:2477]           [INFO]     | Details: have been updated
+[2022-05-21 09:04:03,400] [builder.py:2480]           [INFO]     | 
+[2022-05-21 09:04:03,400] [builder.py:2568]           [INFO]     | No poster collection detail or asset folder found
+[2022-05-21 09:04:03,400] [builder.py:2601]           [INFO]     | No background collection detail or asset folder found
+[2022-05-21 09:04:03,743] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-21 09:04:03,743] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-21 09:04:03,744] [plex_meta_manager.py:577]  [INFO]     |                                    Finished Popular Collection                                     |
+[2022-05-21 09:04:03,744] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:00:14                                    |
+[2022-05-21 09:04:03,744] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

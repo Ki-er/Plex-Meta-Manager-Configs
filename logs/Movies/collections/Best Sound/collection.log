@@ -1,0 +1,17 @@
+[2022-05-20 17:11:42,908] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:11:42,908] [plex_meta_manager.py:437]  [INFO]     |                                  Best Sound Collection in Movies                                   |
+[2022-05-20 17:11:42,909] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:11:42,909] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-20 17:11:42,909] [plex_meta_manager.py:443]  [INFO]     |================================= Validating Best Sound Attributes =================================|
+[2022-05-20 17:11:42,910] [builder.py:365]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:11:42,910] [builder.py:366]            [DEBUG]    | Validating Method: schedule                                                                        |
+[2022-05-20 17:11:42,910] [builder.py:370]            [DEBUG]    | Value: yearly(03/01)                                                                               |
+[2022-05-20 17:11:42,911] [plex_meta_manager.py:562]  [INFO]     |                                                                                                    |
+                                                                 | Scheduled yearly on March 1st
+                                                                 | 
+                                                                 | Collection Best Sound not scheduled to run
+[2022-05-20 17:11:42,912] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-20 17:11:42,912] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-20 17:11:42,912] [plex_meta_manager.py:577]  [INFO]     |                                   Finished Best Sound Collection                                   |
+[2022-05-20 17:11:42,913] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-05-20 17:11:42,913] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

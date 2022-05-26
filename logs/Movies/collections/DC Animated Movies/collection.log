@@ -1,0 +1,147 @@
+[2022-05-20 17:21:01,934] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:21:01,934] [plex_meta_manager.py:437]  [INFO]     |                              DC Animated Movies Collection in Movies                               |
+[2022-05-20 17:21:01,934] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:21:01,934] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-20 17:21:01,935] [plex_meta_manager.py:443]  [INFO]     |============================= Validating DC Animated Movies Attributes =============================|
+[2022-05-20 17:21:01,935] [builder.py:365]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:21:01,935] [builder.py:366]            [DEBUG]    | Validating Method: schedule                                                                        |
+[2022-05-20 17:21:01,935] [builder.py:370]            [DEBUG]    | Value: weekly(friday)                                                                              |
+[2022-05-20 17:21:01,936] [builder.py:423]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:21:01,936] [builder.py:424]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-05-20 17:21:01,936] [builder.py:428]            [DEBUG]    | Value: sync                                                                                        |
+[2022-05-20 17:21:01,936] [builder.py:570]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:21:01,936] [builder.py:571]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-05-20 17:21:01,936] [builder.py:572]            [DEBUG]    | Value: release                                                                                     |
+[2022-05-20 17:21:01,937] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:21:01,937] [builder.py:592]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-05-20 17:21:01,937] [builder.py:593]            [DEBUG]    | Value: https://www.imdb.com/list/ls084123848                                                       |
+[2022-05-20 17:21:04,764] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:21:04,765] [builder.py:592]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-05-20 17:21:04,765] [builder.py:593]            [DEBUG]    | Value: default                                                                                     |
+[2022-05-20 17:21:04,766] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:21:04,768] [builder.py:592]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-05-20 17:21:04,771] [builder.py:593]            [DEBUG]    | Value: *506                                                                                        |
+[2022-05-20 17:21:04,809] [plex.py:721]               [DEBUG]    |                                                                                                    |
+[2022-05-20 17:21:04,809] [plex.py:724]               [DEBUG]    | Looking for: DC Animated Movies                                                                    |
+[2022-05-20 17:21:04,809] [builder.py:749]            [INFO]     |                                                                                                    |
+[2022-05-20 17:21:04,810] [builder.py:750]            [INFO]     | Validation Successful                                                                              |
+[2022-05-20 17:21:04,827] [plex_meta_manager.py:447]  [INFO]     |                                                                                                    |
+[2022-05-20 17:21:04,828] [plex_meta_manager.py:449]  [INFO]     |============================== Running DC Animated Movies Collection ===============================|
+[2022-05-20 17:21:04,828] [plex_meta_manager.py:461]  [INFO]     |                                                                                                    |
+[2022-05-20 17:21:04,828] [plex_meta_manager.py:462]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-05-20 17:21:04,829] [plex_meta_manager.py:472]  [DEBUG]    |                                                                                                    |
+[2022-05-20 17:21:04,829] [plex_meta_manager.py:473]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls084123848', 'limit': 0}                   |
+[2022-05-20 17:21:04,829] [plex_meta_manager.py:474]  [INFO]     |                                                                                                    |
+[2022-05-20 17:21:04,830] [imdb.py:176]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls084123848                                        |
+[2022-05-20 17:21:10,944] [imdb.py:127]               [DEBUG]    | 87 IMDb IDs Found: ['tt0106364', 'tt0143127', 'tt0233298', 'tt0346578', 'tt0472219', 'tt0800226', 'tt0816671', 'tt0934706', 'tt0902272', 'tt1117563', 'tt1186373', 'tt1295071', 'tt1384590', 'tt1398941', 'tt1601188', 'tt1494772', 'tt1569923', 'tt1606600', 'tt1663633', 'tt1673430', 'tt1701223', 'tt1699114', 'tt1683043', 'tt1672723', 'tt1986806', 'tt2027128', 'tt2224455', 'tt2313197', 'tt2166834', 'tt2617456', 'tt2820466', 'tt3468260', 'tt3060952', 'tt3139072', 'tt3139086', 'tt3878542', 'tt4324274', 'tt4437640', 'tt4324302', 'tt4729754', 'tt4870838', 'tt5091548', 'tt4853102', 'tt5836262', 'tt5896146', 'tt5973626', 'tt2494376', 'tt6315800', 'tt6869644', 'tt6556890', 'tt6142314', 'tt7112166', 'tt7578566', 'tt13370102', 'tt7167630', 'tt7167602', 'tt7451284', 'tt7424200', 'tt7167658', 'tt8634256', 'tt9177882', 'tt7167686', 'tt8752474', 'tt9775360', 'tt8752440', 'tt10736082', 'tt10548944', 'tt11043546', 'tt8752498', 'tt11229556', 'tt11802028', 'tt10985510', 'tt12272414', 'tt11079148', 'tt12876132', 'tt11079116', 'tt12794046', 'tt12885852', 'tt13804084', 'tt14324650', 'tt14402926', 'tt5012504', 'tt15248702', 'tt0106364', 'tt0143127', 'tt0346578', 'tt0472219'] |
+[2022-05-20 17:21:10,945] [builder.py:1424]           [DEBUG]    |                                                                                                    |
+[2022-05-20 17:21:10,945] [builder.py:1425]           [DEBUG]    | 87 IDs Found: [('tt0106364', 'imdb'), ('tt0143127', 'imdb'), ('tt0233298', 'imdb'), ('tt0346578', 'imdb'), ('tt0472219', 'imdb'), ('tt0800226', 'imdb'), ('tt0816671', 'imdb'), ('tt0934706', 'imdb'), ('tt0902272', 'imdb'), ('tt1117563', 'imdb'), ('tt1186373', 'imdb'), ('tt1295071', 'imdb'), ('tt1384590', 'imdb'), ('tt1398941', 'imdb'), ('tt1601188', 'imdb'), ('tt1494772', 'imdb'), ('tt1569923', 'imdb'), ('tt1606600', 'imdb'), ('tt1663633', 'imdb'), ('tt1673430', 'imdb'), ('tt1701223', 'imdb'), ('tt1699114', 'imdb'), ('tt1683043', 'imdb'), ('tt1672723', 'imdb'), ('tt1986806', 'imdb'), ('tt2027128', 'imdb'), ('tt2224455', 'imdb'), ('tt2313197', 'imdb'), ('tt2166834', 'imdb'), ('tt2617456', 'imdb'), ('tt2820466', 'imdb'), ('tt3468260', 'imdb'), ('tt3060952', 'imdb'), ('tt3139072', 'imdb'), ('tt3139086', 'imdb'), ('tt3878542', 'imdb'), ('tt4324274', 'imdb'), ('tt4437640', 'imdb'), ('tt4324302', 'imdb'), ('tt4729754', 'imdb'), ('tt4870838', 'imdb'), ('tt5091548', 'imdb'), ('tt4853102', 'imdb'), ('tt5836262', 'imdb'), ('tt5896146', 'imdb'), ('tt5973626', 'imdb'), ('tt2494376', 'imdb'), ('tt6315800', 'imdb'), ('tt6869644', 'imdb'), ('tt6556890', 'imdb'), ('tt6142314', 'imdb'), ('tt7112166', 'imdb'), ('tt7578566', 'imdb'), ('tt13370102', 'imdb'), ('tt7167630', 'imdb'), ('tt7167602', 'imdb'), ('tt7451284', 'imdb'), ('tt7424200', 'imdb'), ('tt7167658', 'imdb'), ('tt8634256', 'imdb'), ('tt9177882', 'imdb'), ('tt7167686', 'imdb'), ('tt8752474', 'imdb'), ('tt9775360', 'imdb'), ('tt8752440', 'imdb'), ('tt10736082', 'imdb'), ('tt10548944', 'imdb'), ('tt11043546', 'imdb'), ('tt8752498', 'imdb'), ('tt11229556', 'imdb'), ('tt11802028', 'imdb'), ('tt10985510', 'imdb'), ('tt12272414', 'imdb'), ('tt11079148', 'imdb'), ('tt12876132', 'imdb'), ('tt11079116', 'imdb'), ('tt12794046', 'imdb'), ('tt12885852', 'imdb'), ('tt13804084', 'imdb'), ('tt14324650', 'imdb'), ('tt14402926', 'imdb'), ('tt5012504', 'imdb'), ('tt15248702', 'imdb'), ('tt0106364', 'imdb'), ('tt0143127', 'imdb'), ('tt0346578', 'imdb'), ('tt0472219', 'imdb')] |
+[2022-05-20 17:21:10,946] [builder.py:1426]           [DEBUG]    |                                                                                                    |
+[2022-05-20 17:21:16,044] [builder.py:1892]           [INFO]     |                                                                                                    |
+[2022-05-20 17:21:16,049] [builder.py:1893]           [INFO]     |============================= Adding to DC Animated Movies Collection ==============================|
+[2022-05-20 17:21:16,050] [builder.py:1894]           [INFO]     |                                                                                                    |
+[2022-05-20 17:21:16,050] [builder.py:1908]           [INFO]     |  1/67 | DC Animated Movies Collection | + | Batman & Mr. Freeze: SubZero (1998)                    |
+[2022-05-20 17:21:17,512] [builder.py:1908]           [INFO]     |  2/67 | DC Animated Movies Collection | + | Batman Beyond: Return of the Joker (2000)              |
+[2022-05-20 17:21:18,912] [builder.py:1908]           [INFO]     |  3/67 | DC Animated Movies Collection | + | The Batman vs. Dracula (2005)                          |
+[2022-05-20 17:21:20,331] [builder.py:1908]           [INFO]     |  4/67 | DC Animated Movies Collection | + | Teen Titans: Trouble in Tokyo (2006)                   |
+[2022-05-20 17:21:23,476] [builder.py:1908]           [INFO]     |  5/67 | DC Animated Movies Collection | + | Superman: Doomsday (2007)                              |
+[2022-05-20 17:21:25,208] [builder.py:1908]           [INFO]     |  6/67 | DC Animated Movies Collection | + | Justice League: The New Frontier (2008)                |
+[2022-05-20 17:21:26,642] [builder.py:1908]           [INFO]     |  7/67 | DC Animated Movies Collection | + | Batman: Gotham Knight (2008)                           |
+[2022-05-20 17:21:27,932] [builder.py:1908]           [INFO]     |  8/67 | DC Animated Movies Collection | + | Wonder Woman (2009)                                    |
+[2022-05-20 17:21:29,480] [builder.py:1908]           [INFO]     |  9/67 | DC Animated Movies Collection | + | Tales of the Black Freighter (2009)                    |
+[2022-05-20 17:21:31,077] [builder.py:1908]           [INFO]     | 10/67 | DC Animated Movies Collection | + | Green Lantern: First Flight (2009)                     |
+[2022-05-20 17:21:32,730] [builder.py:1908]           [INFO]     | 11/67 | DC Animated Movies Collection | + | Superman/Batman: Public Enemies (2009)                 |
+[2022-05-20 17:21:34,243] [builder.py:1908]           [INFO]     | 12/67 | DC Animated Movies Collection | + | DC Showcase: The Spectre (2010)                        |
+[2022-05-20 17:21:35,636] [builder.py:1908]           [INFO]     | 13/67 | DC Animated Movies Collection | + | Justice League: Crisis on Two Earths (2010)            |
+[2022-05-20 17:21:37,055] [builder.py:1908]           [INFO]     | 14/67 | DC Animated Movies Collection | + | Batman: Under the Red Hood (2010)                      |
+[2022-05-20 17:21:38,441] [builder.py:1908]           [INFO]     | 15/67 | DC Animated Movies Collection | + | DC Showcase: Jonah Hex (2010)                          |
+[2022-05-20 17:21:39,838] [builder.py:1908]           [INFO]     | 16/67 | DC Animated Movies Collection | + | Green Arrow (2010)                                     |
+[2022-05-20 17:21:41,155] [builder.py:1908]           [INFO]     | 17/67 | DC Animated Movies Collection | + | Superman/Batman: Apocalypse (2010)                     |
+[2022-05-20 17:21:42,733] [builder.py:1908]           [INFO]     | 18/67 | DC Animated Movies Collection | + | Superman/Shazam!: The Return of Black Adam (2010)      |
+[2022-05-20 17:21:45,877] [builder.py:1908]           [INFO]     | 19/67 | DC Animated Movies Collection | + | Batman: Year One (2011)                                |
+[2022-05-20 17:21:47,361] [builder.py:1908]           [INFO]     | 20/67 | DC Animated Movies Collection | + | Catwoman (2011)                                        |
+[2022-05-20 17:21:48,711] [builder.py:1908]           [INFO]     | 21/67 | DC Animated Movies Collection | + | Justice League: Doom (2012)                            |
+[2022-05-20 17:21:50,080] [builder.py:1908]           [INFO]     | 22/67 | DC Animated Movies Collection | + | Superman vs. The Elite (2012)                          |
+[2022-05-20 17:21:51,584] [builder.py:1908]           [INFO]     | 23/67 | DC Animated Movies Collection | + | Batman: The Dark Knight Returns, Part 1 (2012)         |
+[2022-05-20 17:21:52,837] [builder.py:1908]           [INFO]     | 24/67 | DC Animated Movies Collection | + | Batman: The Dark Knight Returns, Part 2 (2013)         |
+[2022-05-20 17:21:54,185] [builder.py:1908]           [INFO]     | 25/67 | DC Animated Movies Collection | + | Superman: Unbound (2013)                               |
+[2022-05-20 17:21:55,662] [builder.py:1908]           [INFO]     | 26/67 | DC Animated Movies Collection | + | Justice League: The Flashpoint Paradox (2013)          |
+[2022-05-20 17:21:56,848] [builder.py:1908]           [INFO]     | 27/67 | DC Animated Movies Collection | + | Justice League: War (2014)                             |
+[2022-05-20 17:21:58,100] [builder.py:1908]           [INFO]     | 28/67 | DC Animated Movies Collection | + | Son of Batman (2014)                                   |
+[2022-05-20 17:21:59,628] [builder.py:1908]           [INFO]     | 29/67 | DC Animated Movies Collection | + | Batman: Assault on Arkham (2014)                       |
+[2022-05-20 17:22:00,865] [builder.py:1908]           [INFO]     | 30/67 | DC Animated Movies Collection | + | Justice League: Throne of Atlantis (2015)              |
+[2022-05-20 17:22:02,278] [builder.py:1908]           [INFO]     | 31/67 | DC Animated Movies Collection | + | Batman vs. Robin (2015)                                |
+[2022-05-20 17:22:03,734] [builder.py:1908]           [INFO]     | 32/67 | DC Animated Movies Collection | + | Justice League: Gods and Monsters (2015)               |
+[2022-05-20 17:22:05,397] [builder.py:1908]           [INFO]     | 33/67 | DC Animated Movies Collection | + | Batman: Bad Blood (2016)                               |
+[2022-05-20 17:22:06,757] [builder.py:1908]           [INFO]     | 34/67 | DC Animated Movies Collection | + | Justice League vs. Teen Titans (2016)                  |
+[2022-05-20 17:22:08,034] [builder.py:1908]           [INFO]     | 35/67 | DC Animated Movies Collection | + | Batman: The Killing Joke (2016)                        |
+[2022-05-20 17:22:09,641] [builder.py:1908]           [INFO]     | 36/67 | DC Animated Movies Collection | + | DC Super Hero Girls: Hero of the Year (2016)           |
+[2022-05-20 17:22:11,049] [builder.py:1908]           [INFO]     | 37/67 | DC Animated Movies Collection | + | Batman Unlimited: Mechs vs. Mutants (2016)             |
+[2022-05-20 17:22:12,485] [builder.py:1908]           [INFO]     | 38/67 | DC Animated Movies Collection | + | Justice League Dark (2017)                             |
+[2022-05-20 17:22:13,936] [builder.py:1908]           [INFO]     | 39/67 | DC Animated Movies Collection | + | Teen Titans: The Judas Contract (2017)                 |
+[2022-05-20 17:22:15,606] [builder.py:1908]           [INFO]     | 40/67 | DC Animated Movies Collection | + | DC Super Hero Girls: Intergalactic Games (2017)        |
+[2022-05-20 17:22:17,093] [builder.py:1908]           [INFO]     | 41/67 | DC Animated Movies Collection | + | Batman and Harley Quinn (2017)                         |
+[2022-05-20 17:22:18,550] [builder.py:1908]           [INFO]     | 42/67 | DC Animated Movies Collection | + | Scooby-Doo & Batman: The Brave and the Bold (2018)     |
+[2022-05-20 17:22:21,863] [builder.py:1908]           [INFO]     | 43/67 | DC Animated Movies Collection | + | Suicide Squad: Hell to Pay (2018)                      |
+[2022-05-20 17:22:23,286] [builder.py:1908]           [INFO]     | 44/67 | DC Animated Movies Collection | + | Batman Ninja (2018)                                    |
+[2022-05-20 17:22:24,602] [builder.py:1908]           [INFO]     | 45/67 | DC Animated Movies Collection | + | Teen Titans GO! To the Movies (2018)                   |
+[2022-05-20 17:22:27,896] [builder.py:1908]           [INFO]     | 46/67 | DC Animated Movies Collection | + | The Death of Superman (2018)                           |
+[2022-05-20 17:22:29,330] [builder.py:1908]           [INFO]     | 47/67 | DC Animated Movies Collection | + | DC Super Hero Girls: Legends of Atlantis (2018)        |
+[2022-05-20 17:22:30,842] [builder.py:1908]           [INFO]     | 48/67 | DC Animated Movies Collection | + | Constantine: City of Demons - The Movie (2018)         |
+[2022-05-20 17:22:32,326] [builder.py:1908]           [INFO]     | 49/67 | DC Animated Movies Collection | + | Reign of the Supermen (2019)                           |
+[2022-05-20 17:22:33,676] [builder.py:1908]           [INFO]     | 50/67 | DC Animated Movies Collection | + | Justice League vs the Fatal Five (2019)                |
+[2022-05-20 17:22:35,176] [builder.py:1908]           [INFO]     | 51/67 | DC Animated Movies Collection | + | Batman vs Teenage Mutant Ninja Turtles (2019)          |
+[2022-05-20 17:22:36,578] [builder.py:1908]           [INFO]     | 52/67 | DC Animated Movies Collection | + | Batman: Hush (2019)                                    |
+[2022-05-20 17:22:38,012] [builder.py:1908]           [INFO]     | 53/67 | DC Animated Movies Collection | + | DC Showcase: Sgt. Rock (2019)                          |
+[2022-05-20 17:22:39,384] [builder.py:1908]           [INFO]     | 54/67 | DC Animated Movies Collection | + | Teen Titans Go! Vs. Teen Titans (2019)                 |
+[2022-05-20 17:22:41,118] [builder.py:1908]           [INFO]     | 55/67 | DC Animated Movies Collection | + | The Death and Return of Superman (2019)                |
+[2022-05-20 17:22:42,550] [builder.py:1908]           [INFO]     | 56/67 | DC Animated Movies Collection | + | Wonder Woman: Bloodlines (2019)                        |
+[2022-05-20 17:22:44,050] [builder.py:1908]           [INFO]     | 57/67 | DC Animated Movies Collection | + | Superman: Red Son (2020)                               |
+[2022-05-20 17:22:45,606] [builder.py:1908]           [INFO]     | 58/67 | DC Animated Movies Collection | + | DC Showcase: Adam Strange (2020)                       |
+[2022-05-20 17:22:47,114] [builder.py:1908]           [INFO]     | 59/67 | DC Animated Movies Collection | + | Justice League Dark: Apokolips War (2020)              |
+[2022-05-20 17:22:48,740] [builder.py:1908]           [INFO]     | 60/67 | DC Animated Movies Collection | + | Deathstroke Knights & Dragons: The Movie (2020)        |
+[2022-05-20 17:22:50,319] [builder.py:1908]           [INFO]     | 61/67 | DC Animated Movies Collection | + | Superman: Man of Tomorrow (2020)                       |
+[2022-05-20 17:22:51,732] [builder.py:1908]           [INFO]     | 62/67 | DC Animated Movies Collection | + | Batman: Death in the Family (2020)                     |
+[2022-05-20 17:22:53,149] [builder.py:1908]           [INFO]     | 63/67 | DC Animated Movies Collection | + | Batman: Soul of the Dragon (2021)                      |
+[2022-05-20 17:22:54,822] [builder.py:1908]           [INFO]     | 64/67 | DC Animated Movies Collection | + | Justice Society: World War II (2021)                   |
+[2022-05-20 17:22:56,330] [builder.py:1908]           [INFO]     | 65/67 | DC Animated Movies Collection | + | Batman: The Long Halloween, Part One (2021)            |
+[2022-05-20 17:22:57,848] [builder.py:1908]           [INFO]     | 66/67 | DC Animated Movies Collection | + | Batman: The Long Halloween, Part Two (2021)            |
+[2022-05-20 17:22:59,266] [builder.py:1908]           [INFO]     | 67/67 | DC Animated Movies Collection | + | Injustice (2021)                                       |
+[2022-05-20 17:23:00,748] [builder.py:1933]           [INFO]     |                                                                                                    |
+[2022-05-20 17:23:00,749] [builder.py:1934]           [INFO]     | 67 Movies Processed                                                                                |
+[2022-05-20 17:23:00,749] [builder.py:2171]           [INFO]     |                                                                                                    |
+[2022-05-20 17:23:00,749] [builder.py:2172]           [INFO]     |=============================== Missing Movies from Library: Movies ================================|
+[2022-05-20 17:23:00,750] [builder.py:2173]           [INFO]     |                                                                                                    |
+[2022-05-20 17:23:00,800] [builder.py:2185]           [INFO]     | DC Animated Movies Collection | ? | Batman: Mask of the Phantasm (1993) (TMDb: 14919)              |
+[2022-05-20 17:23:00,807] [builder.py:2185]           [INFO]     | DC Animated Movies Collection | ? | Batman: Mystery of the Batwoman (2003) (TMDb: 21683)           |
+[2022-05-20 17:23:00,815] [builder.py:2185]           [INFO]     | DC Animated Movies Collection | ? | Superman: Brainiac Attacks (2006) (TMDb: 19323)                |
+[2022-05-20 17:23:00,821] [builder.py:2185]           [INFO]     | DC Animated Movies Collection | ? | All Star Superman (2011) (TMDb: 56590)                         |
+[2022-05-20 17:23:00,828] [builder.py:2185]           [INFO]     | DC Animated Movies Collection | ? | Green Lantern: Emerald Knights (2011) (TMDb: 65291)            |
+[2022-05-20 17:23:00,835] [builder.py:2185]           [INFO]     | DC Animated Movies Collection | ? | JLA Adventures: Trapped in Time (2014) (TMDb: 251768)          |
+[2022-05-20 17:23:00,841] [builder.py:2185]           [INFO]     | DC Animated Movies Collection | ? | Batman Unlimited: Animal Instincts (2015) (TMDb: 327418)       |
+[2022-05-20 17:23:00,848] [builder.py:2185]           [INFO]     | DC Animated Movies Collection | ? | Batman Unlimited: Monster Mayhem (2015) (TMDb: 342917)         |
+[2022-05-20 17:23:00,853] [builder.py:2185]           [INFO]     | DC Animated Movies Collection | ? | Batman: Return of the Caped Crusaders (2016) (TMDb: 411736)    |
+[2022-05-20 17:23:00,859] [builder.py:2185]           [INFO]     | DC Animated Movies Collection | ? | Batman vs. Two-Face (2017) (TMDb: 464882)                      |
+[2022-05-20 17:23:00,865] [builder.py:2185]           [INFO]     | DC Animated Movies Collection | ? | DC Super Heroes vs. Eagle Talon (2017) (TMDb: 467172)          |
+[2022-05-20 17:23:00,870] [builder.py:2185]           [INFO]     | DC Animated Movies Collection | ? | Scooby-Doo Meets Batman (2002) (TMDb: 287757)                  |
+[2022-05-20 17:23:00,876] [builder.py:2185]           [INFO]     | DC Animated Movies Collection | ? | Batman: Gotham by Gaslight (2018) (TMDb: 471474)               |
+[2022-05-20 17:23:00,881] [builder.py:2185]           [INFO]     | DC Animated Movies Collection | ? | DC Showcase: Death (2019) (TMDb: 637663)                       |
+[2022-05-20 17:23:00,886] [builder.py:2185]           [INFO]     | DC Animated Movies Collection | ? | DC Showcase: The Phantom Stranger (2020) (TMDb: 618352)        |
+[2022-05-20 17:23:00,892] [builder.py:2185]           [INFO]     | DC Animated Movies Collection | ? | Catwoman: Hunted (2022) (TMDb: 862491)                         |
+[2022-05-20 17:23:00,892] [builder.py:2189]           [INFO]     |                                                                                                    |
+[2022-05-20 17:23:00,892] [builder.py:2190]           [INFO]     | 16 Movies Missing                                                                                  |
+[2022-05-20 17:23:00,994] [builder.py:2410]           [INFO]     |                                                                                                    |
+[2022-05-20 17:23:00,995] [builder.py:2411]           [INFO]     |======================== Updating Details of DC Animated Movies Collection =========================|
+[2022-05-20 17:23:00,995] [builder.py:2412]           [INFO]     |                                                                                                    |
+[2022-05-20 17:23:00,995] [builder.py:2473]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Sort Title | *506
+                                                                 | 
+[2022-05-20 17:23:01,412] [builder.py:2477]           [INFO]     | Details: have been updated
+[2022-05-20 17:23:01,413] [builder.py:2480]           [INFO]     | 
+[2022-05-20 17:23:01,413] [builder.py:2568]           [INFO]     | No poster collection detail or asset folder found
+[2022-05-20 17:23:01,413] [builder.py:2601]           [INFO]     | No background collection detail or asset folder found
+[2022-05-20 17:23:03,679] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-20 17:23:03,680] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-20 17:23:03,680] [plex_meta_manager.py:577]  [INFO]     |                               Finished DC Animated Movies Collection                               |
+[2022-05-20 17:23:03,680] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:02:01                                    |
+[2022-05-20 17:23:03,681] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

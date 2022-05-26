@@ -1,0 +1,30 @@
+[2022-05-21 08:32:23,543] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-21 08:32:23,543] [plex_meta_manager.py:437]  [INFO]     |                                 Plex Popular Collection in Movies                                  |
+[2022-05-21 08:32:23,544] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-21 08:32:23,544] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-21 08:32:23,544] [plex_meta_manager.py:443]  [INFO]     |================================ Validating Plex Popular Attributes ================================|
+[2022-05-21 08:32:23,544] [builder.py:241]            [DEBUG]    |                                                                                                    |
+[2022-05-21 08:32:23,545] [builder.py:242]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-05-21 08:32:23,545] [meta.py:109]               [DEBUG]    | Value: ordereddict([('name', 'Chart'), ('num', 1)])                                                |
+[2022-05-21 08:32:23,546] [builder.py:423]            [DEBUG]    |                                                                                                    |
+[2022-05-21 08:32:23,546] [builder.py:424]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-05-21 08:32:23,546] [builder.py:428]            [DEBUG]    | Value: sync                                                                                        |
+[2022-05-21 08:32:23,546] [builder.py:497]            [DEBUG]    |                                                                                                    |
+[2022-05-21 08:32:23,547] [builder.py:498]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-05-21 08:32:23,547] [builder.py:503]            [DEBUG]    | Value: random                                                                                      |
+[2022-05-21 08:32:23,943] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-21 08:32:23,944] [builder.py:592]            [DEBUG]    | Validating Method: tautulli_popular                                                                |
+[2022-05-21 08:32:23,944] [builder.py:593]            [DEBUG]    | Value: ordereddict([('list_days', 30), ('list_size', 20), ('list_buffer', 20)])                    |
+[2022-05-21 08:32:23,945] [plex_meta_manager.py:566]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 445, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library)
+                                                                 |   File "/modules/builder.py", line 608, in __init__
+                                                                 |     raise Failed(f"{self.Type} Error: {method_final} requires Tautulli to be configured")
+                                                                 | modules.util.Failed: Collection Error: tautulli_popular requires Tautulli to be configured
+                                                                 | 
+[2022-05-21 08:32:23,947] [plex_meta_manager.py:567]  [ERROR]    | Collection Error: tautulli_popular requires Tautulli to be configured
+[2022-05-21 08:32:23,947] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-21 08:32:23,947] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-21 08:32:23,948] [plex_meta_manager.py:577]  [INFO]     |                                  Finished Plex Popular Collection                                  |
+[2022-05-21 08:32:23,948] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-05-21 08:32:23,948] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

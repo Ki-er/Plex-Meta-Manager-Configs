@@ -1,0 +1,23 @@
+[2022-05-21 01:25:59,905] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-21 01:25:59,905] [plex_meta_manager.py:437]  [INFO]     |                           Top 10 Movies of The Week Collection in Movies                           |
+[2022-05-21 01:25:59,905] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-21 01:25:59,906] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-21 01:25:59,906] [plex_meta_manager.py:443]  [INFO]     |========================= Validating Top 10 Movies of The Week Attributes ==========================|
+[2022-05-21 01:25:59,906] [builder.py:241]            [DEBUG]    |                                                                                                    |
+[2022-05-21 01:25:59,906] [builder.py:242]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-05-21 01:25:59,906] [meta.py:109]               [DEBUG]    | Value: ordereddict([('name', 'Special Genre')])                                                    |
+[2022-05-21 01:25:59,907] [plex_meta_manager.py:566]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 445, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library)
+                                                                 |   File "/modules/builder.py", line 243, in __init__
+                                                                 |     new_attributes = self.metadata.apply_template(self.name, self.data, self.data[methods["template"]])
+                                                                 |   File "/modules/meta.py", line 119, in apply_template
+                                                                 |     raise Failed(f"{self.data_type} Error: template {variables['name']} not found")
+                                                                 | modules.util.Failed: Collection Error: template Special Genre not found
+                                                                 | 
+[2022-05-21 01:25:59,908] [plex_meta_manager.py:567]  [ERROR]    | Collection Error: template Special Genre not found
+[2022-05-21 01:25:59,908] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-21 01:25:59,908] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-21 01:25:59,909] [plex_meta_manager.py:577]  [INFO]     |                           Finished Top 10 Movies of The Week Collection                            |
+[2022-05-21 01:25:59,909] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-05-21 01:25:59,909] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

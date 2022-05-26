@@ -1,0 +1,74 @@
+[2022-05-20 17:23:50,050] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:23:50,050] [plex_meta_manager.py:437]  [INFO]     |                                  DC Showcase Collection in Movies                                  |
+[2022-05-20 17:23:50,050] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:23:50,050] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-20 17:23:50,051] [plex_meta_manager.py:443]  [INFO]     |================================ Validating DC Showcase Attributes =================================|
+[2022-05-20 17:23:50,051] [builder.py:365]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:23:50,051] [builder.py:366]            [DEBUG]    | Validating Method: schedule                                                                        |
+[2022-05-20 17:23:50,051] [builder.py:370]            [DEBUG]    | Value: weekly(friday)                                                                              |
+[2022-05-20 17:23:50,052] [builder.py:423]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:23:50,052] [builder.py:424]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-05-20 17:23:50,052] [builder.py:428]            [DEBUG]    | Value: sync                                                                                        |
+[2022-05-20 17:23:50,052] [builder.py:570]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:23:50,052] [builder.py:571]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-05-20 17:23:50,053] [builder.py:572]            [DEBUG]    | Value: release                                                                                     |
+[2022-05-20 17:23:50,053] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:23:50,053] [builder.py:592]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-05-20 17:23:50,053] [builder.py:593]            [DEBUG]    | Value: https://www.imdb.com/list/ls084122453                                                       |
+[2022-05-20 17:23:51,147] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:23:51,148] [builder.py:592]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-05-20 17:23:51,148] [builder.py:593]            [DEBUG]    | Value: default                                                                                     |
+[2022-05-20 17:23:51,148] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:23:51,148] [builder.py:592]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-05-20 17:23:51,149] [builder.py:593]            [DEBUG]    | Value: *508                                                                                        |
+[2022-05-20 17:23:51,187] [plex.py:721]               [DEBUG]    |                                                                                                    |
+[2022-05-20 17:23:51,187] [plex.py:724]               [DEBUG]    | Looking for: DC Showcase                                                                           |
+[2022-05-20 17:23:51,187] [builder.py:749]            [INFO]     |                                                                                                    |
+[2022-05-20 17:23:51,187] [builder.py:750]            [INFO]     | Validation Successful                                                                              |
+[2022-05-20 17:23:51,189] [plex_meta_manager.py:447]  [INFO]     |                                                                                                    |
+[2022-05-20 17:23:51,189] [plex_meta_manager.py:449]  [INFO]     |================================== Running DC Showcase Collection ==================================|
+[2022-05-20 17:23:51,190] [plex_meta_manager.py:461]  [INFO]     |                                                                                                    |
+[2022-05-20 17:23:51,190] [plex_meta_manager.py:462]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-05-20 17:23:51,190] [plex_meta_manager.py:472]  [DEBUG]    |                                                                                                    |
+[2022-05-20 17:23:51,190] [plex_meta_manager.py:473]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls084122453', 'limit': 0}                   |
+[2022-05-20 17:23:51,191] [plex_meta_manager.py:474]  [INFO]     |                                                                                                    |
+[2022-05-20 17:23:51,191] [imdb.py:176]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls084122453                                        |
+[2022-05-20 17:23:55,133] [imdb.py:127]               [DEBUG]    | 10 IMDb IDs Found: ['tt1601188', 'tt1606600', 'tt1663633', 'tt1701223', 'tt1986806', 'tt10736082', 'tt11229556', 'tt11802028', 'tt12272414', 'tt12794046'] |
+[2022-05-20 17:23:55,134] [builder.py:1424]           [DEBUG]    |                                                                                                    |
+[2022-05-20 17:23:55,134] [builder.py:1425]           [DEBUG]    | 10 IDs Found: [('tt1601188', 'imdb'), ('tt1606600', 'imdb'), ('tt1663633', 'imdb'), ('tt1701223', 'imdb'), ('tt1986806', 'imdb'), ('tt10736082', 'imdb'), ('tt11229556', 'imdb'), ('tt11802028', 'imdb'), ('tt12272414', 'imdb'), ('tt12794046', 'imdb')] |
+[2022-05-20 17:23:55,134] [builder.py:1426]           [DEBUG]    |                                                                                                    |
+[2022-05-20 17:23:55,638] [builder.py:1892]           [INFO]     |                                                                                                    |
+[2022-05-20 17:23:55,639] [builder.py:1893]           [INFO]     |================================= Adding to DC Showcase Collection =================================|
+[2022-05-20 17:23:55,639] [builder.py:1894]           [INFO]     |                                                                                                    |
+[2022-05-20 17:23:55,639] [builder.py:1908]           [INFO]     | 1/8 | DC Showcase Collection | + | DC Showcase: The Spectre (2010)                                 |
+[2022-05-20 17:23:57,480] [builder.py:1908]           [INFO]     | 2/8 | DC Showcase Collection | + | DC Showcase: Jonah Hex (2010)                                   |
+[2022-05-20 17:23:59,729] [builder.py:1908]           [INFO]     | 3/8 | DC Showcase Collection | + | Green Arrow (2010)                                              |
+[2022-05-20 17:24:01,862] [builder.py:1908]           [INFO]     | 4/8 | DC Showcase Collection | + | Superman/Shazam!: The Return of Black Adam (2010)               |
+[2022-05-20 17:24:05,637] [builder.py:1908]           [INFO]     | 5/8 | DC Showcase Collection | + | Catwoman (2011)                                                 |
+[2022-05-20 17:24:07,321] [builder.py:1908]           [INFO]     | 6/8 | DC Showcase Collection | + | DC Showcase: Sgt. Rock (2019)                                   |
+[2022-05-20 17:24:09,456] [builder.py:1908]           [INFO]     | 7/8 | DC Showcase Collection | + | DC Showcase: Adam Strange (2020)                                |
+[2022-05-20 17:24:11,526] [builder.py:1908]           [INFO]     | 8/8 | DC Showcase Collection | + | Batman: Death in the Family (2020)                              |
+[2022-05-20 17:24:13,540] [builder.py:1933]           [INFO]     |                                                                                                    |
+[2022-05-20 17:24:13,541] [builder.py:1934]           [INFO]     | 8 Movies Processed                                                                                 |
+[2022-05-20 17:24:13,541] [builder.py:2171]           [INFO]     |                                                                                                    |
+[2022-05-20 17:24:13,541] [builder.py:2172]           [INFO]     |=============================== Missing Movies from Library: Movies ================================|
+[2022-05-20 17:24:13,542] [builder.py:2173]           [INFO]     |                                                                                                    |
+[2022-05-20 17:24:13,547] [builder.py:2185]           [INFO]     | DC Showcase Collection | ? | DC Showcase: Death (2019) (TMDb: 637663)                              |
+[2022-05-20 17:24:13,552] [builder.py:2185]           [INFO]     | DC Showcase Collection | ? | DC Showcase: The Phantom Stranger (2020) (TMDb: 618352)               |
+[2022-05-20 17:24:13,552] [builder.py:2189]           [INFO]     |                                                                                                    |
+[2022-05-20 17:24:13,553] [builder.py:2190]           [INFO]     | 2 Movies Missing                                                                                   |
+[2022-05-20 17:24:13,629] [builder.py:2410]           [INFO]     |                                                                                                    |
+[2022-05-20 17:24:13,630] [builder.py:2411]           [INFO]     |============================ Updating Details of DC Showcase Collection ============================|
+[2022-05-20 17:24:13,630] [builder.py:2412]           [INFO]     |                                                                                                    |
+[2022-05-20 17:24:13,630] [builder.py:2473]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Sort Title | *508
+                                                                 | 
+[2022-05-20 17:24:14,104] [builder.py:2477]           [INFO]     | Details: have been updated
+[2022-05-20 17:24:14,105] [builder.py:2480]           [INFO]     | 
+[2022-05-20 17:24:14,105] [builder.py:2568]           [INFO]     | No poster collection detail or asset folder found
+[2022-05-20 17:24:14,106] [builder.py:2601]           [INFO]     | No background collection detail or asset folder found
+[2022-05-20 17:24:16,727] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-20 17:24:16,727] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-20 17:24:16,727] [plex_meta_manager.py:577]  [INFO]     |                                  Finished DC Showcase Collection                                   |
+[2022-05-20 17:24:16,728] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:00:26                                    |
+[2022-05-20 17:24:16,728] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

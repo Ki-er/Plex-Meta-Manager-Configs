@@ -1,0 +1,325 @@
+[2022-05-26 02:17:10,903] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-26 02:17:10,903] [plex_meta_manager.py:437]  [INFO]     |                              Letterboxd Top 250 Collection in Movies                               |
+[2022-05-26 02:17:10,904] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-26 02:17:10,904] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-26 02:17:10,904] [plex_meta_manager.py:443]  [INFO]     |============================= Validating Letterboxd Top 250 Attributes =============================|
+[2022-05-26 02:17:10,904] [builder.py:241]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:17:10,905] [builder.py:242]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-05-26 02:17:10,905] [meta.py:109]               [DEBUG]    | Value: ordereddict([('name', 'charts'), ('poster', 'https://i.imgur.com/3MZW5au.png')])            |
+[2022-05-26 02:17:10,905] [builder.py:359]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:17:10,906] [builder.py:360]            [DEBUG]    | Validating Method: delete_not_scheduled                                                            |
+[2022-05-26 02:17:10,906] [builder.py:361]            [DEBUG]    | Value: True                                                                                        |
+[2022-05-26 02:17:10,906] [builder.py:402]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:17:10,906] [builder.py:403]            [DEBUG]    | Validating Method: run_again                                                                       |
+[2022-05-26 02:17:10,907] [builder.py:404]            [DEBUG]    | Value: True                                                                                        |
+[2022-05-26 02:17:10,907] [builder.py:423]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:17:10,907] [builder.py:424]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-05-26 02:17:10,907] [builder.py:428]            [DEBUG]    | Value: sync                                                                                        |
+[2022-05-26 02:17:10,907] [builder.py:570]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:17:10,908] [builder.py:571]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-05-26 02:17:10,908] [builder.py:572]            [DEBUG]    | Value: release                                                                                     |
+[2022-05-26 02:17:10,908] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:17:10,908] [builder.py:592]            [DEBUG]    | Validating Method: letterboxd_list                                                                 |
+[2022-05-26 02:17:10,908] [builder.py:593]            [DEBUG]    | Value: ['https://letterboxd.com/dave/list/official-top-250-narrative-feature-films/']              |
+[2022-05-26 02:17:16,029] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:17:16,030] [builder.py:592]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-05-26 02:17:16,031] [builder.py:593]            [DEBUG]    | Value: ++++++++Letterboxd Top 250                                                                  |
+[2022-05-26 02:17:16,031] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:17:16,031] [builder.py:592]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-05-26 02:17:16,032] [builder.py:593]            [DEBUG]    | Value: https://i.imgur.com/3MZW5au.png                                                             |
+[2022-05-26 02:17:16,032] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:17:16,032] [builder.py:592]            [DEBUG]    | Validating Method: visible_home                                                                    |
+[2022-05-26 02:17:16,033] [builder.py:593]            [DEBUG]    | Value: True                                                                                        |
+[2022-05-26 02:17:16,033] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:17:16,034] [builder.py:592]            [DEBUG]    | Validating Method: visible_shared                                                                  |
+[2022-05-26 02:17:16,034] [builder.py:593]            [DEBUG]    | Value: True                                                                                        |
+[2022-05-26 02:17:18,689] [builder.py:749]            [INFO]     |                                                                                                    |
+[2022-05-26 02:17:18,690] [builder.py:750]            [INFO]     | Validation Successful                                                                              |
+[2022-05-26 02:17:18,716] [plex_meta_manager.py:447]  [INFO]     |                                                                                                    |
+[2022-05-26 02:17:18,717] [plex_meta_manager.py:449]  [INFO]     |============================== Running Letterboxd Top 250 Collection ===============================|
+[2022-05-26 02:17:18,717] [plex_meta_manager.py:461]  [INFO]     |                                                                                                    |
+[2022-05-26 02:17:18,717] [plex_meta_manager.py:462]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-05-26 02:17:18,718] [plex_meta_manager.py:472]  [DEBUG]    |                                                                                                    |
+[2022-05-26 02:17:18,718] [plex_meta_manager.py:473]  [DEBUG]    | Builder: letterboxd_list: {'url': 'https://letterboxd.com/dave/list/official-top-250-narrative-feature-films/', 'note': None, 'rating': None, 'year': None} |
+[2022-05-26 02:17:18,719] [plex_meta_manager.py:474]  [INFO]     |                                                                                                    |
+[2022-05-26 02:17:18,719] [letterboxd.py:76]          [INFO]     | Processing Letterboxd List: {'url': 'https://letterboxd.com/dave/list/official-top-250-narrative-feature-films/', 'note': None, 'rating': None, 'year': None} |
+[2022-05-26 02:18:19,972] [letterboxd.py:113]         [INFO]     | Processed 250 TMDb IDs                                                                             |
+[2022-05-26 02:18:19,979] [builder.py:1424]           [DEBUG]    |                                                                                                    |
+[2022-05-26 02:18:19,980] [builder.py:1425]           [DEBUG]    | 250 IDs Found: [(496243, 'tmdb'), (25237, 'tmdb'), (14537, 'tmdb'), (238, 'tmdb'), (545611, 'tmdb'), (240, 'tmdb'), (40096, 'tmdb'), (34530, 'tmdb'), (389, 'tmdb'), (346, 'tmdb'), (129, 'tmdb'), (12493, 'tmdb'), (278, 'tmdb'), (324857, 'tmdb'), (15804, 'tmdb'), (25538, 'tmdb'), (155, 'tmdb'), (31217, 'tmdb'), (531428, 'tmdb'), (424, 'tmdb'), (769, 'tmdb'), (666, 'tmdb'), (18491, 'tmdb'), (3782, 'tmdb'), (598, 'tmdb'), (122, 'tmdb'), (429, 'tmdb'), (1891, 'tmdb'), (7345, 'tmdb'), (1398, 'tmdb'), (406, 'tmdb'), (11645, 'tmdb'), (797, 'tmdb'), (290098, 'tmdb'), (12477, 'tmdb'), (843, 'tmdb'), (244786, 'tmdb'), (780, 'tmdb'), (599, 'tmdb'), (10494, 'tmdb'), (16672, 'tmdb'), (28, 'tmdb'), (895, 'tmdb'), (18148, 'tmdb'), (31414, 'tmdb'), (11216, 'tmdb'), (34528, 'tmdb'), (975, 'tmdb'), (925, 'tmdb'), (655, 'tmdb'), (12761, 'tmdb'), (128, 'tmdb'), (27064, 'tmdb'), (896, 'tmdb'), (567, 'tmdb'), (5961, 'tmdb'), (120, 'tmdb'), (76, 'tmdb'), (24858, 'tmdb'), (284, 'tmdb'), (29259, 'tmdb'), (121, 'tmdb'), (274, 'tmdb'), (38360, 'tmdb'), (1091, 'tmdb'), (670, 'tmdb'), (133919, 'tmdb'), (29845, 'tmdb'), (489412, 'tmdb'), (680, 'tmdb'), (62, 'tmdb'), (539, 'tmdb'), (20532, 'tmdb'), (11423, 'tmdb'), (335, 'tmdb'), (19542, 'tmdb'), (80, 'tmdb'), (1585, 'tmdb'), (50183, 'tmdb'), (32015, 'tmdb'), (122019, 'tmdb'), (4935, 'tmdb'), (1396, 'tmdb'), (28422, 'tmdb'), (3175, 'tmdb'), (48035, 'tmdb'), (510, 'tmdb'), (16869, 'tmdb'), (5801, 'tmdb'), (348, 'tmdb'), (19426, 'tmdb'), (694, 'tmdb'), (46738, 'tmdb'), (807, 'tmdb'), (490, 'tmdb'), (17295, 'tmdb'), (23160, 'tmdb'), (6977, 'tmdb'), (550, 'tmdb'), (901, 'tmdb'), (11104, 'tmdb'), (422, 'tmdb'), (992, 'tmdb'), (20530, 'tmdb'), (872, 'tmdb'), (147, 'tmdb'), (705, 'tmdb'), (423, 'tmdb'), (832, 'tmdb'), (47795, 'tmdb'), (5156, 'tmdb'), (11659, 'tmdb'), (15244, 'tmdb'), (310569, 'tmdb'), (42229, 'tmdb'), (60243, 'tmdb'), (499556, 'tmdb'), (614, 'tmdb'), (265177, 'tmdb'), (11830, 'tmdb'), (947, 'tmdb'), (49964, 'tmdb'), (935, 'tmdb'), (3780, 'tmdb'), (15383, 'tmdb'), (289, 'tmdb'), (110, 'tmdb'), (2433, 'tmdb'), (600354, 'tmdb'), (1556, 'tmdb'), (11878, 'tmdb'), (283566, 'tmdb'), (24657, 'tmdb'), (3082, 'tmdb'), (2457, 'tmdb'), (42536, 'tmdb'), (103, 'tmdb'), (144, 'tmdb'), (204, 'tmdb'), (637, 'tmdb'), (439, 'tmdb'), (11293, 'tmdb'), (8422, 'tmdb'), (3112, 'tmdb'), (25050, 'tmdb'), (914, 'tmdb'), (968, 'tmdb'), (38, 'tmdb'), (279, 'tmdb'), (851, 'tmdb'), (198, 'tmdb'), (9693, 'tmdb'), (44012, 'tmdb'), (800, 'tmdb'), (11, 'tmdb'), (120467, 'tmdb'), (275, 'tmdb'), (829, 'tmdb'), (280, 'tmdb'), (149, 'tmdb'), (42269, 'tmdb'), (376867, 'tmdb'), (41050, 'tmdb'), (16858, 'tmdb'), (2517, 'tmdb'), (2721, 'tmdb'), (146233, 'tmdb'), (1092, 'tmdb'), (8587, 'tmdb'), (25037, 'tmdb'), (1018, 'tmdb'), (10404, 'tmdb'), (37257, 'tmdb'), (157336, 'tmdb'), (1394, 'tmdb'), (10315, 'tmdb'), (426, 'tmdb'), (1422, 'tmdb'), (105, 'tmdb'), (897, 'tmdb'), (10997, 'tmdb'), (311, 'tmdb'), (489, 'tmdb'), (30020, 'tmdb'), (8392, 'tmdb'), (103663, 'tmdb'), (19, 'tmdb'), (372058, 'tmdb'), (505192, 'tmdb'), (60567, 'tmdb'), (1578, 'tmdb'), (33665, 'tmdb'), (74879, 'tmdb'), (39056, 'tmdb'), (15, 'tmdb'), (28162, 'tmdb'), (207, 'tmdb'), (41059, 'tmdb'), (11902, 'tmdb'), (24188, 'tmdb'), (3090, 'tmdb'), (976, 'tmdb'), (3777, 'tmdb'), (14696, 'tmdb'), (346648, 'tmdb'), (18352, 'tmdb'), (354912, 'tmdb'), (27205, 'tmdb'), (593, 'tmdb'), (833, 'tmdb'), (11220, 'tmdb'), (354759, 'tmdb'), (83761, 'tmdb'), (50759, 'tmdb'), (996, 'tmdb'), (419430, 'tmdb'), (631, 'tmdb'), (18329, 'tmdb'), (10386, 'tmdb'), (21849, 'tmdb'), (85, 'tmdb'), (4995, 'tmdb'), (10774, 'tmdb'), (548, 'tmdb'), (55192, 'tmdb'), (27031, 'tmdb'), (50247, 'tmdb'), (70580, 'tmdb'), (662745, 'tmdb'), (68718, 'tmdb'), (857, 'tmdb'), (603, 'tmdb'), (265169, 'tmdb'), (20123, 'tmdb'), (25904, 'tmdb'), (934, 'tmdb'), (149871, 'tmdb'), (331482, 'tmdb'), (41077, 'tmdb'), (949, 'tmdb'), (31767, 'tmdb'), (9764, 'tmdb'), (660120, 'tmdb'), (43976, 'tmdb'), (862, 'tmdb'), (37165, 'tmdb'), (29455, 'tmdb'), (396, 'tmdb'), (104086, 'tmdb'), (25364, 'tmdb')] |
+[2022-05-26 02:18:19,980] [builder.py:1426]           [DEBUG]    |                                                                                                    |
+[2022-05-26 02:18:31,079] [builder.py:1892]           [INFO]     |                                                                                                    |
+[2022-05-26 02:18:31,080] [builder.py:1893]           [INFO]     |============================= Adding to Letterboxd Top 250 Collection ==============================|
+[2022-05-26 02:18:31,080] [builder.py:1894]           [INFO]     |                                                                                                    |
+[2022-05-26 02:18:31,081] [builder.py:1908]           [INFO]     |   1/144 | Letterboxd Top 250 Collection | = | Parasite (2019)                                      |
+[2022-05-26 02:18:31,082] [builder.py:1908]           [INFO]     |   2/144 | Letterboxd Top 250 Collection | = | Come and See (1985)                                  |
+[2022-05-26 02:18:31,083] [builder.py:1908]           [INFO]     |   3/144 | Letterboxd Top 250 Collection | = | The Godfather (1972)                                 |
+[2022-05-26 02:18:31,085] [builder.py:1908]           [INFO]     |   4/144 | Letterboxd Top 250 Collection | = | Everything Everywhere All at Once (2022)             |
+[2022-05-26 02:18:31,086] [builder.py:1908]           [INFO]     |   5/144 | Letterboxd Top 250 Collection | = | The Godfather: Part II (1974)                        |
+[2022-05-26 02:18:31,087] [builder.py:1908]           [INFO]     |   6/144 | Letterboxd Top 250 Collection | = | 12 Angry Men (1957)                                  |
+[2022-05-26 02:18:31,088] [builder.py:1908]           [INFO]     |   7/144 | Letterboxd Top 250 Collection | = | Spirited Away (2001)                                 |
+[2022-05-26 02:18:31,090] [builder.py:1908]           [INFO]     |   8/144 | Letterboxd Top 250 Collection | = | The Shawshank Redemption (1994)                      |
+[2022-05-26 02:18:31,092] [builder.py:1908]           [INFO]     |   9/144 | Letterboxd Top 250 Collection | = | Spider-Man: Into the Spider-Verse (2018)             |
+[2022-05-26 02:18:31,093] [builder.py:1908]           [INFO]     |  10/144 | Letterboxd Top 250 Collection | = | The Dark Knight (2008)                               |
+[2022-05-26 02:18:31,094] [builder.py:1908]           [INFO]     |  11/144 | Letterboxd Top 250 Collection | = | Schindler's List (1993)                              |
+[2022-05-26 02:18:31,095] [builder.py:1908]           [INFO]     |  12/144 | Letterboxd Top 250 Collection | = | Goodfellas (1990)                                    |
+[2022-05-26 02:18:31,096] [builder.py:1908]           [INFO]     |  13/144 | Letterboxd Top 250 Collection | = | City of God (2002)                                   |
+[2022-05-26 02:18:31,097] [builder.py:1908]           [INFO]     |  14/144 | Letterboxd Top 250 Collection | = | The Lord of the Rings: The Return of the King (2003) |
+[2022-05-26 02:18:31,098] [builder.py:1908]           [INFO]     |  15/144 | Letterboxd Top 250 Collection | = | The Good, the Bad and the Ugly (1966)                |
+[2022-05-26 02:18:31,099] [builder.py:1908]           [INFO]     |  16/144 | Letterboxd Top 250 Collection | = | Star Wars: Episode V - The Empire Strikes Back (1980) |
+[2022-05-26 02:18:31,100] [builder.py:1908]           [INFO]     |  17/144 | Letterboxd Top 250 Collection | = | There Will Be Blood (2007)                           |
+[2022-05-26 02:18:31,101] [builder.py:1908]           [INFO]     |  18/144 | Letterboxd Top 250 Collection | = | La Haine (1995)                                      |
+[2022-05-26 02:18:31,101] [builder.py:1908]           [INFO]     |  19/144 | Letterboxd Top 250 Collection | = | Ran (1985)                                           |
+[2022-05-26 02:18:31,102] [builder.py:1908]           [INFO]     |  20/144 | Letterboxd Top 250 Collection | = | The Handmaiden (2016)                                |
+[2022-05-26 02:18:31,104] [builder.py:1908]           [INFO]     |  21/144 | Letterboxd Top 250 Collection | = | Whiplash (2014)                                      |
+[2022-05-26 02:18:31,105] [builder.py:1908]           [INFO]     |  22/144 | Letterboxd Top 250 Collection | = | Sunset Blvd. (1950)                                  |
+[2022-05-26 02:18:31,105] [builder.py:1908]           [INFO]     |  23/144 | Letterboxd Top 250 Collection | = | Perfect Blue (1997)                                  |
+[2022-05-26 02:18:31,106] [builder.py:1908]           [INFO]     |  24/144 | Letterboxd Top 250 Collection | = | Apocalypse Now (1979)                                |
+[2022-05-26 02:18:31,107] [builder.py:1908]           [INFO]     |  25/144 | Letterboxd Top 250 Collection | = | Cinema Paradiso (1988)                               |
+[2022-05-26 02:18:31,107] [builder.py:1908]           [INFO]     |  26/144 | Letterboxd Top 250 Collection | = | Paths of Glory (1957)                                |
+[2022-05-26 02:18:31,108] [builder.py:1908]           [INFO]     |  27/144 | Letterboxd Top 250 Collection | = | Do the Right Thing (1989)                            |
+[2022-05-26 02:18:31,109] [builder.py:1908]           [INFO]     |  28/144 | Letterboxd Top 250 Collection | = | Paris, Texas (1984)                                  |
+[2022-05-26 02:18:31,110] [builder.py:1908]           [INFO]     |  29/144 | Letterboxd Top 250 Collection | = | Autumn Sonata (1978)                                 |
+[2022-05-26 02:18:31,110] [builder.py:1908]           [INFO]     |  30/144 | Letterboxd Top 250 Collection | = | Princess Mononoke (1997)                             |
+[2022-05-26 02:18:31,111] [builder.py:1908]           [INFO]     |  31/144 | Letterboxd Top 250 Collection | = | Mishima: A Life in Four Chapters (1985)              |
+[2022-05-26 02:18:31,112] [builder.py:1908]           [INFO]     |  32/144 | Letterboxd Top 250 Collection | = | Rear Window (1954)                                   |
+[2022-05-26 02:18:31,113] [builder.py:1908]           [INFO]     |  33/144 | Letterboxd Top 250 Collection | = | Fanny and Alexander (1982)                           |
+[2022-05-26 02:18:31,113] [builder.py:1908]           [INFO]     |  34/144 | Letterboxd Top 250 Collection | = | The Lord of the Rings: The Fellowship of the Ring (2001) |
+[2022-05-26 02:18:31,114] [builder.py:1908]           [INFO]     |  35/144 | Letterboxd Top 250 Collection | = | Before Sunrise (1995)                                |
+[2022-05-26 02:18:31,115] [builder.py:1908]           [INFO]     |  36/144 | Letterboxd Top 250 Collection | = | The Apartment (1960)                                 |
+[2022-05-26 02:18:31,116] [builder.py:1908]           [INFO]     |  37/144 | Letterboxd Top 250 Collection | = | The Lord of the Rings: The Two Towers (2002)         |
+[2022-05-26 02:18:31,117] [builder.py:1908]           [INFO]     |  38/144 | Letterboxd Top 250 Collection | = | The Silence of the Lambs (1991)                      |
+[2022-05-26 02:18:31,117] [builder.py:1908]           [INFO]     |  39/144 | Letterboxd Top 250 Collection | = | The Thing (1982)                                     |
+[2022-05-26 02:18:31,118] [builder.py:1908]           [INFO]     |  40/144 | Letterboxd Top 250 Collection | = | A Woman Under the Influence (1974)                   |
+[2022-05-26 02:18:31,119] [builder.py:1908]           [INFO]     |  41/144 | Letterboxd Top 250 Collection | = | It's Such a Beautiful Day (2012)                     |
+[2022-05-26 02:18:31,120] [builder.py:1908]           [INFO]     |  42/144 | Letterboxd Top 250 Collection | = | Pulp Fiction (1994)                                  |
+[2022-05-26 02:18:31,121] [builder.py:1908]           [INFO]     |  43/144 | Letterboxd Top 250 Collection | = | 2001: A Space Odyssey (1968)                         |
+[2022-05-26 02:18:31,122] [builder.py:1908]           [INFO]     |  44/144 | Letterboxd Top 250 Collection | = | Psycho (1960)                                        |
+[2022-05-26 02:18:31,122] [builder.py:1908]           [INFO]     |  45/144 | Letterboxd Top 250 Collection | = | Once Upon a Time in the West (1968)                  |
+[2022-05-26 02:18:31,123] [builder.py:1908]           [INFO]     |  46/144 | Letterboxd Top 250 Collection | = | The Red Shoes (1948)                                 |
+[2022-05-26 02:18:31,124] [builder.py:1908]           [INFO]     |  47/144 | Letterboxd Top 250 Collection | = | Before Sunset (2004)                                 |
+[2022-05-26 02:18:31,125] [builder.py:1908]           [INFO]     |  48/144 | Letterboxd Top 250 Collection | = | It's a Wonderful Life (1946)                         |
+[2022-05-26 02:18:31,126] [builder.py:1908]           [INFO]     |  49/144 | Letterboxd Top 250 Collection | = | Howl's Moving Castle (2004)                          |
+[2022-05-26 02:18:31,127] [builder.py:1908]           [INFO]     |  50/144 | Letterboxd Top 250 Collection | = | Barry Lyndon (1975)                                  |
+[2022-05-26 02:18:31,128] [builder.py:1908]           [INFO]     |  51/144 | Letterboxd Top 250 Collection | = | One Flew Over the Cuckoo's Nest (1975)               |
+[2022-05-26 02:18:31,129] [builder.py:1908]           [INFO]     |  52/144 | Letterboxd Top 250 Collection | = | Inglourious Basterds (2009)                          |
+[2022-05-26 02:18:31,130] [builder.py:1908]           [INFO]     |  53/144 | Letterboxd Top 250 Collection | = | Alien (1979)                                         |
+[2022-05-26 02:18:31,130] [builder.py:1908]           [INFO]     |  54/144 | Letterboxd Top 250 Collection | = | The Shining (1980)                                   |
+[2022-05-26 02:18:31,131] [builder.py:1908]           [INFO]     |  55/144 | Letterboxd Top 250 Collection | = | Se7en (1995)                                         |
+[2022-05-26 02:18:31,132] [builder.py:1908]           [INFO]     |  56/144 | Letterboxd Top 250 Collection | = | The Battle of Algiers (1966)                         |
+[2022-05-26 02:18:31,133] [builder.py:1908]           [INFO]     |  57/144 | Letterboxd Top 250 Collection | = | No Country for Old Men (2007)                        |
+[2022-05-26 02:18:31,134] [builder.py:1908]           [INFO]     |  58/144 | Letterboxd Top 250 Collection | = | Fight Club (1999)                                    |
+[2022-05-26 02:18:31,134] [builder.py:1908]           [INFO]     |  59/144 | Letterboxd Top 250 Collection | = | City Lights (1931)                                   |
+[2022-05-26 02:18:31,135] [builder.py:1908]           [INFO]     |  60/144 | Letterboxd Top 250 Collection | = | 8½ (1963)                                            |
+[2022-05-26 02:18:31,135] [builder.py:1908]           [INFO]     |  61/144 | Letterboxd Top 250 Collection | = | Sherlock Jr. (1924)                                  |
+[2022-05-26 02:18:31,136] [builder.py:1908]           [INFO]     |  62/144 | Letterboxd Top 250 Collection | = | Singin' in the Rain (1952)                           |
+[2022-05-26 02:18:31,136] [builder.py:1908]           [INFO]     |  63/144 | Letterboxd Top 250 Collection | = | All About Eve (1950)                                 |
+[2022-05-26 02:18:31,137] [builder.py:1908]           [INFO]     |  64/144 | Letterboxd Top 250 Collection | = | The Pianist (2002)                                   |
+[2022-05-26 02:18:31,138] [builder.py:1908]           [INFO]     |  65/144 | Letterboxd Top 250 Collection | = | The Best of Youth (2003)                             |
+[2022-05-26 02:18:31,140] [builder.py:1908]           [INFO]     |  66/144 | Letterboxd Top 250 Collection | = | A Separation (2011)                                  |
+[2022-05-26 02:18:31,141] [builder.py:1908]           [INFO]     |  67/144 | Letterboxd Top 250 Collection | = | Wild Strawberries (1957)                             |
+[2022-05-26 02:18:31,141] [builder.py:1908]           [INFO]     |  68/144 | Letterboxd Top 250 Collection | = | Lawrence of Arabia (1962)                            |
+[2022-05-26 02:18:31,142] [builder.py:1908]           [INFO]     |  69/144 | Letterboxd Top 250 Collection | = | Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964) |
+[2022-05-26 02:18:31,142] [builder.py:1908]           [INFO]     |  70/144 | Letterboxd Top 250 Collection | = | Casablanca (1942)                                    |
+[2022-05-26 02:18:31,143] [builder.py:1908]           [INFO]     |  71/144 | Letterboxd Top 250 Collection | = | The Father (2020)                                    |
+[2022-05-26 02:18:31,144] [builder.py:1908]           [INFO]     |  72/144 | Letterboxd Top 250 Collection | = | Modern Times (1936)                                  |
+[2022-05-26 02:18:31,144] [builder.py:1908]           [INFO]     |  73/144 | Letterboxd Top 250 Collection | = | Taxi Driver (1976)                                   |
+[2022-05-26 02:18:31,145] [builder.py:1908]           [INFO]     |  74/144 | Letterboxd Top 250 Collection | = | Wings of Desire (1987)                               |
+[2022-05-26 02:18:31,146] [builder.py:1908]           [INFO]     |  75/144 | Letterboxd Top 250 Collection | = | Life Is Beautiful (1997)                             |
+[2022-05-26 02:18:31,147] [builder.py:1908]           [INFO]     |  76/144 | Letterboxd Top 250 Collection | = | La Dolce Vita (1960)                                 |
+[2022-05-26 02:18:31,148] [builder.py:1908]           [INFO]     |  77/144 | Letterboxd Top 250 Collection | = | Paper Moon (1973)                                    |
+[2022-05-26 02:18:31,149] [builder.py:1908]           [INFO]     |  78/144 | Letterboxd Top 250 Collection | = | Rocco and His Brothers (1960)                        |
+[2022-05-26 02:18:31,149] [builder.py:1908]           [INFO]     |  79/144 | Letterboxd Top 250 Collection | = | The Night of the Hunter (1955)                       |
+[2022-05-26 02:18:31,150] [builder.py:1908]           [INFO]     |  80/144 | Letterboxd Top 250 Collection | = | The Great Dictator (1940)                            |
+[2022-05-26 02:18:31,150] [builder.py:1908]           [INFO]     |  81/144 | Letterboxd Top 250 Collection | = | Dog Day Afternoon (1975)                             |
+[2022-05-26 02:18:31,151] [builder.py:1908]           [INFO]     |  82/144 | Letterboxd Top 250 Collection | = | Eternal Sunshine of the Spotless Mind (2004)         |
+[2022-05-26 02:18:31,152] [builder.py:1908]           [INFO]     |  83/144 | Letterboxd Top 250 Collection | = | Amadeus (1984)                                       |
+[2022-05-26 02:18:31,153] [builder.py:1908]           [INFO]     |  84/144 | Letterboxd Top 250 Collection | = | Brief Encounter (1945)                               |
+[2022-05-26 02:18:31,154] [builder.py:1908]           [INFO]     |  85/144 | Letterboxd Top 250 Collection | = | To Be or Not to Be (1942)                            |
+[2022-05-26 02:18:31,154] [builder.py:1908]           [INFO]     |  86/144 | Letterboxd Top 250 Collection | = | Children of Men (2006)                               |
+[2022-05-26 02:18:31,155] [builder.py:1908]           [INFO]     |  87/144 | Letterboxd Top 250 Collection | = | Star Wars: Episode IV - A New Hope (1977)            |
+[2022-05-26 02:18:31,157] [builder.py:1908]           [INFO]     |  88/144 | Letterboxd Top 250 Collection | = | The Grand Budapest Hotel (2014)                      |
+[2022-05-26 02:18:31,158] [builder.py:1908]           [INFO]     |  89/144 | Letterboxd Top 250 Collection | = | Fargo (1996)                                         |
+[2022-05-26 02:18:31,159] [builder.py:1908]           [INFO]     |  90/144 | Letterboxd Top 250 Collection | = | Chinatown (1974)                                     |
+[2022-05-26 02:18:31,159] [builder.py:1908]           [INFO]     |  91/144 | Letterboxd Top 250 Collection | = | Terminator 2: Judgment Day (1991)                    |
+[2022-05-26 02:18:31,161] [builder.py:1908]           [INFO]     |  92/144 | Letterboxd Top 250 Collection | = | Moonlight (2016)                                     |
+[2022-05-26 02:18:31,162] [builder.py:1908]           [INFO]     |  93/144 | Letterboxd Top 250 Collection | = | All That Jazz (1979)                                 |
+[2022-05-26 02:18:31,163] [builder.py:1908]           [INFO]     |  94/144 | Letterboxd Top 250 Collection | = | Prisoners (2013)                                     |
+[2022-05-26 02:18:31,164] [builder.py:1908]           [INFO]     |  95/144 | Letterboxd Top 250 Collection | = | The Third Man (1949)                                 |
+[2022-05-26 02:18:31,164] [builder.py:1908]           [INFO]     |  96/144 | Letterboxd Top 250 Collection | = | The Lion King (1994)                                 |
+[2022-05-26 02:18:31,165] [builder.py:1908]           [INFO]     |  97/144 | Letterboxd Top 250 Collection | = | The Life and Death of Colonel Blimp (1943)           |
+[2022-05-26 02:18:31,166] [builder.py:1908]           [INFO]     |  98/144 | Letterboxd Top 250 Collection | = | Mulholland Drive (2001)                              |
+[2022-05-26 02:18:31,167] [builder.py:1908]           [INFO]     |  99/144 | Letterboxd Top 250 Collection | = | Raise the Red Lantern (1991)                         |
+[2022-05-26 02:18:31,167] [builder.py:1908]           [INFO]     | 100/144 | Letterboxd Top 250 Collection | = | Witness for the Prosecution (1957)                   |
+[2022-05-26 02:18:31,168] [builder.py:1908]           [INFO]     | 101/144 | Letterboxd Top 250 Collection | = | Interstellar (2014)                                  |
+[2022-05-26 02:18:31,170] [builder.py:1908]           [INFO]     | 102/144 | Letterboxd Top 250 Collection | = | Fantastic Mr. Fox (2009)                             |
+[2022-05-26 02:18:31,170] [builder.py:1908]           [INFO]     | 103/144 | Letterboxd Top 250 Collection | = | Vertigo (1958)                                       |
+[2022-05-26 02:18:31,171] [builder.py:1908]           [INFO]     | 104/144 | Letterboxd Top 250 Collection | = | The Departed (2006)                                  |
+[2022-05-26 02:18:31,172] [builder.py:1908]           [INFO]     | 105/144 | Letterboxd Top 250 Collection | = | Back to the Future (1985)                            |
+[2022-05-26 02:18:31,173] [builder.py:1908]           [INFO]     | 106/144 | Letterboxd Top 250 Collection | = | Farewell My Concubine (1993)                         |
+[2022-05-26 02:18:31,174] [builder.py:1908]           [INFO]     | 107/144 | Letterboxd Top 250 Collection | = | Once Upon a Time in America (1984)                   |
+[2022-05-26 02:18:31,175] [builder.py:1908]           [INFO]     | 108/144 | Letterboxd Top 250 Collection | = | Good Will Hunting (1997)                             |
+[2022-05-26 02:18:31,176] [builder.py:1908]           [INFO]     | 109/144 | Letterboxd Top 250 Collection | = | Taste of Cherry (1997)                               |
+[2022-05-26 02:18:31,177] [builder.py:1908]           [INFO]     | 110/144 | Letterboxd Top 250 Collection | = | My Neighbor Totoro (1988)                            |
+[2022-05-26 02:18:31,178] [builder.py:1908]           [INFO]     | 111/144 | Letterboxd Top 250 Collection | = | Metropolis (1927)                                    |
+[2022-05-26 02:18:31,178] [builder.py:1908]           [INFO]     | 112/144 | Letterboxd Top 250 Collection | = | Shoplifters (2018)                                   |
+[2022-05-26 02:18:31,179] [builder.py:1908]           [INFO]     | 113/144 | Letterboxd Top 250 Collection | = | Raging Bull (1980)                                   |
+[2022-05-26 02:18:31,180] [builder.py:1908]           [INFO]     | 114/144 | Letterboxd Top 250 Collection | = | Opening Night (1977)                                 |
+[2022-05-26 02:18:31,181] [builder.py:1908]           [INFO]     | 115/144 | Letterboxd Top 250 Collection | = | Citizen Kane (1941)                                  |
+[2022-05-26 02:18:31,181] [builder.py:1908]           [INFO]     | 116/144 | Letterboxd Top 250 Collection | = | Stairway to Heaven (1946)                            |
+[2022-05-26 02:18:31,182] [builder.py:1908]           [INFO]     | 117/144 | Letterboxd Top 250 Collection | = | Dead Poets Society (1989)                            |
+[2022-05-26 02:18:31,182] [builder.py:1908]           [INFO]     | 118/144 | Letterboxd Top 250 Collection | = | The Treasure of the Sierra Madre (1948)              |
+[2022-05-26 02:18:31,183] [builder.py:1908]           [INFO]     | 119/144 | Letterboxd Top 250 Collection | = | Sweet Smell of Success (1957)                        |
+[2022-05-26 02:18:31,184] [builder.py:1908]           [INFO]     | 120/144 | Letterboxd Top 250 Collection | = | Paddington 2 (2017)                                  |
+[2022-05-26 02:18:31,185] [builder.py:1908]           [INFO]     | 121/144 | Letterboxd Top 250 Collection | = | Coco (2017)                                          |
+[2022-05-26 02:18:31,186] [builder.py:1908]           [INFO]     | 122/144 | Letterboxd Top 250 Collection | = | Inception (2010)                                     |
+[2022-05-26 02:18:31,187] [builder.py:1908]           [INFO]     | 123/144 | Letterboxd Top 250 Collection | = | Double Indemnity (1944)                              |
+[2022-05-26 02:18:31,188] [builder.py:1908]           [INFO]     | 124/144 | Letterboxd Top 250 Collection | = | Get Out (2017)                                       |
+[2022-05-26 02:18:31,189] [builder.py:1908]           [INFO]     | 125/144 | Letterboxd Top 250 Collection | = | Sunrise (1927)                                       |
+[2022-05-26 02:18:31,189] [builder.py:1908]           [INFO]     | 126/144 | Letterboxd Top 250 Collection | = | Happy Together (1997)                                |
+[2022-05-26 02:18:31,190] [builder.py:1908]           [INFO]     | 127/144 | Letterboxd Top 250 Collection | = | The Iron Giant (1999)                                |
+[2022-05-26 02:18:31,191] [builder.py:1908]           [INFO]     | 128/144 | Letterboxd Top 250 Collection | = | A Face in the Crowd (1957)                           |
+[2022-05-26 02:18:31,192] [builder.py:1908]           [INFO]     | 129/144 | Letterboxd Top 250 Collection | = | Indiana Jones and the Raiders of the Lost Ark (1981) |
+[2022-05-26 02:18:31,193] [builder.py:1908]           [INFO]     | 130/144 | Letterboxd Top 250 Collection | = | Boogie Nights (1997)                                 |
+[2022-05-26 02:18:31,194] [builder.py:1908]           [INFO]     | 131/144 | Letterboxd Top 250 Collection | = | Network (1976)                                       |
+[2022-05-26 02:18:31,194] [builder.py:1908]           [INFO]     | 132/144 | Letterboxd Top 250 Collection | = | Rashomon (1950)                                      |
+[2022-05-26 02:18:31,195] [builder.py:1908]           [INFO]     | 133/144 | Letterboxd Top 250 Collection | = | Django Unchained (2012)                              |
+[2022-05-26 02:18:31,196] [builder.py:1908]           [INFO]     | 134/144 | Letterboxd Top 250 Collection | = | Saving Private Ryan (1998)                           |
+[2022-05-26 02:18:31,197] [builder.py:1908]           [INFO]     | 135/144 | Letterboxd Top 250 Collection | = | The Matrix (1999)                                    |
+[2022-05-26 02:18:31,198] [builder.py:1908]           [INFO]     | 136/144 | Letterboxd Top 250 Collection | = | Time of the Gypsies (1988)                           |
+[2022-05-26 02:18:31,199] [builder.py:1908]           [INFO]     | 137/144 | Letterboxd Top 250 Collection | = | Little Women (2019)                                  |
+[2022-05-26 02:18:31,201] [builder.py:1908]           [INFO]     | 138/144 | Letterboxd Top 250 Collection | = | Heat (1995)                                          |
+[2022-05-26 02:18:31,201] [builder.py:1908]           [INFO]     | 139/144 | Letterboxd Top 250 Collection | = | The Devils (1971)                                    |
+[2022-05-26 02:18:31,202] [builder.py:1908]           [INFO]     | 140/144 | Letterboxd Top 250 Collection | = | The Worst Person in the World (2021)                 |
+[2022-05-26 02:18:31,204] [builder.py:1908]           [INFO]     | 141/144 | Letterboxd Top 250 Collection | = | Toy Story (1995)                                     |
+[2022-05-26 02:18:31,205] [builder.py:1908]           [INFO]     | 142/144 | Letterboxd Top 250 Collection | = | The Truman Show (1998)                               |
+[2022-05-26 02:18:31,206] [builder.py:1908]           [INFO]     | 143/144 | Letterboxd Top 250 Collection | = | Who's Afraid of Virginia Woolf? (1966)               |
+[2022-05-26 02:18:31,206] [builder.py:1908]           [INFO]     | 144/144 | Letterboxd Top 250 Collection | = | Ace in the Hole (1951)                               |
+[2022-05-26 02:18:31,207] [builder.py:1933]           [INFO]     |                                                                                                    |
+[2022-05-26 02:18:31,207] [builder.py:1934]           [INFO]     | 144 Movies Processed                                                                               |
+[2022-05-26 02:18:31,207] [builder.py:2171]           [INFO]     |                                                                                                    |
+[2022-05-26 02:18:31,208] [builder.py:2172]           [INFO]     |=============================== Missing Movies from Library: Movies ================================|
+[2022-05-26 02:18:31,208] [builder.py:2173]           [INFO]     |                                                                                                    |
+[2022-05-26 02:18:31,458] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Harakiri (1962) (TMDb: 14537)                                  |
+[2022-05-26 02:18:31,788] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | A Dog's Will (2000) (TMDb: 40096)                              |
+[2022-05-26 02:18:31,804] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | The Human Condition III: A Soldier's Prayer (1961) (TMDb: 34530) |
+[2022-05-26 02:18:32,351] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Seven Samurai (1954) (TMDb: 346)                               |
+[2022-05-26 02:18:32,636] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | High and Low (1963) (TMDb: 12493)                              |
+[2022-05-26 02:18:33,066] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | A Brighter Summer Day (1991) (TMDb: 15804)                     |
+[2022-05-26 02:18:33,348] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Yi Yi (2000) (TMDb: 25538)                                     |
+[2022-05-26 02:18:33,364] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | The Human Condition I: No Greater Love (1959) (TMDb: 31217)    |
+[2022-05-26 02:18:33,665] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Portrait of a Lady on Fire (2019) (TMDb: 531428)               |
+[2022-05-26 02:18:33,991] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Central Station (1998) (TMDb: 666)                             |
+[2022-05-26 02:18:34,014] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Neon Genesis Evangelion: The End of Evangelion (1997) (TMDb: 18491) |
+[2022-05-26 02:18:34,311] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Ikiru (1952) (TMDb: 3782)                                      |
+[2022-05-26 02:18:34,623] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Stalker (1979) (TMDb: 1398)                                    |
+[2022-05-26 02:18:34,942] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Persona (1966) (TMDb: 797)                                     |
+[2022-05-26 02:18:35,194] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Grave of the Fireflies (1988) (TMDb: 12477)                    |
+[2022-05-26 02:18:35,558] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | In the Mood for Love (2000) (TMDb: 843)                        |
+[2022-05-26 02:18:35,895] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | The Passion of Joan of Arc (1928) (TMDb: 780)                  |
+[2022-05-26 02:18:36,248] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Woman in the Dunes (1964) (TMDb: 16672)                        |
+[2022-05-26 02:18:36,566] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Andrei Rublev (1966) (TMDb: 895)                               |
+[2022-05-26 02:18:36,926] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Tokyo Story (1953) (TMDb: 18148)                               |
+[2022-05-26 02:18:37,267] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Satantango (1994) (TMDb: 31414)                                |
+[2022-05-26 02:18:37,291] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | The Human Condition II: Road to Eternity (1959) (TMDb: 34528)  |
+[2022-05-26 02:18:37,315] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | The World of Apu (1959) (TMDb: 896)                            |
+[2022-05-26 02:18:37,585] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Eternity and a Day (1998) (TMDb: 24858)                        |
+[2022-05-26 02:18:37,861] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Le Trou (1960) (TMDb: 29259)                                   |
+[2022-05-26 02:18:38,128] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | The Cranes Are Flying (1957) (TMDb: 38360)                     |
+[2022-05-26 02:18:38,477] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Oldboy (2003) (TMDb: 670)                                      |
+[2022-05-26 02:18:38,502] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Scenes from a Marriage (1974) (TMDb: 133919)                   |
+[2022-05-26 02:18:38,827] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Sansho the Bailiff (1954) (TMDb: 20532)                        |
+[2022-05-26 02:18:39,143] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Memories of Murder (2003) (TMDb: 11423)                        |
+[2022-05-26 02:18:39,437] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | The Ascent (1977) (TMDb: 50183)                                |
+[2022-05-26 02:18:39,763] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | I Am Cuba (1964) (TMDb: 32015)                                 |
+[2022-05-26 02:18:40,048] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Macario (1960) (TMDb: 122019)                                  |
+[2022-05-26 02:18:40,478] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Mirror (1975) (TMDb: 1396)                                     |
+[2022-05-26 02:18:41,066] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Love Exposure (2009) (TMDb: 28422)                             |
+[2022-05-26 02:18:41,332] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Ordet (1955) (TMDb: 48035)                                     |
+[2022-05-26 02:18:41,349] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Pather Panchali (1955) (TMDb: 5801)                            |
+[2022-05-26 02:18:41,648] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Nights of Cabiria (1957) (TMDb: 19426)                         |
+[2022-05-26 02:18:41,959] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Incendies (2010) (TMDb: 46738)                                 |
+[2022-05-26 02:18:42,301] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | The Seventh Seal (1957) (TMDb: 490)                            |
+[2022-05-26 02:18:42,607] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Werckmeister Harmonies (2000) (TMDb: 23160)                    |
+[2022-05-26 02:18:42,999] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Chungking Express (1994) (TMDb: 11104)                         |
+[2022-05-26 02:18:43,343] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Late Spring (1949) (TMDb: 20530)                               |
+[2022-05-26 02:18:43,360] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | The 400 Blows (1959) (TMDb: 147)                               |
+[2022-05-26 02:18:43,767] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | M (1931) (TMDb: 832)                                           |
+[2022-05-26 02:18:44,047] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Landscape in the Mist (1988) (TMDb: 47795)                     |
+[2022-05-26 02:18:44,359] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Bicycle Thieves (1948) (TMDb: 5156)                            |
+[2022-05-26 02:18:44,635] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | A Man Escaped (1956) (TMDb: 15244)                             |
+[2022-05-26 02:18:44,992] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | The Second Mother (2015) (TMDb: 310569)                        |
+[2022-05-26 02:18:45,412] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | A Special Day (1977) (TMDb: 42229)                             |
+[2022-05-26 02:18:45,768] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | An Elephant Sitting Still (2018) (TMDb: 499556)                |
+[2022-05-26 02:18:46,065] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Mommy (2014) (TMDb: 265177)                                    |
+[2022-05-26 02:18:46,770] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Tampopo (1985) (TMDb: 11830)                                   |
+[2022-05-26 02:18:47,107] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Where Is My Friend's House? (1987) (TMDb: 49964)               |
+[2022-05-26 02:18:47,513] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Red Beard (1965) (TMDb: 3780)                                  |
+[2022-05-26 02:18:47,849] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Army of Shadows (1969) (TMDb: 15383)                           |
+[2022-05-26 02:18:47,875] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Three Colors: Red (1994) (TMDb: 110)                           |
+[2022-05-26 02:18:48,387] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | The Young Girls of Rochefort (1967) (TMDb: 2433)               |
+[2022-05-26 02:18:48,705] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Funeral Parade of Roses (1969) (TMDb: 1556)                    |
+[2022-05-26 02:18:48,724] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Yojimbo (1961) (TMDb: 11878)                                   |
+[2022-05-26 02:18:48,748] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Evangelion: 3.0+1.0 Thrice Upon a Time (2021) (TMDb: 283566)   |
+[2022-05-26 02:18:49,105] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | The Sacrifice (1986) (TMDb: 24657)                             |
+[2022-05-26 02:18:49,422] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Children of Paradise (1945) (TMDb: 2457)                       |
+[2022-05-26 02:18:49,448] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Napoleon (1927) (TMDb: 42536)                                  |
+[2022-05-26 02:18:49,747] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | The Wages of Fear (1953) (TMDb: 204)                           |
+[2022-05-26 02:18:50,077] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Still Walking (2008) (TMDb: 25050)                             |
+[2022-05-26 02:18:50,381] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Jeanne Dielman, 23, Quai du Commerce 1080 Bruxelles (1976) (TMDb: 44012) |
+[2022-05-26 02:18:50,996] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | The Young and the Damned (1950) (TMDb: 800)                    |
+[2022-05-26 02:18:51,327] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Akira (1988) (TMDb: 149)                                       |
+[2022-05-26 02:18:51,628] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | We All Loved Each Other So Much (1974) (TMDb: 42269)           |
+[2022-05-26 02:18:51,926] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | La Notte (1961) (TMDb: 41050)                                  |
+[2022-05-26 02:18:52,244] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Nobody Knows (2004) (TMDb: 2517)                               |
+[2022-05-26 02:18:52,601] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Z (1969) (TMDb: 2721)                                          |
+[2022-05-26 02:18:52,902] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Nostalgia (1983) (TMDb: 1394)                                  |
+[2022-05-26 02:18:52,929] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Aparajito (1956) (TMDb: 897)                                   |
+[2022-05-26 02:18:53,364] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | The Hunt (2012) (TMDb: 103663)                                 |
+[2022-05-26 02:18:53,989] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Your Name. (2016) (TMDb: 372058)                               |
+[2022-05-26 02:18:54,225] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | The Big City (1963) (TMDb: 60567)                              |
+[2022-05-26 02:18:54,552] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Once Upon a Time in Anatolia (2011) (TMDb: 74879)              |
+[2022-05-26 02:18:54,788] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Ritual (2000) (TMDb: 39056)                                    |
+[2022-05-26 02:18:55,148] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Make Way for Tomorrow (1937) (TMDb: 41059)                     |
+[2022-05-26 02:18:55,442] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Underground (1995) (TMDb: 11902)                               |
+[2022-05-26 02:18:55,750] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Il Sorpasso (1962) (TMDb: 24188)                               |
+[2022-05-26 02:18:56,043] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Throne of Blood (1957) (TMDb: 3777)                            |
+[2022-05-26 02:18:56,386] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Ugetsu (1953) (TMDb: 14696)                                    |
+[2022-05-26 02:18:56,701] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | The Cremator (1969) (TMDb: 18352)                              |
+[2022-05-26 02:18:57,071] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Solaris (1972) (TMDb: 593)                                     |
+[2022-05-26 02:18:57,463] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Umberto D. (1952) (TMDb: 833)                                  |
+[2022-05-26 02:18:57,809] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Fallen Angels (1995) (TMDb: 11220)                             |
+[2022-05-26 02:18:58,112] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Happy Hour (2015) (TMDb: 354759)                               |
+[2022-05-26 02:18:58,387] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Life, and Nothing More... (1992) (TMDb: 83761)                 |
+[2022-05-26 02:18:58,667] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | An Autumn Afternoon (1962) (TMDb: 50759)                       |
+[2022-05-26 02:18:58,986] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Tokyo Twilight (1957) (TMDb: 55192)                            |
+[2022-05-26 02:18:59,235] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Samurai Rebellion (1967) (TMDb: 27031)                         |
+[2022-05-26 02:18:59,568] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Early Summer (1951) (TMDb: 50247)                              |
+[2022-05-26 02:18:59,857] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Manila in the Claws of Light (1975) (TMDb: 70580)              |
+[2022-05-26 02:18:59,885] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Monica and Friends: Lessons (2021) (TMDb: 662745)              |
+[2022-05-26 02:19:00,276] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Winter Sleep (2014) (TMDb: 265169)                             |
+[2022-05-26 02:19:00,700] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Marketa Lazarová (1967) (TMDb: 25904)                          |
+[2022-05-26 02:19:01,034] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Rififi (1955) (TMDb: 934)                                      |
+[2022-05-26 02:19:01,471] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | The Tale of The Princess Kaguya (2013) (TMDb: 149871)          |
+[2022-05-26 02:19:01,731] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Son of the White Mare (1981) (TMDb: 41077)                     |
+[2022-05-26 02:19:02,025] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Dersu Uzala (1975) (TMDb: 9764)                                |
+[2022-05-26 02:19:02,248] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | A Moment of Innocence (1996) (TMDb: 43976)                     |
+[2022-05-26 02:19:02,565] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | Winter Light (1963) (TMDb: 29455)                              |
+[2022-05-26 02:19:02,826] [builder.py:2185]           [INFO]     | Letterboxd Top 250 Collection | ? | The Man Who Sleeps (1974) (TMDb: 104086)                       |
+[2022-05-26 02:19:02,827] [builder.py:2189]           [INFO]     |                                                                                                    |
+[2022-05-26 02:19:02,827] [builder.py:2190]           [INFO]     | 106 Movies Missing                                                                                 |
+[2022-05-26 02:19:02,958] [builder.py:2410]           [INFO]     |                                                                                                    |
+[2022-05-26 02:19:02,958] [builder.py:2411]           [INFO]     |======================== Updating Details of Letterboxd Top 250 Collection =========================|
+[2022-05-26 02:19:02,959] [builder.py:2412]           [INFO]     |                                                                                                    |
+[2022-05-26 02:19:02,959] [builder.py:2473]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | 
+[2022-05-26 02:19:03,273] [builder.py:2477]           [INFO]     | Details: have been updated
+[2022-05-26 02:19:03,273] [builder.py:2480]           [INFO]     | 
+[2022-05-26 02:19:03,310] [builder.py:2532]           [DEBUG]    | 1 posters found:
+[2022-05-26 02:19:03,311] [builder.py:2534]           [DEBUG]    | Method: url_poster Poster: https://i.imgur.com/3MZW5au.png
+[2022-05-26 02:19:03,311] [builder.py:2601]           [INFO]     | No background collection detail or asset folder found
+[2022-05-26 02:19:03,530] [library.py:141]            [INFO]     | Detail: url_poster updated poster to [URL] https://i.imgur.com/3MZW5au.png
+[2022-05-26 02:19:06,061] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-26 02:19:06,062] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-26 02:19:06,062] [plex_meta_manager.py:577]  [INFO]     |                               Finished Letterboxd Top 250 Collection                               |
+[2022-05-26 02:19:06,063] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:01:55                                    |
+[2022-05-26 02:19:06,063] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

@@ -1,0 +1,45 @@
+[2022-05-26 02:08:56,854] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-26 02:08:56,855] [plex_meta_manager.py:437]  [INFO]     |                                  Guy Ritchie Collection in Movies                                  |
+[2022-05-26 02:08:56,855] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-26 02:08:56,855] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-26 02:08:56,855] [plex_meta_manager.py:443]  [INFO]     |================================ Validating Guy Ritchie Attributes =================================|
+[2022-05-26 02:08:56,856] [builder.py:241]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:08:56,856] [builder.py:242]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-05-26 02:08:56,856] [meta.py:109]               [DEBUG]    | Value: ordereddict([('name', 'Director'), ('person', 956)])                                        |
+[2022-05-26 02:08:56,856] [builder.py:459]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:08:56,856] [builder.py:460]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-05-26 02:08:56,857] [builder.py:464]            [DEBUG]    | Value: 956                                                                                         |
+[2022-05-26 02:08:56,873] [builder.py:1588]           [INFO]     |                                                                                                    |
+[2022-05-26 02:08:56,873] [builder.py:1589]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-05-26 02:08:56,873] [builder.py:1595]           [DEBUG]    | Value: {'all': {'director': 'tmdb'}, 'sort_by': 'year.asc'}                                        |
+[2022-05-26 02:09:17,256] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:09:17,256] [builder.py:592]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-05-26 02:09:17,256] [builder.py:593]            [DEBUG]    | Value: +3_1_Guy Ritchie                                                                            |
+[2022-05-26 02:09:17,420] [builder.py:749]            [INFO]     |                                                                                                    |
+[2022-05-26 02:09:17,420] [builder.py:750]            [INFO]     | Validation Successful                                                                              |
+[2022-05-26 02:09:17,420] [plex_meta_manager.py:447]  [INFO]     |                                                                                                    |
+[2022-05-26 02:09:17,421] [plex_meta_manager.py:449]  [INFO]     |================================== Running Guy Ritchie Collection ==================================|
+[2022-05-26 02:09:17,421] [plex_meta_manager.py:455]  [INFO]     |                                                                                                    |
+[2022-05-26 02:09:17,421] [plex_meta_manager.py:456]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: year.asc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Director is Guy Ritchie
+[2022-05-26 02:09:17,421] [plex.py:812]               [DEBUG]    | /library/sections/1/all?type=1&sort=year&director=108196
+[2022-05-26 02:09:17,606] [builder.py:2410]           [INFO]     | 
+[2022-05-26 02:09:17,606] [builder.py:2411]           [INFO]     |============================ Updating Details of Guy Ritchie Collection ============================|
+[2022-05-26 02:09:17,606] [builder.py:2412]           [INFO]     |                                                                                                    |
+[2022-05-26 02:09:17,607] [builder.py:2418]           [INFO]     | Detail: tmdb_person will update Collection Summary                                                 |
+[2022-05-26 02:09:17,607] [builder.py:2473]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | 
+[2022-05-26 02:09:20,373] [builder.py:2477]           [INFO]     | Details: have been updated
+[2022-05-26 02:09:20,374] [builder.py:2480]           [INFO]     | 
+[2022-05-26 02:09:20,374] [builder.py:2532]           [DEBUG]    | 1 posters found:
+[2022-05-26 02:09:20,374] [builder.py:2534]           [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/9pLUnjMgIEWXi0mlHYzie9cKUTD.jpg
+[2022-05-26 02:09:20,374] [builder.py:2601]           [INFO]     | No background collection detail or asset folder found
+[2022-05-26 02:09:20,498] [library.py:141]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/9pLUnjMgIEWXi0mlHYzie9cKUTD.jpg
+[2022-05-26 02:09:20,651] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-26 02:09:20,651] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-26 02:09:20,651] [plex_meta_manager.py:577]  [INFO]     |                                  Finished Guy Ritchie Collection                                   |
+[2022-05-26 02:09:20,652] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:00:23                                    |
+[2022-05-26 02:09:20,652] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

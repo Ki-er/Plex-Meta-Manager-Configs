@@ -1,0 +1,84 @@
+[2022-05-20 17:30:16,156] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:30:16,157] [plex_meta_manager.py:437]  [INFO]     |                               Netflix Stand-up Collection in Movies                                |
+[2022-05-20 17:30:16,157] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:30:16,157] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-20 17:30:16,157] [plex_meta_manager.py:443]  [INFO]     |============================== Validating Netflix Stand-up Attributes ==============================|
+[2022-05-20 17:30:16,158] [builder.py:365]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:30:16,158] [builder.py:366]            [DEBUG]    | Validating Method: schedule                                                                        |
+[2022-05-20 17:30:16,158] [builder.py:370]            [DEBUG]    | Value: daily                                                                                       |
+[2022-05-20 17:30:16,158] [builder.py:423]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:30:16,158] [builder.py:424]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-05-20 17:30:16,158] [builder.py:428]            [DEBUG]    | Value: sync                                                                                        |
+[2022-05-20 17:30:16,159] [builder.py:570]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:30:16,159] [builder.py:571]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-05-20 17:30:16,159] [builder.py:572]            [DEBUG]    | Value: release                                                                                     |
+[2022-05-20 17:30:16,159] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:30:16,159] [builder.py:592]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-05-20 17:30:16,159] [builder.py:593]            [DEBUG]    | Value: https://www.imdb.com/list/ls560028451                                                       |
+[2022-05-20 17:30:17,564] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:30:17,565] [builder.py:592]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-05-20 17:30:17,565] [builder.py:593]            [DEBUG]    | Value: default                                                                                     |
+[2022-05-20 17:30:17,565] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:30:17,566] [builder.py:592]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-05-20 17:30:17,566] [builder.py:593]            [DEBUG]    | Value: *602                                                                                        |
+[2022-05-20 17:30:17,608] [plex.py:721]               [DEBUG]    |                                                                                                    |
+[2022-05-20 17:30:17,608] [plex.py:724]               [DEBUG]    | Looking for: Netflix Stand-up                                                                      |
+[2022-05-20 17:30:17,608] [builder.py:749]            [INFO]     |                                                                                                    |
+[2022-05-20 17:30:17,608] [builder.py:750]            [INFO]     | Validation Successful                                                                              |
+[2022-05-20 17:30:17,614] [plex_meta_manager.py:447]  [INFO]     |                                                                                                    |
+[2022-05-20 17:30:17,614] [plex_meta_manager.py:449]  [INFO]     |=============================== Running Netflix Stand-up Collection ================================|
+[2022-05-20 17:30:17,614] [plex_meta_manager.py:461]  [INFO]     |                                                                                                    |
+[2022-05-20 17:30:17,614] [plex_meta_manager.py:462]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-05-20 17:30:17,614] [plex_meta_manager.py:472]  [DEBUG]    |                                                                                                    |
+[2022-05-20 17:30:17,614] [plex_meta_manager.py:473]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls560028451', 'limit': 0}                   |
+[2022-05-20 17:30:17,615] [plex_meta_manager.py:474]  [INFO]     |                                                                                                    |
+[2022-05-20 17:30:17,615] [imdb.py:176]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls560028451                                        |
+[2022-05-20 17:30:21,972] [imdb.py:127]               [DEBUG]    | 20 IMDb IDs Found: ['tt2836450', 'tt4530184', 'tt5087554', 'tt6736782', 'tt7806998', 'tt7807000', 'tt7157574', 'tt10050780', 'tt10810424', 'tt12117854', 'tt15523010', 'tt7364706', 'tt10847194', 'tt9060534', 'tt5087462', 'tt10009796', 'tt6664120', 'tt11835206', 'tt7752054', 'tt19995810'] |
+[2022-05-20 17:30:21,972] [builder.py:1424]           [DEBUG]    |                                                                                                    |
+[2022-05-20 17:30:21,973] [builder.py:1425]           [DEBUG]    | 20 IDs Found: [('tt2836450', 'imdb'), ('tt4530184', 'imdb'), ('tt5087554', 'imdb'), ('tt6736782', 'imdb'), ('tt7806998', 'imdb'), ('tt7807000', 'imdb'), ('tt7157574', 'imdb'), ('tt10050780', 'imdb'), ('tt10810424', 'imdb'), ('tt12117854', 'imdb'), ('tt15523010', 'imdb'), ('tt7364706', 'imdb'), ('tt10847194', 'imdb'), ('tt9060534', 'imdb'), ('tt5087462', 'imdb'), ('tt10009796', 'imdb'), ('tt6664120', 'imdb'), ('tt11835206', 'imdb'), ('tt7752054', 'imdb'), ('tt19995810', 'imdb')] |
+[2022-05-20 17:30:21,973] [builder.py:1426]           [DEBUG]    |                                                                                                    |
+[2022-05-20 17:30:23,900] [builder.py:1892]           [INFO]     |                                                                                                    |
+[2022-05-20 17:30:23,902] [builder.py:1893]           [INFO]     |============================== Adding to Netflix Stand-up Collection ===============================|
+[2022-05-20 17:30:23,902] [builder.py:1894]           [INFO]     |                                                                                                    |
+[2022-05-20 17:30:23,902] [builder.py:1908]           [INFO]     |  1/15 | Netflix Stand-up Collection | + | Aziz Ansari: Buried Alive (2013)                         |
+[2022-05-20 17:30:26,648] [builder.py:1908]           [INFO]     |  2/15 | Netflix Stand-up Collection | + | Anthony Jeselnik: Thoughts and Prayers (2015)            |
+[2022-05-20 17:30:29,193] [builder.py:1908]           [INFO]     |  3/15 | Netflix Stand-up Collection | + | Dave Chappelle: Equanimity (2017)                        |
+[2022-05-20 17:30:31,716] [builder.py:1908]           [INFO]     |  4/15 | Netflix Stand-up Collection | + | Dave Chappelle: The Bird Revelation (2017)               |
+[2022-05-20 17:30:34,502] [builder.py:1908]           [INFO]     |  5/15 | Netflix Stand-up Collection | + | Anthony Jeselnik: Fire in the Maternity Ward (2019)      |
+[2022-05-20 17:30:37,193] [builder.py:1908]           [INFO]     |  6/15 | Netflix Stand-up Collection | + | Dave Chappelle: Sticks & Stones (2019)                   |
+[2022-05-20 17:30:39,922] [builder.py:1908]           [INFO]     |  7/15 | Netflix Stand-up Collection | + | Jerry Seinfeld: 23 Hours to Kill (2020)                  |
+[2022-05-20 17:30:42,555] [builder.py:1908]           [INFO]     |  8/15 | Netflix Stand-up Collection | + | Dave Chappelle: The Closer (2021)                        |
+[2022-05-20 17:30:45,149] [builder.py:1908]           [INFO]     |  9/15 | Netflix Stand-up Collection | + | Jeff Dunham: Relative Disaster (2017)                    |
+[2022-05-20 17:30:47,344] [builder.py:1908]           [INFO]     | 10/15 | Netflix Stand-up Collection | + | Jeff Dunham: Beside Himself (2019)                       |
+[2022-05-20 17:30:49,871] [builder.py:1908]           [INFO]     | 11/15 | Netflix Stand-up Collection | + | Ron White: If You Quit Listening, I'll Shut Up (2018)    |
+[2022-05-20 17:30:52,388] [builder.py:1908]           [INFO]     | 12/15 | Netflix Stand-up Collection | + | Trailer Park Boys: Drunk, High & Unemployed (2015)       |
+[2022-05-20 17:30:54,692] [builder.py:1908]           [INFO]     | 13/15 | Netflix Stand-up Collection | + | Kevin Hart: Irresponsible (2019)                         |
+[2022-05-20 17:30:57,060] [builder.py:1908]           [INFO]     | 14/15 | Netflix Stand-up Collection | + | Jim Norton: Mouthful of Shame (2017)                     |
+[2022-05-20 17:30:59,231] [builder.py:1908]           [INFO]     | 15/15 | Netflix Stand-up Collection | + | Katt Williams: Great America (2018)                      |
+[2022-05-20 17:31:01,465] [builder.py:1933]           [INFO]     |                                                                                                    |
+[2022-05-20 17:31:01,466] [builder.py:1934]           [INFO]     | 15 Movies Processed                                                                                |
+[2022-05-20 17:31:01,466] [builder.py:2171]           [INFO]     |                                                                                                    |
+[2022-05-20 17:31:01,466] [builder.py:2172]           [INFO]     |=============================== Missing Movies from Library: Movies ================================|
+[2022-05-20 17:31:01,467] [builder.py:2173]           [INFO]     |                                                                                                    |
+[2022-05-20 17:31:02,128] [builder.py:2185]           [INFO]     | Netflix Stand-up Collection | ? | Aziz Ansari: Live at Madison Square Garden (2015) (TMDb: 326665) |
+[2022-05-20 17:31:02,509] [builder.py:2185]           [INFO]     | Netflix Stand-up Collection | ? | Louis C.K. 2017 (2017) (TMDb: 449674)                            |
+[2022-05-20 17:31:02,883] [builder.py:2185]           [INFO]     | Netflix Stand-up Collection | ? | Ellen DeGeneres: Relatable (2018) (TMDb: 535358)                 |
+[2022-05-20 17:31:03,126] [builder.py:2185]           [INFO]     | Netflix Stand-up Collection | ? | Epilogue: The Punchline (2019) (TMDb: 726743)                    |
+[2022-05-20 17:31:03,667] [builder.py:2185]           [INFO]     | Netflix Stand-up Collection | ? | Katt Williams: World War III (2022) (TMDb: 972009)               |
+[2022-05-20 17:31:03,668] [builder.py:2189]           [INFO]     |                                                                                                    |
+[2022-05-20 17:31:03,668] [builder.py:2190]           [INFO]     | 5 Movies Missing                                                                                   |
+[2022-05-20 17:31:03,761] [builder.py:2410]           [INFO]     |                                                                                                    |
+[2022-05-20 17:31:03,762] [builder.py:2411]           [INFO]     |========================= Updating Details of Netflix Stand-up Collection ==========================|
+[2022-05-20 17:31:03,762] [builder.py:2412]           [INFO]     |                                                                                                    |
+[2022-05-20 17:31:03,762] [builder.py:2473]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Sort Title | *602
+                                                                 | 
+[2022-05-20 17:31:04,136] [builder.py:2477]           [INFO]     | Details: have been updated
+[2022-05-20 17:31:04,136] [builder.py:2480]           [INFO]     | 
+[2022-05-20 17:31:04,137] [builder.py:2568]           [INFO]     | No poster collection detail or asset folder found
+[2022-05-20 17:31:04,137] [builder.py:2601]           [INFO]     | No background collection detail or asset folder found
+[2022-05-20 17:31:05,984] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-20 17:31:05,985] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-20 17:31:05,985] [plex_meta_manager.py:577]  [INFO]     |                                Finished Netflix Stand-up Collection                                |
+[2022-05-20 17:31:05,985] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:00:49                                    |
+[2022-05-20 17:31:05,985] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

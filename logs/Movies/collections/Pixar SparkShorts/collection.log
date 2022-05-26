@@ -1,0 +1,78 @@
+[2022-05-20 17:13:06,638] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:13:06,638] [plex_meta_manager.py:437]  [INFO]     |                               Pixar SparkShorts Collection in Movies                               |
+[2022-05-20 17:13:06,639] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:13:06,639] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-20 17:13:06,639] [plex_meta_manager.py:443]  [INFO]     |============================= Validating Pixar SparkShorts Attributes ==============================|
+[2022-05-20 17:13:06,645] [builder.py:365]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:13:06,645] [builder.py:366]            [DEBUG]    | Validating Method: schedule                                                                        |
+[2022-05-20 17:13:06,645] [builder.py:370]            [DEBUG]    | Value: weekly(friday)                                                                              |
+[2022-05-20 17:13:06,646] [builder.py:423]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:13:06,646] [builder.py:424]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-05-20 17:13:06,646] [builder.py:428]            [DEBUG]    | Value: sync                                                                                        |
+[2022-05-20 17:13:06,646] [builder.py:570]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:13:06,646] [builder.py:571]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-05-20 17:13:06,646] [builder.py:572]            [DEBUG]    | Value: release                                                                                     |
+[2022-05-20 17:13:06,647] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:13:06,647] [builder.py:592]            [DEBUG]    | Validating Method: tmdb_list                                                                       |
+[2022-05-20 17:13:06,647] [builder.py:593]            [DEBUG]    | Value: https://www.themoviedb.org/list/7107731                                                     |
+[2022-05-20 17:13:06,777] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:13:06,778] [builder.py:592]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-05-20 17:13:06,778] [builder.py:593]            [DEBUG]    | Value: default                                                                                     |
+[2022-05-20 17:13:06,778] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:13:06,779] [builder.py:592]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-05-20 17:13:06,779] [builder.py:593]            [DEBUG]    | Value: *502                                                                                        |
+[2022-05-20 17:13:06,779] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:13:06,779] [builder.py:592]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-05-20 17:13:06,780] [builder.py:593]            [DEBUG]    | Value: SparkShorts is a series of American independent animated short films produced by Pixar Animation Studios. It consists of a program in which Pixar's employees are given six months and limited budgets to develop animated short films that were originally released on Pixar's YouTube channel, and later on Disney+. |
+[2022-05-20 17:13:06,817] [plex.py:721]               [DEBUG]    |                                                                                                    |
+[2022-05-20 17:13:06,818] [plex.py:724]               [DEBUG]    | Looking for: Pixar SparkShorts                                                                     |
+[2022-05-20 17:13:06,818] [builder.py:749]            [INFO]     |                                                                                                    |
+[2022-05-20 17:13:06,818] [builder.py:750]            [INFO]     | Validation Successful                                                                              |
+[2022-05-20 17:13:06,821] [plex_meta_manager.py:447]  [INFO]     |                                                                                                    |
+[2022-05-20 17:13:06,821] [plex_meta_manager.py:449]  [INFO]     |=============================== Running Pixar SparkShorts Collection ===============================|
+[2022-05-20 17:13:06,821] [plex_meta_manager.py:461]  [INFO]     |                                                                                                    |
+[2022-05-20 17:13:06,821] [plex_meta_manager.py:462]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-05-20 17:13:06,822] [plex_meta_manager.py:472]  [DEBUG]    |                                                                                                    |
+[2022-05-20 17:13:06,822] [plex_meta_manager.py:473]  [DEBUG]    | Builder: tmdb_list: 7107731                                                                        |
+[2022-05-20 17:13:06,822] [plex_meta_manager.py:474]  [INFO]     |                                                                                                    |
+[2022-05-20 17:13:06,947] [tmdb.py:348]               [INFO]     | Processing TMDb List: (7107731) Pixar SparkShorts (10 Items)                                       |
+[2022-05-20 17:13:06,947] [builder.py:1424]           [DEBUG]    |                                                                                                    |
+[2022-05-20 17:13:06,948] [builder.py:1425]           [DEBUG]    | 10 IDs Found: [(532953, 'tmdb'), (532952, 'tmdb'), (574074, 'tmdb'), (574093, 'tmdb'), (574091, 'tmdb'), (574089, 'tmdb'), (706860, 'tmdb'), (747059, 'tmdb'), (852719, 'tmdb'), (852721, 'tmdb')] |
+[2022-05-20 17:13:06,948] [builder.py:1426]           [DEBUG]    |                                                                                                    |
+[2022-05-20 17:13:07,000] [builder.py:1892]           [INFO]     |                                                                                                    |
+[2022-05-20 17:13:07,001] [builder.py:1893]           [INFO]     |============================== Adding to Pixar SparkShorts Collection ==============================|
+[2022-05-20 17:13:07,001] [builder.py:1894]           [INFO]     |                                                                                                    |
+[2022-05-20 17:13:07,001] [builder.py:1908]           [INFO]     | 1/1 | Pixar SparkShorts Collection | + | Kitbull (2019)                                            |
+[2022-05-20 17:13:09,393] [builder.py:1933]           [INFO]     |                                                                                                    |
+[2022-05-20 17:13:09,394] [builder.py:1934]           [INFO]     | 1 Movie Processed                                                                                  |
+[2022-05-20 17:13:09,394] [builder.py:2171]           [INFO]     |                                                                                                    |
+[2022-05-20 17:13:09,394] [builder.py:2172]           [INFO]     |=============================== Missing Movies from Library: Movies ================================|
+[2022-05-20 17:13:09,395] [builder.py:2173]           [INFO]     |                                                                                                    |
+[2022-05-20 17:13:09,791] [builder.py:2185]           [INFO]     | Pixar SparkShorts Collection | ? | Purl (2019) (TMDb: 532953)                                      |
+[2022-05-20 17:13:10,131] [builder.py:2185]           [INFO]     | Pixar SparkShorts Collection | ? | Smash and Grab (2019) (TMDb: 532952)                            |
+[2022-05-20 17:13:10,541] [builder.py:2185]           [INFO]     | Pixar SparkShorts Collection | ? | Float (2019) (TMDb: 574093)                                     |
+[2022-05-20 17:13:10,984] [builder.py:2185]           [INFO]     | Pixar SparkShorts Collection | ? | Wind (2019) (TMDb: 574091)                                      |
+[2022-05-20 17:13:11,411] [builder.py:2185]           [INFO]     | Pixar SparkShorts Collection | ? | Loop (2020) (TMDb: 574089)                                      |
+[2022-05-20 17:13:11,850] [builder.py:2185]           [INFO]     | Pixar SparkShorts Collection | ? | Out (2020) (TMDb: 706860)                                       |
+[2022-05-20 17:13:12,267] [builder.py:2185]           [INFO]     | Pixar SparkShorts Collection | ? | Burrow (2020) (TMDb: 747059)                                    |
+[2022-05-20 17:13:12,601] [builder.py:2185]           [INFO]     | Pixar SparkShorts Collection | ? | Twenty Something (2021) (TMDb: 852719)                          |
+[2022-05-20 17:13:13,079] [builder.py:2185]           [INFO]     | Pixar SparkShorts Collection | ? | Nona (2021) (TMDb: 852721)                                      |
+[2022-05-20 17:13:13,080] [builder.py:2189]           [INFO]     |                                                                                                    |
+[2022-05-20 17:13:13,080] [builder.py:2190]           [INFO]     | 9 Movies Missing                                                                                   |
+[2022-05-20 17:13:13,168] [builder.py:2410]           [INFO]     |                                                                                                    |
+[2022-05-20 17:13:13,169] [builder.py:2411]           [INFO]     |========================= Updating Details of Pixar SparkShorts Collection =========================|
+[2022-05-20 17:13:13,169] [builder.py:2412]           [INFO]     |                                                                                                    |
+[2022-05-20 17:13:13,170] [builder.py:2418]           [INFO]     | Detail: summary will update Collection Summary                                                     |
+[2022-05-20 17:13:13,170] [builder.py:2473]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary | SparkShorts is a series of American independent animated short films produced by Pixar Animation Studios. It consists of a program in which Pixar's employees are given six months and limited budgets to develop animated short films that were originally released on Pixar's YouTube channel, and later on Disney+.
+                                                                 | Sort Title | *502
+                                                                 | 
+[2022-05-20 17:13:13,600] [builder.py:2477]           [INFO]     | Details: have been updated
+[2022-05-20 17:13:13,600] [builder.py:2480]           [INFO]     | 
+[2022-05-20 17:13:13,601] [builder.py:2568]           [INFO]     | No poster collection detail or asset folder found
+[2022-05-20 17:13:13,601] [builder.py:2601]           [INFO]     | No background collection detail or asset folder found
+[2022-05-20 17:13:15,616] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-20 17:13:15,617] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-20 17:13:15,617] [plex_meta_manager.py:577]  [INFO]     |                               Finished Pixar SparkShorts Collection                                |
+[2022-05-20 17:13:15,618] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:00:08                                    |
+[2022-05-20 17:13:15,618] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

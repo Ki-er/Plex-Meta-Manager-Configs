@@ -1,0 +1,105 @@
+[2022-05-26 02:15:17,042] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-26 02:15:17,042] [plex_meta_manager.py:437]  [INFO]     |                              Disney Live-Action Collection in Movies                               |
+[2022-05-26 02:15:17,042] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-26 02:15:17,043] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-26 02:15:17,043] [plex_meta_manager.py:443]  [INFO]     |============================= Validating Disney Live-Action Attributes =============================|
+[2022-05-26 02:15:17,043] [builder.py:241]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:15:17,043] [builder.py:242]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-05-26 02:15:17,044] [meta.py:109]               [DEBUG]    | Value: ordereddict([('name', 'Studio'), ('poster', 'https://theposterdb.com/api/assets/71183')])   |
+[2022-05-26 02:15:17,044] [builder.py:359]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:15:17,045] [builder.py:360]            [DEBUG]    | Validating Method: delete_not_scheduled                                                            |
+[2022-05-26 02:15:17,045] [builder.py:361]            [DEBUG]    | Value: True                                                                                        |
+[2022-05-26 02:15:17,045] [builder.py:402]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:15:17,045] [builder.py:403]            [DEBUG]    | Validating Method: run_again                                                                       |
+[2022-05-26 02:15:17,046] [builder.py:404]            [DEBUG]    | Value: True                                                                                        |
+[2022-05-26 02:15:17,046] [builder.py:423]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:15:17,046] [builder.py:424]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-05-26 02:15:17,046] [builder.py:428]            [DEBUG]    | Value: sync                                                                                        |
+[2022-05-26 02:15:17,047] [builder.py:570]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:15:17,047] [builder.py:571]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-05-26 02:15:17,047] [builder.py:572]            [DEBUG]    | Value: release                                                                                     |
+[2022-05-26 02:15:17,047] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:15:17,048] [builder.py:592]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-05-26 02:15:17,048] [builder.py:593]            [DEBUG]    | Value: +++++++DisneyLiveAction                                                                     |
+[2022-05-26 02:15:17,048] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:15:17,048] [builder.py:592]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-05-26 02:15:17,049] [builder.py:593]            [DEBUG]    | Value: ['https://www.imdb.com/list/ls083312980/']                                                  |
+[2022-05-26 02:15:18,486] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:15:18,488] [builder.py:592]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-05-26 02:15:18,489] [builder.py:593]            [DEBUG]    | Value: https://theposterdb.com/api/assets/71183                                                    |
+[2022-05-26 02:15:18,489] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:15:18,489] [builder.py:592]            [DEBUG]    | Validating Method: visible_home                                                                    |
+[2022-05-26 02:15:18,489] [builder.py:593]            [DEBUG]    | Value: True                                                                                        |
+[2022-05-26 02:15:18,490] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:15:18,490] [builder.py:592]            [DEBUG]    | Validating Method: visible_shared                                                                  |
+[2022-05-26 02:15:18,490] [builder.py:593]            [DEBUG]    | Value: True                                                                                        |
+[2022-05-26 02:15:20,376] [builder.py:749]            [INFO]     |                                                                                                    |
+[2022-05-26 02:15:20,376] [builder.py:750]            [INFO]     | Validation Successful                                                                              |
+[2022-05-26 02:15:20,385] [plex_meta_manager.py:447]  [INFO]     |                                                                                                    |
+[2022-05-26 02:15:20,386] [plex_meta_manager.py:449]  [INFO]     |============================== Running Disney Live-Action Collection ===============================|
+[2022-05-26 02:15:20,386] [plex_meta_manager.py:461]  [INFO]     |                                                                                                    |
+[2022-05-26 02:15:20,386] [plex_meta_manager.py:462]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-05-26 02:15:20,386] [plex_meta_manager.py:472]  [DEBUG]    |                                                                                                    |
+[2022-05-26 02:15:20,387] [plex_meta_manager.py:473]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls083312980/', 'limit': 0}                  |
+[2022-05-26 02:15:20,387] [plex_meta_manager.py:474]  [INFO]     |                                                                                                    |
+[2022-05-26 02:15:20,387] [imdb.py:176]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls083312980/                                       |
+[2022-05-26 02:15:25,178] [imdb.py:127]               [DEBUG]    | 30 IMDb IDs Found: ['tt0110213', 'tt0115433', 'tt0211181', 'tt1014759', 'tt1587310', 'tt1661199', 'tt3040964', 'tt2567026', 'tt2788732', 'tt2771200', 'tt4575576', 'tt3861390', 'tt6139732', 'tt6105098', 'tt4777008', 'tt8096832', 'tt4566758', 'tt3228774', 'tt5971474', 'tt5635026', 'tt6208148', 'tt4593060', 'tt9613354', 'tt5159014', 'tt11668512', 'tt4841622', 'tt12239410', 'tt6009922', 'tt4872762', 'tt11655566'] |
+[2022-05-26 02:15:25,179] [builder.py:1424]           [DEBUG]    |                                                                                                    |
+[2022-05-26 02:15:25,180] [builder.py:1425]           [DEBUG]    | 30 IDs Found: [('tt0110213', 'imdb'), ('tt0115433', 'imdb'), ('tt0211181', 'imdb'), ('tt1014759', 'imdb'), ('tt1587310', 'imdb'), ('tt1661199', 'imdb'), ('tt3040964', 'imdb'), ('tt2567026', 'imdb'), ('tt2788732', 'imdb'), ('tt2771200', 'imdb'), ('tt4575576', 'imdb'), ('tt3861390', 'imdb'), ('tt6139732', 'imdb'), ('tt6105098', 'imdb'), ('tt4777008', 'imdb'), ('tt8096832', 'imdb'), ('tt4566758', 'imdb'), ('tt3228774', 'imdb'), ('tt5971474', 'imdb'), ('tt5635026', 'imdb'), ('tt6208148', 'imdb'), ('tt4593060', 'imdb'), ('tt9613354', 'imdb'), ('tt5159014', 'imdb'), ('tt11668512', 'imdb'), ('tt4841622', 'imdb'), ('tt12239410', 'imdb'), ('tt6009922', 'imdb'), ('tt4872762', 'imdb'), ('tt11655566', 'imdb')] |
+[2022-05-26 02:15:25,180] [builder.py:1426]           [DEBUG]    |                                                                                                    |
+[2022-05-26 02:15:26,841] [builder.py:1482]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt5159014                                             |
+[2022-05-26 02:15:26,932] [builder.py:1482]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt12239410                                            |
+[2022-05-26 02:15:26,956] [builder.py:1482]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt6009922                                             |
+[2022-05-26 02:15:27,028] [builder.py:1892]           [INFO]     |                                                                                                    |
+[2022-05-26 02:15:27,032] [builder.py:1893]           [INFO]     |============================= Adding to Disney Live-Action Collection ==============================|
+[2022-05-26 02:15:27,032] [builder.py:1894]           [INFO]     |                                                                                                    |
+[2022-05-26 02:15:27,033] [builder.py:1908]           [INFO]     |  1/18 | Disney Live-Action Collection | = | The Jungle Book (1994)                                 |
+[2022-05-26 02:15:27,033] [builder.py:1908]           [INFO]     |  2/18 | Disney Live-Action Collection | = | 101 Dalmatians (1996)                                  |
+[2022-05-26 02:15:27,033] [builder.py:1908]           [INFO]     |  3/18 | Disney Live-Action Collection | = | 102 Dalmatians (2000)                                  |
+[2022-05-26 02:15:27,034] [builder.py:1908]           [INFO]     |  4/18 | Disney Live-Action Collection | = | Alice in Wonderland (2010)                             |
+[2022-05-26 02:15:27,034] [builder.py:1908]           [INFO]     |  5/18 | Disney Live-Action Collection | = | Maleficent (2014)                                      |
+[2022-05-26 02:15:27,035] [builder.py:1908]           [INFO]     |  6/18 | Disney Live-Action Collection | = | Cinderella (2015)                                      |
+[2022-05-26 02:15:27,035] [builder.py:1908]           [INFO]     |  7/18 | Disney Live-Action Collection | = | The Jungle Book (2016)                                 |
+[2022-05-26 02:15:27,035] [builder.py:1908]           [INFO]     |  8/18 | Disney Live-Action Collection | = | Alice Through the Looking Glass (2016)                 |
+[2022-05-26 02:15:27,036] [builder.py:1908]           [INFO]     |  9/18 | Disney Live-Action Collection | = | Pete's Dragon (2016)                                   |
+[2022-05-26 02:15:27,036] [builder.py:1908]           [INFO]     | 10/18 | Disney Live-Action Collection | = | Beauty and the Beast (2017)                            |
+[2022-05-26 02:15:27,037] [builder.py:1908]           [INFO]     | 11/18 | Disney Live-Action Collection | = | Christopher Robin (2018)                               |
+[2022-05-26 02:15:27,037] [builder.py:1908]           [INFO]     | 12/18 | Disney Live-Action Collection | = | Dumbo (2019)                                           |
+[2022-05-26 02:15:27,038] [builder.py:1908]           [INFO]     | 13/18 | Disney Live-Action Collection | = | Aladdin (2019)                                         |
+[2022-05-26 02:15:27,038] [builder.py:1908]           [INFO]     | 14/18 | Disney Live-Action Collection | = | The Lion King (2019)                                   |
+[2022-05-26 02:15:27,038] [builder.py:1908]           [INFO]     | 15/18 | Disney Live-Action Collection | = | Maleficent: Mistress of Evil (2019)                    |
+[2022-05-26 02:15:27,039] [builder.py:1908]           [INFO]     | 16/18 | Disney Live-Action Collection | = | Lady and the Tramp (2019)                              |
+[2022-05-26 02:15:27,039] [builder.py:1908]           [INFO]     | 17/18 | Disney Live-Action Collection | = | Mulan (2020)                                           |
+[2022-05-26 02:15:27,040] [builder.py:1908]           [INFO]     | 18/18 | Disney Live-Action Collection | = | Cruella (2021)                                         |
+[2022-05-26 02:15:27,040] [builder.py:1933]           [INFO]     |                                                                                                    |
+[2022-05-26 02:15:27,040] [builder.py:1934]           [INFO]     | 18 Movies Processed                                                                                |
+[2022-05-26 02:15:27,040] [builder.py:2171]           [INFO]     |                                                                                                    |
+[2022-05-26 02:15:27,041] [builder.py:2172]           [INFO]     |=============================== Missing Movies from Library: Movies ================================|
+[2022-05-26 02:15:27,041] [builder.py:2173]           [INFO]     |                                                                                                    |
+[2022-05-26 02:15:27,334] [builder.py:2185]           [INFO]     | Disney Live-Action Collection | ? | The Little Mermaid (2023) (TMDb: 447277)                       |
+[2022-05-26 02:15:27,619] [builder.py:2185]           [INFO]     | Disney Live-Action Collection | ? | Peter Pan & Wendy (TMDb: 420808)                               |
+[2022-05-26 02:15:27,839] [builder.py:2185]           [INFO]     | Disney Live-Action Collection | ? | Snow White (TMDb: 447273)                                      |
+[2022-05-26 02:15:28,064] [builder.py:2185]           [INFO]     | Disney Live-Action Collection | ? | Pinocchio (TMDb: 532639)                                       |
+[2022-05-26 02:15:28,277] [builder.py:2185]           [INFO]     | Disney Live-Action Collection | ? | Hunchback (TMDb: 590867)                                       |
+[2022-05-26 02:15:28,533] [builder.py:2185]           [INFO]     | Disney Live-Action Collection | ? | Bambi (TMDb: 420812)                                           |
+[2022-05-26 02:15:28,705] [builder.py:2185]           [INFO]     | Disney Live-Action Collection | ? | Prince Charming (TMDb: 447300)                                 |
+[2022-05-26 02:15:28,912] [builder.py:2185]           [INFO]     | Disney Live-Action Collection | ? | The Sword in the Stone (TMDb: 420807)                          |
+[2022-05-26 02:15:29,107] [builder.py:2185]           [INFO]     | Disney Live-Action Collection | ? | Lilo & Stitch (TMDb: 552524)                                   |
+[2022-05-26 02:15:29,107] [builder.py:2189]           [INFO]     |                                                                                                    |
+[2022-05-26 02:15:29,107] [builder.py:2190]           [INFO]     | 9 Movies Missing                                                                                   |
+[2022-05-26 02:15:29,167] [builder.py:2410]           [INFO]     |                                                                                                    |
+[2022-05-26 02:15:29,167] [builder.py:2411]           [INFO]     |======================== Updating Details of Disney Live-Action Collection =========================|
+[2022-05-26 02:15:29,168] [builder.py:2412]           [INFO]     |                                                                                                    |
+[2022-05-26 02:15:29,168] [builder.py:2473]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | 
+[2022-05-26 02:15:29,577] [builder.py:2477]           [INFO]     | Details: have been updated
+[2022-05-26 02:15:29,578] [builder.py:2480]           [INFO]     | 
+[2022-05-26 02:15:29,614] [builder.py:2532]           [DEBUG]    | 1 posters found:
+[2022-05-26 02:15:29,615] [builder.py:2534]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/71183
+[2022-05-26 02:15:29,615] [builder.py:2601]           [INFO]     | No background collection detail or asset folder found
+[2022-05-26 02:15:30,804] [library.py:141]            [INFO]     | Detail: url_poster updated poster to [URL] https://theposterdb.com/api/assets/71183
+[2022-05-26 02:15:32,592] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-26 02:15:32,592] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-26 02:15:32,593] [plex_meta_manager.py:577]  [INFO]     |                               Finished Disney Live-Action Collection                               |
+[2022-05-26 02:15:32,593] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:00:15                                    |
+[2022-05-26 02:15:32,593] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

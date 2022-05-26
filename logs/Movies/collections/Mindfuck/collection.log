@@ -1,0 +1,17 @@
+[2022-05-20 17:11:42,987] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:11:42,988] [plex_meta_manager.py:437]  [INFO]     |                                   Mindfuck Collection in Movies                                    |
+[2022-05-20 17:11:42,988] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:11:42,988] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-20 17:11:42,988] [plex_meta_manager.py:443]  [INFO]     |================================== Validating Mindfuck Attributes ==================================|
+[2022-05-20 17:11:42,989] [builder.py:365]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:11:42,989] [builder.py:366]            [DEBUG]    | Validating Method: schedule                                                                        |
+[2022-05-20 17:11:42,989] [builder.py:370]            [DEBUG]    | Value: monthly(10)                                                                                 |
+[2022-05-20 17:11:42,990] [plex_meta_manager.py:562]  [INFO]     |                                                                                                    |
+                                                                 | Scheduled monthly on the 10th
+                                                                 | 
+                                                                 | Collection Mindfuck not scheduled to run
+[2022-05-20 17:11:42,990] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-20 17:11:42,991] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-20 17:11:42,991] [plex_meta_manager.py:577]  [INFO]     |                                    Finished Mindfuck Collection                                    |
+[2022-05-20 17:11:42,991] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-05-20 17:11:42,992] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

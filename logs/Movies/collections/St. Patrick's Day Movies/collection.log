@@ -1,0 +1,25 @@
+[2022-05-26 02:15:49,720] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-26 02:15:49,721] [plex_meta_manager.py:437]  [INFO]     |                           St. Patrick's Day Movies Collection in Movies                            |
+[2022-05-26 02:15:49,721] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-26 02:15:49,721] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-26 02:15:49,722] [plex_meta_manager.py:443]  [INFO]     |========================== Validating St. Patrick's Day Movies Attributes ==========================|
+[2022-05-26 02:15:49,722] [builder.py:241]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:15:49,722] [builder.py:242]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-05-26 02:15:49,722] [meta.py:109]               [DEBUG]    | Value: ordereddict([('name', 'Holiday'), ('holiday', "St. Patrick's Day")])                        |
+[2022-05-26 02:15:49,723] [builder.py:359]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:15:49,723] [builder.py:360]            [DEBUG]    | Validating Method: delete_not_scheduled                                                            |
+[2022-05-26 02:15:49,723] [builder.py:361]            [DEBUG]    | Value: True                                                                                        |
+[2022-05-26 02:15:49,724] [builder.py:365]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:15:49,724] [builder.py:366]            [DEBUG]    | Validating Method: schedule                                                                        |
+[2022-05-26 02:15:49,724] [builder.py:370]            [DEBUG]    | Value: range(03/01-03/17)                                                                          |
+[2022-05-26 02:15:49,763] [plex.py:721]               [DEBUG]    |                                                                                                    |
+[2022-05-26 02:15:49,763] [plex.py:724]               [DEBUG]    | Looking for: St. Patrick's Day Movies                                                              |
+[2022-05-26 02:15:49,763] [plex_meta_manager.py:562]  [INFO]     |                                                                                                    |
+                                                                 | Scheduled between March 1st and March 17th
+                                                                 | 
+                                                                 | Collection St. Patrick's Day Movies not scheduled to run and could not be found to delete
+[2022-05-26 02:15:49,764] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-26 02:15:49,764] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-26 02:15:49,765] [plex_meta_manager.py:577]  [INFO]     |                            Finished St. Patrick's Day Movies Collection                            |
+[2022-05-26 02:15:49,765] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-05-26 02:15:49,765] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

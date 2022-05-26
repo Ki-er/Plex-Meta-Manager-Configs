@@ -1,0 +1,145 @@
+[2022-05-20 17:31:05,986] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:31:05,986] [plex_meta_manager.py:437]  [INFO]     |                                  Prime Video Collection in Movies                                  |
+[2022-05-20 17:31:05,986] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:31:05,987] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-20 17:31:05,987] [plex_meta_manager.py:443]  [INFO]     |================================ Validating Prime Video Attributes =================================|
+[2022-05-20 17:31:05,987] [builder.py:365]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:31:05,987] [builder.py:366]            [DEBUG]    | Validating Method: schedule                                                                        |
+[2022-05-20 17:31:05,988] [builder.py:370]            [DEBUG]    | Value: daily                                                                                       |
+[2022-05-20 17:31:05,988] [builder.py:423]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:31:05,988] [builder.py:424]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-05-20 17:31:05,988] [builder.py:428]            [DEBUG]    | Value: sync                                                                                        |
+[2022-05-20 17:31:05,989] [builder.py:570]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:31:05,989] [builder.py:571]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-05-20 17:31:05,989] [builder.py:572]            [DEBUG]    | Value: release                                                                                     |
+[2022-05-20 17:31:05,989] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:31:05,989] [builder.py:592]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-05-20 17:31:05,990] [builder.py:593]            [DEBUG]    | Value: https://www.imdb.com/list/ls084378896                                                       |
+[2022-05-20 17:31:09,814] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:31:09,815] [builder.py:592]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-05-20 17:31:09,817] [builder.py:593]            [DEBUG]    | Value: default                                                                                     |
+[2022-05-20 17:31:09,818] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:31:09,818] [builder.py:592]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-05-20 17:31:09,818] [builder.py:593]            [DEBUG]    | Value: *603                                                                                        |
+[2022-05-20 17:31:09,855] [plex.py:721]               [DEBUG]    |                                                                                                    |
+[2022-05-20 17:31:09,855] [plex.py:724]               [DEBUG]    | Looking for: Prime Video                                                                           |
+[2022-05-20 17:31:09,855] [builder.py:749]            [INFO]     |                                                                                                    |
+[2022-05-20 17:31:09,855] [builder.py:750]            [INFO]     | Validation Successful                                                                              |
+[2022-05-20 17:31:09,857] [plex_meta_manager.py:447]  [INFO]     |                                                                                                    |
+[2022-05-20 17:31:09,857] [plex_meta_manager.py:449]  [INFO]     |================================== Running Prime Video Collection ==================================|
+[2022-05-20 17:31:09,858] [plex_meta_manager.py:461]  [INFO]     |                                                                                                    |
+[2022-05-20 17:31:09,858] [plex_meta_manager.py:462]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-05-20 17:31:09,858] [plex_meta_manager.py:472]  [DEBUG]    |                                                                                                    |
+[2022-05-20 17:31:09,858] [plex_meta_manager.py:473]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls084378896', 'limit': 0}                   |
+[2022-05-20 17:31:09,858] [plex_meta_manager.py:474]  [INFO]     |                                                                                                    |
+[2022-05-20 17:31:09,858] [imdb.py:176]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls084378896                                        |
+[2022-05-20 17:31:17,540] [imdb.py:127]               [DEBUG]    | 82 IMDb IDs Found: ['tt7768846', 'tt8858104', 'tt2404465', 'tt8299768', 'tt8759834', 'tt6803046', 'tt10692888', 'tt10333912', 'tt6436726', 'tt11323316', 'tt10976066', 'tt12344428', 'tt6017756', 'tt12344410', 'tt10964468', 'tt5843876', 'tt9735758', 'tt12677092', 'tt11385128', 'tt9605894', 'tt12298506', 'tt7945440', 'tt11044858', 'tt12882620', 'tt11112338', 'tt13087958', 'tt13143964', 'tt8016356', 'tt13105536', 'tt10189514', 'tt8983164', 'tt13242968', 'tt13242960', 'tt11327514', 'tt12723616', 'tt10801230', 'tt11229134', 'tt8080982', 'tt13491620', 'tt9827834', 'tt10280276', 'tt9319874', 'tt10333426', 'tt6802400', 'tt9882084', 'tt11243364', 'tt13268586', 'tt12179472', 'tt12252806', 'tt13157084', 'tt10954364', 'tt11225428', 'tt13103876', 'tt13096334', 'tt13321268', 'tt6318432', 'tt6789140', 'tt6774914', 'tt7020272', 'tt8160932', 'tt8338754', 'tt9105088', 'tt9614612', 'tt9657544', 'tt11169980', 'tt11597152', 'tt10907772', 'tt11152492', 'tt8820178', 'tt9411860', 'tt10043726', 'tt9411976', 'tt10757606', 'tt10472008', 'tt11468536', 'tt11433098', 'tt10442360', 'tt11250926', 'tt12323842', 'tt11915950', 'tt6141246', 'tt11235772'] |
+[2022-05-20 17:31:17,541] [builder.py:1424]           [DEBUG]    |                                                                                                    |
+[2022-05-20 17:31:17,541] [builder.py:1425]           [DEBUG]    | 82 IDs Found: [('tt7768846', 'imdb'), ('tt8858104', 'imdb'), ('tt2404465', 'imdb'), ('tt8299768', 'imdb'), ('tt8759834', 'imdb'), ('tt6803046', 'imdb'), ('tt10692888', 'imdb'), ('tt10333912', 'imdb'), ('tt6436726', 'imdb'), ('tt11323316', 'imdb'), ('tt10976066', 'imdb'), ('tt12344428', 'imdb'), ('tt6017756', 'imdb'), ('tt12344410', 'imdb'), ('tt10964468', 'imdb'), ('tt5843876', 'imdb'), ('tt9735758', 'imdb'), ('tt12677092', 'imdb'), ('tt11385128', 'imdb'), ('tt9605894', 'imdb'), ('tt12298506', 'imdb'), ('tt7945440', 'imdb'), ('tt11044858', 'imdb'), ('tt12882620', 'imdb'), ('tt11112338', 'imdb'), ('tt13087958', 'imdb'), ('tt13143964', 'imdb'), ('tt8016356', 'imdb'), ('tt13105536', 'imdb'), ('tt10189514', 'imdb'), ('tt8983164', 'imdb'), ('tt13242968', 'imdb'), ('tt13242960', 'imdb'), ('tt11327514', 'imdb'), ('tt12723616', 'imdb'), ('tt10801230', 'imdb'), ('tt11229134', 'imdb'), ('tt8080982', 'imdb'), ('tt13491620', 'imdb'), ('tt9827834', 'imdb'), ('tt10280276', 'imdb'), ('tt9319874', 'imdb'), ('tt10333426', 'imdb'), ('tt6802400', 'imdb'), ('tt9882084', 'imdb'), ('tt11243364', 'imdb'), ('tt13268586', 'imdb'), ('tt12179472', 'imdb'), ('tt12252806', 'imdb'), ('tt13157084', 'imdb'), ('tt10954364', 'imdb'), ('tt11225428', 'imdb'), ('tt13103876', 'imdb'), ('tt13096334', 'imdb'), ('tt13321268', 'imdb'), ('tt6318432', 'imdb'), ('tt6789140', 'imdb'), ('tt6774914', 'imdb'), ('tt7020272', 'imdb'), ('tt8160932', 'imdb'), ('tt8338754', 'imdb'), ('tt9105088', 'imdb'), ('tt9614612', 'imdb'), ('tt9657544', 'imdb'), ('tt11169980', 'imdb'), ('tt11597152', 'imdb'), ('tt10907772', 'imdb'), ('tt11152492', 'imdb'), ('tt8820178', 'imdb'), ('tt9411860', 'imdb'), ('tt10043726', 'imdb'), ('tt9411976', 'imdb'), ('tt10757606', 'imdb'), ('tt10472008', 'imdb'), ('tt11468536', 'imdb'), ('tt11433098', 'imdb'), ('tt10442360', 'imdb'), ('tt11250926', 'imdb'), ('tt12323842', 'imdb'), ('tt11915950', 'imdb'), ('tt6141246', 'imdb'), ('tt11235772', 'imdb')] |
+[2022-05-20 17:31:17,541] [builder.py:1426]           [DEBUG]    |                                                                                                    |
+[2022-05-20 17:31:24,318] [builder.py:1482]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt13268586                                            |
+[2022-05-20 17:31:27,908] [builder.py:1892]           [INFO]     |                                                                                                    |
+[2022-05-20 17:31:27,911] [builder.py:1893]           [INFO]     |================================= Adding to Prime Video Collection =================================|
+[2022-05-20 17:31:27,914] [builder.py:1894]           [INFO]     |                                                                                                    |
+[2022-05-20 17:31:27,914] [builder.py:1908]           [INFO]     |  1/33 | Prime Video Collection | + | Guava Island (2019)                                           |
+[2022-05-20 17:31:30,849] [builder.py:1908]           [INFO]     |  2/33 | Prime Video Collection | + | Troop Zero (2019)                                             |
+[2022-05-20 17:31:33,456] [builder.py:1908]           [INFO]     |  3/33 | Prime Video Collection | + | Blow the Man Down (2019)                                      |
+[2022-05-20 17:31:36,118] [builder.py:1908]           [INFO]     |  4/33 | Prime Video Collection | + | Selah and the Spades (2019)                                   |
+[2022-05-20 17:31:38,705] [builder.py:1908]           [INFO]     |  5/33 | Prime Video Collection | + | The Vast of Night (2019)                                      |
+[2022-05-20 17:31:41,100] [builder.py:1908]           [INFO]     |  6/33 | Prime Video Collection | + | 7500 (2019)                                                   |
+[2022-05-20 17:31:44,027] [builder.py:1908]           [INFO]     |  7/33 | Prime Video Collection | + | Radioactive (2019)                                            |
+[2022-05-20 17:31:46,593] [builder.py:1908]           [INFO]     |  8/33 | Prime Video Collection | + | Chemical Hearts (2020)                                        |
+[2022-05-20 17:31:49,107] [builder.py:1908]           [INFO]     |  9/33 | Prime Video Collection | + | Get Duked! (2019)                                             |
+[2022-05-20 17:31:51,676] [builder.py:1908]           [INFO]     | 10/33 | Prime Video Collection | + | Black Box (2020)                                              |
+[2022-05-20 17:31:54,271] [builder.py:1908]           [INFO]     | 11/33 | Prime Video Collection | + | The Lie (2018)                                                |
+[2022-05-20 17:31:56,719] [builder.py:1908]           [INFO]     | 12/33 | Prime Video Collection | + | Nocturne (2020)                                               |
+[2022-05-20 17:31:59,329] [builder.py:1908]           [INFO]     | 13/33 | Prime Video Collection | + | Evil Eye (2020)                                               |
+[2022-05-20 17:32:02,002] [builder.py:1908]           [INFO]     | 14/33 | Prime Video Collection | + | Borat Subsequent Moviefilm (2020)                             |
+[2022-05-20 17:32:04,478] [builder.py:1908]           [INFO]     | 15/33 | Prime Video Collection | + | Soorarai Pottru (2020)                                        |
+[2022-05-20 17:32:07,008] [builder.py:1908]           [INFO]     | 16/33 | Prime Video Collection | + | Chhalaang (2020)                                              |
+[2022-05-20 17:32:11,568] [builder.py:1908]           [INFO]     | 17/33 | Prime Video Collection | + | Uncle Frank (2020)                                            |
+[2022-05-20 17:32:14,138] [builder.py:1908]           [INFO]     | 18/33 | Prime Video Collection | + | Sylvie's Love (2020)                                          |
+[2022-05-20 17:32:16,723] [builder.py:1908]           [INFO]     | 19/33 | Prime Video Collection | + | Bliss (2021)                                                  |
+[2022-05-20 17:32:19,538] [builder.py:1908]           [INFO]     | 20/33 | Prime Video Collection | + | Coming 2 America (2021)                                       |
+[2022-05-20 17:32:21,981] [builder.py:1908]           [INFO]     | 21/33 | Prime Video Collection | + | Chasing Happiness (2019)                                      |
+[2022-05-20 17:32:24,397] [builder.py:1908]           [INFO]     | 22/33 | Prime Video Collection | + | Andy Murray: Resurfacing (2019)                               |
+[2022-05-20 17:32:26,411] [builder.py:1908]           [INFO]     | 23/33 | Prime Video Collection | + | Savage X Fenty Show (2019)                                    |
+[2022-05-20 17:32:28,968] [builder.py:1908]           [INFO]     | 24/33 | Prime Video Collection | + | Savage X Fenty Show Vol. 2 (2020)                             |
+[2022-05-20 17:32:31,211] [builder.py:1908]           [INFO]     | 25/33 | Prime Video Collection | + | Yearly Departed (2020)                                        |
+[2022-05-20 17:32:33,746] [builder.py:1908]           [INFO]     | 26/33 | Prime Video Collection | + | Kanan Gill: Keep It Real (2017)                               |
+[2022-05-20 17:32:35,997] [builder.py:1908]           [INFO]     | 27/33 | Prime Video Collection | + | Jim Gaffigan: Quality Time (2019)                             |
+[2022-05-20 17:32:38,078] [builder.py:1908]           [INFO]     | 28/33 | Prime Video Collection | + | Ed Gamble: Blood Sugar (2019)                                 |
+[2022-05-20 17:32:40,308] [builder.py:1908]           [INFO]     | 29/33 | Prime Video Collection | + | Chris Ramsey Approval Needed (2019)                           |
+[2022-05-20 17:32:42,441] [builder.py:1908]           [INFO]     | 30/33 | Prime Video Collection | + | Russell Peters: Deported (2020)                               |
+[2022-05-20 17:32:45,112] [builder.py:1908]           [INFO]     | 31/33 | Prime Video Collection | + | Jimmy O. Yang: Good Deal (2020)                               |
+[2022-05-20 17:32:47,399] [builder.py:1908]           [INFO]     | 32/33 | Prime Video Collection | + | The Aeronauts (2019)                                          |
+[2022-05-20 17:32:50,013] [builder.py:1908]           [INFO]     | 33/33 | Prime Video Collection | + | The Voyeurs (2021)                                            |
+[2022-05-20 17:32:52,564] [builder.py:1933]           [INFO]     |                                                                                                    |
+[2022-05-20 17:32:52,565] [builder.py:1934]           [INFO]     | 33 Movies Processed                                                                                |
+[2022-05-20 17:32:52,565] [builder.py:2171]           [INFO]     |                                                                                                    |
+[2022-05-20 17:32:52,565] [builder.py:2172]           [INFO]     |=============================== Missing Movies from Library: Movies ================================|
+[2022-05-20 17:32:52,565] [builder.py:2173]           [INFO]     |                                                                                                    |
+[2022-05-20 17:32:52,947] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Pass Over (2018) (TMDb: 501154)                                       |
+[2022-05-20 17:32:53,518] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Ponmagal Vandhal (2020) (TMDb: 615911)                                |
+[2022-05-20 17:32:53,864] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Gulabo Sitabo (2020) (TMDb: 611356)                                   |
+[2022-05-20 17:32:54,140] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Penguin (2020) (TMDb: 713496)                                         |
+[2022-05-20 17:32:54,467] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Sufiyum Sujatayum (2020) (TMDb: 718659)                               |
+[2022-05-20 17:32:54,719] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | LAW (2020) (TMDb: 718893)                                             |
+[2022-05-20 17:32:55,049] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | French Biriyani (2020) (TMDb: 722083)                                 |
+[2022-05-20 17:32:55,382] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Shakuntala Devi (2020) (TMDb: 679045)                                 |
+[2022-05-20 17:32:55,681] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | C U Soon (2020) (TMDb: 735120)                                        |
+[2022-05-20 17:32:56,010] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | V (2020) (TMDb: 683342)                                               |
+[2022-05-20 17:32:56,319] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Nishabdham (2020) (TMDb: 648705)                                      |
+[2022-05-20 17:32:56,648] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Halal Love Story (2020) (TMDb: 679247)                                |
+[2022-05-20 17:32:56,993] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Putham Pudhu Kaalai (2020) (TMDb: 749032)                             |
+[2022-05-20 17:32:57,315] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Bheemasena Nalamaharaja (2020) (TMDb: 722103)                         |
+[2022-05-20 17:32:57,559] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Gatham (2020) (TMDb: 760981)                                          |
+[2022-05-20 17:32:57,819] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Manne No 13 (2020) (TMDb: 751494)                                     |
+[2022-05-20 17:32:58,226] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Middle Class Melodies (2020) (TMDb: 765718)                           |
+[2022-05-20 17:32:58,575] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Bombhaat (2020) (TMDb: 770391)                                        |
+[2022-05-20 17:32:58,829] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | IIT Krishnamurthy (2020) (TMDb: 774512)                               |
+[2022-05-20 17:32:59,157] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Durgamati: The Myth (2020) (TMDb: 702550)                             |
+[2022-05-20 17:32:59,407] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Guvva Gorinka (2020) (TMDb: 777155)                                   |
+[2022-05-20 17:32:59,719] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Unpaused (2020) (TMDb: 772879)                                        |
+[2022-05-20 17:33:00,099] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Coolie No. 1 (2020) (TMDb: 614179)                                    |
+[2022-05-20 17:33:00,423] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Maara (2021) (TMDb: 751858)                                           |
+[2022-05-20 17:33:00,714] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Happiness Continues (2020) (TMDb: 696396)                             |
+[2022-05-20 17:33:00,982] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Amaia: Una vuelta al sol (2020) (TMDb: 698445)                        |
+[2022-05-20 17:33:01,235] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Ferro (2020) (TMDb: 759024)                                           |
+[2022-05-20 17:33:01,516] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | The Kacey Musgraves Christmas Show (2019) (TMDb: 645362)              |
+[2022-05-20 17:33:01,837] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | What the Constitution Means to Me (2020) (TMDb: 744174)               |
+[2022-05-20 17:33:02,088] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Kenny Sebastian : Don't Be That Guy (2017) (TMDb: 453764)             |
+[2022-05-20 17:33:02,557] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Biswa Kalyan Rath : Biswa Mast Aadmi (2017) (TMDb: 460503)            |
+[2022-05-20 17:33:03,104] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Zakir Khan: Haq Se Single (2017) (TMDb: 462405)                       |
+[2022-05-20 17:33:03,430] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Nishant Tanwar : Dilli Se Hoon B*@!%D (2018) (TMDb: 517101)           |
+[2022-05-20 17:33:03,699] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Vaibhav Sethia: Don't (2018) (TMDb: 574273)                           |
+[2022-05-20 17:33:04,009] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Zakir Khan: Kaksha Gyarvi (2018) (TMDb: 563778)                       |
+[2022-05-20 17:33:04,303] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Sketchy Behaviour (2019) (TMDb: 584377)                               |
+[2022-05-20 17:33:04,718] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Flo and Joan: Alive on Stage (2019) (TMDb: 628036)                    |
+[2022-05-20 17:33:05,039] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Paul Chowdhry: Live Innit (2019) (TMDb: 624488)                       |
+[2022-05-20 17:33:05,388] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Alice Wetterlund: My Mama Is a Human and So Am I (2019) (TMDb: 625534) |
+[2022-05-20 17:33:05,674] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Alonzo Bodden: Heavy Lightweight (2019) (TMDb: 625541)                |
+[2022-05-20 17:33:05,955] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | #IMomSoHard Live (2019) (TMDb: 625540)                                |
+[2022-05-20 17:33:06,250] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Mike E. Winfield: Stepman (2019) (TMDb: 625542)                       |
+[2022-05-20 17:33:06,562] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Sushi by Biswa Kalyan Rath (2019) (TMDb: 642257)                      |
+[2022-05-20 17:33:06,882] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Ilana Glazer: The Planet Is Burning (2020) (TMDb: 660297)             |
+[2022-05-20 17:33:07,179] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Jayde Adams: Serious Black Jumper (2020) (TMDb: 661771)               |
+[2022-05-20 17:33:07,463] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Rob Delaney: Jackie (2020) (TMDb: 664528)                             |
+[2022-05-20 17:33:07,770] [builder.py:2185]           [INFO]     | Prime Video Collection | ? | Gina Brillon: The Floor Is Lava (2020) (TMDb: 712502)                 |
+[2022-05-20 17:33:07,770] [builder.py:2189]           [INFO]     |                                                                                                    |
+[2022-05-20 17:33:07,771] [builder.py:2190]           [INFO]     | 47 Movies Missing                                                                                  |
+[2022-05-20 17:33:07,871] [builder.py:2410]           [INFO]     |                                                                                                    |
+[2022-05-20 17:33:07,871] [builder.py:2411]           [INFO]     |============================ Updating Details of Prime Video Collection ============================|
+[2022-05-20 17:33:07,872] [builder.py:2412]           [INFO]     |                                                                                                    |
+[2022-05-20 17:33:07,872] [builder.py:2473]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Sort Title | *603
+                                                                 | 
+[2022-05-20 17:33:08,223] [builder.py:2477]           [INFO]     | Details: have been updated
+[2022-05-20 17:33:08,223] [builder.py:2480]           [INFO]     | 
+[2022-05-20 17:33:08,224] [builder.py:2568]           [INFO]     | No poster collection detail or asset folder found
+[2022-05-20 17:33:08,224] [builder.py:2601]           [INFO]     | No background collection detail or asset folder found
+[2022-05-20 17:33:10,219] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-20 17:33:10,220] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-20 17:33:10,220] [plex_meta_manager.py:577]  [INFO]     |                                  Finished Prime Video Collection                                   |
+[2022-05-20 17:33:10,220] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:02:04                                    |
+[2022-05-20 17:33:10,220] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

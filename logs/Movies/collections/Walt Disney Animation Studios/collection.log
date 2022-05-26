@@ -1,0 +1,124 @@
+[2022-05-20 17:25:38,732] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:25:38,733] [plex_meta_manager.py:437]  [INFO]     |                         Walt Disney Animation Studios Collection in Movies                         |
+[2022-05-20 17:25:38,733] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:25:38,733] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-20 17:25:38,734] [plex_meta_manager.py:443]  [INFO]     |======================= Validating Walt Disney Animation Studios Attributes ========================|
+[2022-05-20 17:25:38,734] [builder.py:365]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:25:38,735] [builder.py:366]            [DEBUG]    | Validating Method: schedule                                                                        |
+[2022-05-20 17:25:38,735] [builder.py:370]            [DEBUG]    | Value: weekly(friday)                                                                              |
+[2022-05-20 17:25:38,735] [builder.py:423]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:25:38,736] [builder.py:424]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-05-20 17:25:38,736] [builder.py:428]            [DEBUG]    | Value: sync                                                                                        |
+[2022-05-20 17:25:38,736] [builder.py:570]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:25:38,737] [builder.py:571]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-05-20 17:25:38,737] [builder.py:572]            [DEBUG]    | Value: release                                                                                     |
+[2022-05-20 17:25:38,737] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:25:38,738] [builder.py:592]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-05-20 17:25:38,738] [builder.py:593]            [DEBUG]    | Value: https://www.imdb.com/list/ls579363081                                                       |
+[2022-05-20 17:25:41,839] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:25:41,842] [builder.py:592]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-05-20 17:25:41,844] [builder.py:593]            [DEBUG]    | Value: default                                                                                     |
+[2022-05-20 17:25:41,844] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:25:41,845] [builder.py:592]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-05-20 17:25:41,845] [builder.py:593]            [DEBUG]    | Value: *511                                                                                        |
+[2022-05-20 17:25:41,888] [plex.py:721]               [DEBUG]    |                                                                                                    |
+[2022-05-20 17:25:41,888] [plex.py:724]               [DEBUG]    | Looking for: Walt Disney Animation Studios                                                         |
+[2022-05-20 17:25:41,889] [builder.py:749]            [INFO]     |                                                                                                    |
+[2022-05-20 17:25:41,889] [builder.py:750]            [INFO]     | Validation Successful                                                                              |
+[2022-05-20 17:25:41,892] [plex_meta_manager.py:447]  [INFO]     |                                                                                                    |
+[2022-05-20 17:25:41,892] [plex_meta_manager.py:449]  [INFO]     |========================= Running Walt Disney Animation Studios Collection =========================|
+[2022-05-20 17:25:41,893] [plex_meta_manager.py:461]  [INFO]     |                                                                                                    |
+[2022-05-20 17:25:41,893] [plex_meta_manager.py:462]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-05-20 17:25:41,893] [plex_meta_manager.py:472]  [DEBUG]    |                                                                                                    |
+[2022-05-20 17:25:41,894] [plex_meta_manager.py:473]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls579363081', 'limit': 0}                   |
+[2022-05-20 17:25:41,894] [plex_meta_manager.py:474]  [INFO]     |                                                                                                    |
+[2022-05-20 17:25:41,894] [imdb.py:176]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls579363081                                        |
+[2022-05-20 17:25:48,329] [imdb.py:127]               [DEBUG]    | 61 IMDb IDs Found: ['tt0029583', 'tt0032910', 'tt0032455', 'tt0033563', 'tt0034492', 'tt0036326', 'tt0038166', 'tt0038718', 'tt0039404', 'tt0040580', 'tt0041094', 'tt0042332', 'tt0043274', 'tt0046183', 'tt0048280', 'tt0053285', 'tt0055254', 'tt0057546', 'tt0061852', 'tt0065421', 'tt0070608', 'tt0076363', 'tt0076618', 'tt0082406', 'tt0088814', 'tt0091149', 'tt0095776', 'tt0097757', 'tt0100477', 'tt0101414', 'tt0105935', 'tt0110357', 'tt0114148', 'tt0116583', 'tt0119282', 'tt0120762', 'tt0120855', 'tt0120910', 'tt0130623', 'tt0120917', 'tt0230011', 'tt0275847', 'tt0133240', 'tt0328880', 'tt0299172', 'tt0371606', 'tt0396555', 'tt0397892', 'tt0780521', 'tt0398286', 'tt1449283', 'tt1772341', 'tt2294629', 'tt2245084', 'tt2948356', 'tt3521164', 'tt5848272', 'tt4520988', 'tt5109280', 'tt2953050', 'tt10298840'] |
+[2022-05-20 17:25:48,329] [builder.py:1424]           [DEBUG]    |                                                                                                    |
+[2022-05-20 17:25:48,329] [builder.py:1425]           [DEBUG]    | 61 IDs Found: [('tt0029583', 'imdb'), ('tt0032910', 'imdb'), ('tt0032455', 'imdb'), ('tt0033563', 'imdb'), ('tt0034492', 'imdb'), ('tt0036326', 'imdb'), ('tt0038166', 'imdb'), ('tt0038718', 'imdb'), ('tt0039404', 'imdb'), ('tt0040580', 'imdb'), ('tt0041094', 'imdb'), ('tt0042332', 'imdb'), ('tt0043274', 'imdb'), ('tt0046183', 'imdb'), ('tt0048280', 'imdb'), ('tt0053285', 'imdb'), ('tt0055254', 'imdb'), ('tt0057546', 'imdb'), ('tt0061852', 'imdb'), ('tt0065421', 'imdb'), ('tt0070608', 'imdb'), ('tt0076363', 'imdb'), ('tt0076618', 'imdb'), ('tt0082406', 'imdb'), ('tt0088814', 'imdb'), ('tt0091149', 'imdb'), ('tt0095776', 'imdb'), ('tt0097757', 'imdb'), ('tt0100477', 'imdb'), ('tt0101414', 'imdb'), ('tt0105935', 'imdb'), ('tt0110357', 'imdb'), ('tt0114148', 'imdb'), ('tt0116583', 'imdb'), ('tt0119282', 'imdb'), ('tt0120762', 'imdb'), ('tt0120855', 'imdb'), ('tt0120910', 'imdb'), ('tt0130623', 'imdb'), ('tt0120917', 'imdb'), ('tt0230011', 'imdb'), ('tt0275847', 'imdb'), ('tt0133240', 'imdb'), ('tt0328880', 'imdb'), ('tt0299172', 'imdb'), ('tt0371606', 'imdb'), ('tt0396555', 'imdb'), ('tt0397892', 'imdb'), ('tt0780521', 'imdb'), ('tt0398286', 'imdb'), ('tt1449283', 'imdb'), ('tt1772341', 'imdb'), ('tt2294629', 'imdb'), ('tt2245084', 'imdb'), ('tt2948356', 'imdb'), ('tt3521164', 'imdb'), ('tt5848272', 'imdb'), ('tt4520988', 'imdb'), ('tt5109280', 'imdb'), ('tt2953050', 'imdb'), ('tt10298840', 'imdb')] |
+[2022-05-20 17:25:48,330] [builder.py:1426]           [DEBUG]    |                                                                                                    |
+[2022-05-20 17:25:54,160] [builder.py:1892]           [INFO]     |                                                                                                    |
+[2022-05-20 17:25:54,164] [builder.py:1893]           [INFO]     |======================== Adding to Walt Disney Animation Studios Collection ========================|
+[2022-05-20 17:25:54,164] [builder.py:1894]           [INFO]     |                                                                                                    |
+[2022-05-20 17:25:54,165] [builder.py:1908]           [INFO]     |  1/20 | Walt Disney Animation Studios Collection | + | Snow White and the Seven Dwarfs (1937)      |
+[2022-05-20 17:25:57,073] [builder.py:1908]           [INFO]     |  2/20 | Walt Disney Animation Studios Collection | + | Pinocchio (1940)                            |
+[2022-05-20 17:26:00,038] [builder.py:1908]           [INFO]     |  3/20 | Walt Disney Animation Studios Collection | + | Dumbo (1941)                                |
+[2022-05-20 17:26:02,779] [builder.py:1908]           [INFO]     |  4/20 | Walt Disney Animation Studios Collection | + | Saludos Amigos (1942)                       |
+[2022-05-20 17:26:05,358] [builder.py:1908]           [INFO]     |  5/20 | Walt Disney Animation Studios Collection | + | The Three Caballeros (1944)                 |
+[2022-05-20 17:26:07,758] [builder.py:1908]           [INFO]     |  6/20 | Walt Disney Animation Studios Collection | + | Make Mine Music (1946)                      |
+[2022-05-20 17:26:10,696] [builder.py:1908]           [INFO]     |  7/20 | Walt Disney Animation Studios Collection | + | Fun and Fancy Free (1947)                   |
+[2022-05-20 17:26:13,092] [builder.py:1908]           [INFO]     |  8/20 | Walt Disney Animation Studios Collection | + | Melody Time (1948)                          |
+[2022-05-20 17:26:15,687] [builder.py:1908]           [INFO]     |  9/20 | Walt Disney Animation Studios Collection | + | Peter Pan (1953)                            |
+[2022-05-20 17:26:18,256] [builder.py:1908]           [INFO]     | 10/20 | Walt Disney Animation Studios Collection | + | Sleeping Beauty (1959)                      |
+[2022-05-20 17:26:21,130] [builder.py:1908]           [INFO]     | 11/20 | Walt Disney Animation Studios Collection | + | The Sword in the Stone (1963)               |
+[2022-05-20 17:26:23,953] [builder.py:1908]           [INFO]     | 12/20 | Walt Disney Animation Studios Collection | + | The Jungle Book (1967)                      |
+[2022-05-20 17:26:26,446] [builder.py:1908]           [INFO]     | 13/20 | Walt Disney Animation Studios Collection | + | Pocahontas (1995)                           |
+[2022-05-20 17:26:29,147] [builder.py:1908]           [INFO]     | 14/20 | Walt Disney Animation Studios Collection | + | Treasure Planet (2002)                      |
+[2022-05-20 17:26:31,830] [builder.py:1908]           [INFO]     | 15/20 | Walt Disney Animation Studios Collection | + | Brother Bear (2003)                         |
+[2022-05-20 17:26:34,646] [builder.py:1908]           [INFO]     | 16/20 | Walt Disney Animation Studios Collection | + | Home on the Range (2004)                    |
+[2022-05-20 17:26:37,194] [builder.py:1908]           [INFO]     | 17/20 | Walt Disney Animation Studios Collection | + | Tangled (2010)                              |
+[2022-05-20 17:26:39,964] [builder.py:1908]           [INFO]     | 18/20 | Walt Disney Animation Studios Collection | + | Wreck-It Ralph (2012)                       |
+[2022-05-20 17:26:42,761] [builder.py:1908]           [INFO]     | 19/20 | Walt Disney Animation Studios Collection | + | Zootopia (2016)                             |
+[2022-05-20 17:26:45,771] [builder.py:1908]           [INFO]     | 20/20 | Walt Disney Animation Studios Collection | + | Ralph Breaks the Internet (2018)            |
+[2022-05-20 17:26:48,800] [builder.py:1933]           [INFO]     |                                                                                                    |
+[2022-05-20 17:26:48,800] [builder.py:1934]           [INFO]     | 20 Movies Processed                                                                                |
+[2022-05-20 17:26:48,800] [builder.py:2171]           [INFO]     |                                                                                                    |
+[2022-05-20 17:26:48,801] [builder.py:2172]           [INFO]     |=============================== Missing Movies from Library: Movies ================================|
+[2022-05-20 17:26:48,801] [builder.py:2173]           [INFO]     |                                                                                                    |
+[2022-05-20 17:26:48,905] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | Fantasia (1940) (TMDb: 756)                         |
+[2022-05-20 17:26:49,016] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | Bambi (1942) (TMDb: 3170)                           |
+[2022-05-20 17:26:49,375] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | The Adventures of Ichabod and Mr. Toad (1949) (TMDb: 13465) |
+[2022-05-20 17:26:49,494] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | Cinderella (1950) (TMDb: 11224)                     |
+[2022-05-20 17:26:49,966] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | Alice in Wonderland (1951) (TMDb: 12092)            |
+[2022-05-20 17:26:50,075] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | Lady and the Tramp (1955) (TMDb: 10340)             |
+[2022-05-20 17:26:50,181] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | One Hundred and One Dalmatians (1961) (TMDb: 12230) |
+[2022-05-20 17:26:50,727] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | The Aristocats (1970) (TMDb: 10112)                 |
+[2022-05-20 17:26:51,205] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | Robin Hood (1973) (TMDb: 11886)                     |
+[2022-05-20 17:26:51,311] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | The Many Adventures of Winnie the Pooh (1977) (TMDb: 250480) |
+[2022-05-20 17:26:51,418] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | The Rescuers (1977) (TMDb: 11319)                   |
+[2022-05-20 17:26:51,525] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | The Fox and the Hound (1981) (TMDb: 10948)          |
+[2022-05-20 17:26:52,103] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | The Black Cauldron (1985) (TMDb: 10957)             |
+[2022-05-20 17:26:52,568] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | The Great Mouse Detective (1986) (TMDb: 9994)       |
+[2022-05-20 17:26:52,970] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | Oliver & Company (1988) (TMDb: 12233)               |
+[2022-05-20 17:26:53,074] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | The Little Mermaid (1989) (TMDb: 10144)             |
+[2022-05-20 17:26:53,183] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | The Rescuers Down Under (1990) (TMDb: 11135)        |
+[2022-05-20 17:26:53,188] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | Beauty and the Beast (1991) (TMDb: 10020)           |
+[2022-05-20 17:26:53,194] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | The Lion King (1994) (TMDb: 8587)                   |
+[2022-05-20 17:26:53,304] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | The Hunchback of Notre Dame (1996) (TMDb: 10545)    |
+[2022-05-20 17:26:53,799] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | Hercules (1997) (TMDb: 11970)                       |
+[2022-05-20 17:26:53,919] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | Mulan (1998) (TMDb: 10674)                          |
+[2022-05-20 17:26:54,020] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | Tarzan (1999) (TMDb: 37135)                         |
+[2022-05-20 17:26:54,148] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | Fantasia 2000 (1999) (TMDb: 49948)                  |
+[2022-05-20 17:26:54,516] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | Dinosaur (2000) (TMDb: 10567)                       |
+[2022-05-20 17:26:54,659] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | The Emperor's New Groove (2000) (TMDb: 11688)       |
+[2022-05-20 17:26:54,801] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | Atlantis: The Lost Empire (2001) (TMDb: 10865)      |
+[2022-05-20 17:26:54,906] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | Lilo & Stitch (2002) (TMDb: 11544)                  |
+[2022-05-20 17:26:55,392] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | Chicken Little (2005) (TMDb: 9982)                  |
+[2022-05-20 17:26:55,845] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | Meet the Robinsons (2007) (TMDb: 1267)              |
+[2022-05-20 17:26:56,364] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | Bolt (2008) (TMDb: 13053)                           |
+[2022-05-20 17:26:56,901] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | The Princess and the Frog (2009) (TMDb: 10198)      |
+[2022-05-20 17:26:57,009] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | Winnie the Pooh (2011) (TMDb: 51162)                |
+[2022-05-20 17:26:57,113] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | Frozen (2013) (TMDb: 109445)                        |
+[2022-05-20 17:26:57,708] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | Big Hero 6 (2014) (TMDb: 177572)                    |
+[2022-05-20 17:26:58,287] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | Moana (2016) (TMDb: 277834)                         |
+[2022-05-20 17:26:58,398] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | Frozen II (2019) (TMDb: 330457)                     |
+[2022-05-20 17:26:58,401] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | Raya and the Last Dragon (2021) (TMDb: 527774)      |
+[2022-05-20 17:26:58,407] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | Encanto (2021) (TMDb: 568124)                       |
+[2022-05-20 17:26:58,715] [builder.py:2185]           [INFO]     | Walt Disney Animation Studios Collection | ? | Strange World (2022) (TMDb: 877269)                 |
+[2022-05-20 17:26:58,716] [builder.py:2189]           [INFO]     |                                                                                                    |
+[2022-05-20 17:26:58,716] [builder.py:2190]           [INFO]     | 40 Movies Missing                                                                                  |
+[2022-05-20 17:26:58,833] [builder.py:2410]           [INFO]     |                                                                                                    |
+[2022-05-20 17:26:58,834] [builder.py:2411]           [INFO]     |=================== Updating Details of Walt Disney Animation Studios Collection ===================|
+[2022-05-20 17:26:58,834] [builder.py:2412]           [INFO]     |                                                                                                    |
+[2022-05-20 17:26:58,834] [builder.py:2473]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Sort Title | *511
+                                                                 | 
+[2022-05-20 17:26:59,288] [builder.py:2477]           [INFO]     | Details: have been updated
+[2022-05-20 17:26:59,288] [builder.py:2480]           [INFO]     | 
+[2022-05-20 17:26:59,289] [builder.py:2568]           [INFO]     | No poster collection detail or asset folder found
+[2022-05-20 17:26:59,289] [builder.py:2601]           [INFO]     | No background collection detail or asset folder found
+[2022-05-20 17:27:01,456] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-20 17:27:01,457] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-20 17:27:01,457] [plex_meta_manager.py:577]  [INFO]     |                         Finished Walt Disney Animation Studios Collection                          |
+[2022-05-20 17:27:01,458] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:01:22                                    |
+[2022-05-20 17:27:01,458] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

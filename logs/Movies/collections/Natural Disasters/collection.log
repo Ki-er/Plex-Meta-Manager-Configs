@@ -1,0 +1,17 @@
+[2022-05-20 17:11:43,079] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:11:43,079] [plex_meta_manager.py:437]  [INFO]     |                               Natural Disasters Collection in Movies                               |
+[2022-05-20 17:11:43,080] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:11:43,080] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-20 17:11:43,080] [plex_meta_manager.py:443]  [INFO]     |============================= Validating Natural Disasters Attributes ==============================|
+[2022-05-20 17:11:43,080] [builder.py:365]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:11:43,081] [builder.py:366]            [DEBUG]    | Validating Method: schedule                                                                        |
+[2022-05-20 17:11:43,081] [builder.py:370]            [DEBUG]    | Value: monthly(10)                                                                                 |
+[2022-05-20 17:11:43,081] [plex_meta_manager.py:562]  [INFO]     |                                                                                                    |
+                                                                 | Scheduled monthly on the 10th
+                                                                 | 
+                                                                 | Collection Natural Disasters not scheduled to run
+[2022-05-20 17:11:43,082] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-20 17:11:43,082] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-20 17:11:43,082] [plex_meta_manager.py:577]  [INFO]     |                               Finished Natural Disasters Collection                                |
+[2022-05-20 17:11:43,082] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-05-20 17:11:43,083] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

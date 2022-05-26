@@ -1,0 +1,17 @@
+[2022-05-20 17:35:52,496] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:35:52,496] [plex_meta_manager.py:437]  [INFO]     |                               Halloween Movies Collection in Movies                                |
+[2022-05-20 17:35:52,497] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:35:52,497] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-20 17:35:52,497] [plex_meta_manager.py:443]  [INFO]     |============================== Validating Halloween Movies Attributes ==============================|
+[2022-05-20 17:35:52,498] [builder.py:365]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:35:52,498] [builder.py:366]            [DEBUG]    | Validating Method: schedule                                                                        |
+[2022-05-20 17:35:52,498] [builder.py:370]            [DEBUG]    | Value: yearly(09/30)                                                                               |
+[2022-05-20 17:35:52,498] [plex_meta_manager.py:562]  [INFO]     |                                                                                                    |
+                                                                 | Scheduled yearly on September 30th
+                                                                 | 
+                                                                 | Collection Halloween Movies not scheduled to run
+[2022-05-20 17:35:52,499] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-20 17:35:52,500] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-20 17:35:52,500] [plex_meta_manager.py:577]  [INFO]     |                                Finished Halloween Movies Collection                                |
+[2022-05-20 17:35:52,500] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-05-20 17:35:52,501] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

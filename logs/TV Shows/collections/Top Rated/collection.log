@@ -1,0 +1,269 @@
+[2022-05-21 09:08:04,430] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-21 09:08:04,430] [plex_meta_manager.py:437]  [INFO]     |                                  Top Rated Collection in TV Shows                                  |
+[2022-05-21 09:08:04,431] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-21 09:08:04,431] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-21 09:08:04,432] [plex_meta_manager.py:443]  [INFO]     |================================= Validating Top Rated Attributes ==================================|
+[2022-05-21 09:08:04,432] [builder.py:241]            [DEBUG]    |                                                                                                    |
+[2022-05-21 09:08:04,432] [builder.py:242]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-05-21 09:08:04,433] [meta.py:109]               [DEBUG]    | Value: ordereddict([('name', 'Chart'), ('num', 4)])                                                |
+[2022-05-21 09:08:04,434] [builder.py:423]            [DEBUG]    |                                                                                                    |
+[2022-05-21 09:08:04,434] [builder.py:424]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-05-21 09:08:04,434] [builder.py:428]            [DEBUG]    | Value: sync                                                                                        |
+[2022-05-21 09:08:04,435] [builder.py:497]            [DEBUG]    |                                                                                                    |
+[2022-05-21 09:08:04,435] [builder.py:498]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-05-21 09:08:04,435] [builder.py:503]            [DEBUG]    | Value: random                                                                                      |
+[2022-05-21 09:08:04,523] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-21 09:08:04,524] [builder.py:592]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-05-21 09:08:04,524] [builder.py:593]            [DEBUG]    | Value: ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&num_votes=20000,&sort=user_rating,desc'), ('limit', 100)]) |
+[2022-05-21 09:08:05,537] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-21 09:08:05,539] [builder.py:592]            [DEBUG]    | Validating Method: tmdb_top_rated                                                                  |
+[2022-05-21 09:08:05,540] [builder.py:593]            [DEBUG]    | Value: 100                                                                                         |
+[2022-05-21 09:08:05,540] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-21 09:08:05,541] [builder.py:592]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-05-21 09:08:05,541] [builder.py:593]            [DEBUG]    | Value: Top Rated Movies across the internet                                                        |
+[2022-05-21 09:08:05,542] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-21 09:08:05,542] [builder.py:592]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-05-21 09:08:05,542] [builder.py:593]            [DEBUG]    | Value: +1_4Top Rated                                                                               |
+[2022-05-21 09:08:06,251] [builder.py:749]            [INFO]     |                                                                                                    |
+[2022-05-21 09:08:06,251] [builder.py:750]            [INFO]     | Validation Successful                                                                              |
+[2022-05-21 09:08:06,252] [plex_meta_manager.py:447]  [INFO]     |                                                                                                    |
+[2022-05-21 09:08:06,252] [plex_meta_manager.py:449]  [INFO]     |=================================== Running Top Rated Collection ===================================|
+[2022-05-21 09:08:06,252] [plex_meta_manager.py:455]  [INFO]     |                                                                                                    |
+[2022-05-21 09:08:06,253] [plex_meta_manager.py:456]  [INFO]     | Smart Show Label                                                                                   |
+                                                                 | Sort By: random
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Top Rated
+[2022-05-21 09:08:06,254] [plex_meta_manager.py:461]  [INFO]     | 
+[2022-05-21 09:08:06,254] [plex_meta_manager.py:462]  [INFO]     | Sync Mode: sync
+[2022-05-21 09:08:06,255] [plex_meta_manager.py:472]  [DEBUG]    | 
+[2022-05-21 09:08:06,255] [plex_meta_manager.py:473]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&num_votes=20000,&sort=user_rating,desc', 'limit': 100}
+[2022-05-21 09:08:06,255] [plex_meta_manager.py:474]  [INFO]     | 
+[2022-05-21 09:08:06,256] [imdb.py:176]               [INFO]     | Processing IMDb List: 100 Items at https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&num_votes=20000,&sort=user_rating,desc
+[2022-05-21 09:08:10,534] [imdb.py:127]               [DEBUG]    | 100 IMDb IDs Found: ['tt5491994', 'tt0903747', 'tt9471404', 'tt7657124', 'tt7366338', 'tt0795176', 'tt0185906', 'tt9253866', 'tt6769208', 'tt2395695', 'tt14392248', 'tt12392504', 'tt0417299', 'tt0306414', 'tt0081846', 'tt4202274', 'tt2861424', 'tt0944947', 'tt0141842', 'tt0071075', 'tt9432978', 'tt8420184', 'tt7920978', 'tt4742876', 'tt1877514', 'tt1831164', 'tt1533395', 'tt1475582', 'tt1355642', 'tt11126994', 'tt0052520', 'tt8595766', 'tt2560140', 'tt2098220', 'tt2092588', 'tt1806234', 'tt10541088', 'tt0877057', 'tt0386676', 'tt0303461', 'tt0296310', 'tt0103359', 'tt0092337', 'tt0081912', 'tt7927936', 'tt7137906', 'tt4057372', 'tt3530232', 'tt2802850', 'tt2356777', 'tt2297757', 'tt1865718', 'tt12714854', 'tt10638036', 'tt0213338', 'tt0200276', 'tt0112130', 'tt0108778', 'tt0098904', 'tt0081834', 'tt7660850', 'tt3718778', 'tt3398540', 'tt3398228', 'tt3032476', 'tt2707408', 'tt2442560', 'tt2085059', 'tt1910272', 'tt1909015', 'tt1795096', 'tt14650074', 'tt13991232', 'tt12004706', 'tt10986410', 'tt10233448', 'tt0472954', 'tt0388629', 'tt0353049', 'tt0264235', 'tt0214341', 'tt0193676', 'tt0121220', 'tt0098936', 'tt0096548', 'tt0072500', 'tt0063929', 'tt9544034', 'tt9335498', 'tt9140342', 'tt8111088', 'tt6741278', 'tt5788792', 'tt5753856', 'tt5712554', 'tt5687612', 'tt5555260', 'tt5421602', 'tt4786824', 'tt4647692']
+[2022-05-21 09:08:10,535] [builder.py:1424]           [DEBUG]    | 
+[2022-05-21 09:08:10,535] [builder.py:1425]           [DEBUG]    | 100 IDs Found: [('tt5491994', 'imdb'), ('tt0903747', 'imdb'), ('tt9471404', 'imdb'), ('tt7657124', 'imdb'), ('tt7366338', 'imdb'), ('tt0795176', 'imdb'), ('tt0185906', 'imdb'), ('tt9253866', 'imdb'), ('tt6769208', 'imdb'), ('tt2395695', 'imdb'), ('tt14392248', 'imdb'), ('tt12392504', 'imdb'), ('tt0417299', 'imdb'), ('tt0306414', 'imdb'), ('tt0081846', 'imdb'), ('tt4202274', 'imdb'), ('tt2861424', 'imdb'), ('tt0944947', 'imdb'), ('tt0141842', 'imdb'), ('tt0071075', 'imdb'), ('tt9432978', 'imdb'), ('tt8420184', 'imdb'), ('tt7920978', 'imdb'), ('tt4742876', 'imdb'), ('tt1877514', 'imdb'), ('tt1831164', 'imdb'), ('tt1533395', 'imdb'), ('tt1475582', 'imdb'), ('tt1355642', 'imdb'), ('tt11126994', 'imdb'), ('tt0052520', 'imdb'), ('tt8595766', 'imdb'), ('tt2560140', 'imdb'), ('tt2098220', 'imdb'), ('tt2092588', 'imdb'), ('tt1806234', 'imdb'), ('tt10541088', 'imdb'), ('tt0877057', 'imdb'), ('tt0386676', 'imdb'), ('tt0303461', 'imdb'), ('tt0296310', 'imdb'), ('tt0103359', 'imdb'), ('tt0092337', 'imdb'), ('tt0081912', 'imdb'), ('tt7927936', 'imdb'), ('tt7137906', 'imdb'), ('tt4057372', 'imdb'), ('tt3530232', 'imdb'), ('tt2802850', 'imdb'), ('tt2356777', 'imdb'), ('tt2297757', 'imdb'), ('tt1865718', 'imdb'), ('tt12714854', 'imdb'), ('tt10638036', 'imdb'), ('tt0213338', 'imdb'), ('tt0200276', 'imdb'), ('tt0112130', 'imdb'), ('tt0108778', 'imdb'), ('tt0098904', 'imdb'), ('tt0081834', 'imdb'), ('tt7660850', 'imdb'), ('tt3718778', 'imdb'), ('tt3398540', 'imdb'), ('tt3398228', 'imdb'), ('tt3032476', 'imdb'), ('tt2707408', 'imdb'), ('tt2442560', 'imdb'), ('tt2085059', 'imdb'), ('tt1910272', 'imdb'), ('tt1909015', 'imdb'), ('tt1795096', 'imdb'), ('tt14650074', 'imdb'), ('tt13991232', 'imdb'), ('tt12004706', 'imdb'), ('tt10986410', 'imdb'), ('tt10233448', 'imdb'), ('tt0472954', 'imdb'), ('tt0388629', 'imdb'), ('tt0353049', 'imdb'), ('tt0264235', 'imdb'), ('tt0214341', 'imdb'), ('tt0193676', 'imdb'), ('tt0121220', 'imdb'), ('tt0098936', 'imdb'), ('tt0096548', 'imdb'), ('tt0072500', 'imdb'), ('tt0063929', 'imdb'), ('tt9544034', 'imdb'), ('tt9335498', 'imdb'), ('tt9140342', 'imdb'), ('tt8111088', 'imdb'), ('tt6741278', 'imdb'), ('tt5788792', 'imdb'), ('tt5753856', 'imdb'), ('tt5712554', 'imdb'), ('tt5687612', 'imdb'), ('tt5555260', 'imdb'), ('tt5421602', 'imdb'), ('tt4786824', 'imdb'), ('tt4647692', 'imdb')]
+[2022-05-21 09:08:10,535] [builder.py:1426]           [DEBUG]    | 
+[2022-05-21 09:08:11,161] [builder.py:1482]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt4202274
+[2022-05-21 09:08:12,219] [builder.py:1482]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt4057372
+[2022-05-21 09:08:12,745] [builder.py:1482]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 156249
+[2022-05-21 09:08:13,038] [builder.py:1482]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 135670
+[2022-05-21 09:08:13,406] [builder.py:1482]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0214341
+[2022-05-21 09:08:13,594] [builder.py:1482]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0096548
+[2022-05-21 09:08:14,297] [plex_meta_manager.py:472]  [DEBUG]    | 
+[2022-05-21 09:08:14,298] [plex_meta_manager.py:473]  [DEBUG]    | Builder: tmdb_top_rated: 100
+[2022-05-21 09:08:14,299] [plex_meta_manager.py:474]  [INFO]     | 
+[2022-05-21 09:08:14,768] [tmdb.py:310]               [INFO]     | Processing TMDb Top Rated: 100 Shows
+[2022-05-21 09:08:14,769] [builder.py:1424]           [DEBUG]    | 
+[2022-05-21 09:08:14,769] [builder.py:1425]           [DEBUG]    | 100 IDs Found: [(130392, 'tmdb_show'), (100, 'tmdb_show'), (94605, 'tmdb_show'), (154521, 'tmdb_show'), (19239, 'tmdb_show'), (88040, 'tmdb_show'), (106600, 'tmdb_show'), (83095, 'tmdb_show'), (80539, 'tmdb_show'), (77696, 'tmdb_show'), (123566, 'tmdb_show'), (80564, 'tmdb_show'), (83097, 'tmdb_show'), (61663, 'tmdb_show'), (110309, 'tmdb_show'), (65648, 'tmdb_show'), (79141, 'tmdb_show'), (125910, 'tmdb_show'), (65930, 'tmdb_show'), (117376, 'tmdb_show'), (92685, 'tmdb_show'), (91801, 'tmdb_show'), (84669, 'tmdb_show'), (60863, 'tmdb_show'), (85937, 'tmdb_show'), (95557, 'tmdb_show'), (94796, 'tmdb_show'), (68349, 'tmdb_show'), (62741, 'tmdb_show'), (108261, 'tmdb_show'), (68129, 'tmdb_show'), (95666, 'tmdb_show'), (83121, 'tmdb_show'), (60625, 'tmdb_show'), (45790, 'tmdb_show'), (45950, 'tmdb_show'), (67389, 'tmdb_show'), (83880, 'tmdb_show'), (95269, 'tmdb_show'), (31356, 'tmdb_show'), (70785, 'tmdb_show'), (82739, 'tmdb_show'), (124834, 'tmdb_show'), (1396, 'tmdb_show'), (85990, 'tmdb_show'), (79732, 'tmdb_show'), (32118, 'tmdb_show'), (37854, 'tmdb_show'), (46298, 'tmdb_show'), (63495, 'tmdb_show'), (73833, 'tmdb_show'), (30669, 'tmdb_show'), (98214, 'tmdb_show'), (96316, 'tmdb_show'), (90447, 'tmdb_show'), (31132, 'tmdb_show'), (96150, 'tmdb_show'), (89456, 'tmdb_show'), (67915, 'tmdb_show'), (93256, 'tmdb_show'), (87432, 'tmdb_show'), (82684, 'tmdb_show'), (77721, 'tmdb_show'), (97890, 'tmdb_show'), (76121, 'tmdb_show'), (3854, 'tmdb_show'), (97186, 'tmdb_show'), (74081, 'tmdb_show'), (62565, 'tmdb_show'), (66433, 'tmdb_show'), (86031, 'tmdb_show'), (65249, 'tmdb_show'), (99489, 'tmdb_show'), (65844, 'tmdb_show'), (72637, 'tmdb_show'), (61461, 'tmdb_show'), (68188, 'tmdb_show'), (90937, 'tmdb_show'), (42705, 'tmdb_show'), (118357, 'tmdb_show'), (75214, 'tmdb_show'), (72517, 'tmdb_show'), (45783, 'tmdb_show'), (42573, 'tmdb_show'), (112160, 'tmdb_show'), (83100, 'tmdb_show'), (75006, 'tmdb_show'), (40143, 'tmdb_show'), (89901, 'tmdb_show'), (87461, 'tmdb_show'), (31911, 'tmdb_show'), (80040, 'tmdb_show'), (37419, 'tmdb_show'), (74313, 'tmdb_show'), (62568, 'tmdb_show'), (93019, 'tmdb_show'), (57706, 'tmdb_show'), (34742, 'tmdb_show'), (94664, 'tmdb_show'), (35790, 'tmdb_show')]
+[2022-05-21 09:08:14,770] [builder.py:1426]           [DEBUG]    | 
+[2022-05-21 09:08:15,735] [builder.py:1500]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 80040
+[2022-05-21 09:08:15,801] [builder.py:1892]           [INFO]     | 
+[2022-05-21 09:08:15,802] [builder.py:1893]           [INFO]     |================================== Adding to Top Rated Collection ==================================|
+[2022-05-21 09:08:15,802] [builder.py:1894]           [INFO]     |                                                                                                    |
+[2022-05-21 09:08:16,181] [builder.py:1908]           [INFO]     |  1/69 | Top Rated Collection | = | Planet Earth II                                                 |
+[2022-05-21 09:08:16,182] [builder.py:1908]           [INFO]     |  2/69 | Top Rated Collection | = | Breaking Bad                                                    |
+[2022-05-21 09:08:16,183] [builder.py:1908]           [INFO]     |  3/69 | Top Rated Collection | = | The Chosen                                                      |
+[2022-05-21 09:08:16,183] [builder.py:1908]           [INFO]     |  4/69 | Top Rated Collection | = | Chernobyl                                                       |
+[2022-05-21 09:08:16,184] [builder.py:1908]           [INFO]     |  5/69 | Top Rated Collection | = | Planet Earth                                                    |
+[2022-05-21 09:08:16,184] [builder.py:1908]           [INFO]     |  6/69 | Top Rated Collection | = | Band of Brothers                                                |
+[2022-05-21 09:08:16,184] [builder.py:1908]           [INFO]     |  7/69 | Top Rated Collection | = | Our Planet                                                      |
+[2022-05-21 09:08:16,185] [builder.py:1908]           [INFO]     |  8/69 | Top Rated Collection | = | Blue Planet II                                                  |
+[2022-05-21 09:08:16,185] [builder.py:1908]           [INFO]     |  9/69 | Top Rated Collection | = | Cosmos (2014)                                                   |
+[2022-05-21 09:08:16,186] [builder.py:1908]           [INFO]     | 10/69 | Top Rated Collection | = | The Wire                                                        |
+[2022-05-21 09:08:16,187] [builder.py:1908]           [INFO]     | 11/69 | Top Rated Collection | = | Rick and Morty                                                  |
+[2022-05-21 09:08:16,188] [builder.py:1908]           [INFO]     | 12/69 | Top Rated Collection | = | Game of Thrones                                                 |
+[2022-05-21 09:08:16,188] [builder.py:1908]           [INFO]     | 13/69 | Top Rated Collection | = | The Sopranos                                                    |
+[2022-05-21 09:08:16,189] [builder.py:1908]           [INFO]     | 14/69 | Top Rated Collection | = | The World at War                                                |
+[2022-05-21 09:08:16,190] [builder.py:1908]           [INFO]     | 15/69 | Top Rated Collection | = | The Last Dance                                                  |
+[2022-05-21 09:08:16,190] [builder.py:1908]           [INFO]     | 16/69 | Top Rated Collection | = | Persona                                                         |
+[2022-05-21 09:08:16,191] [builder.py:1908]           [INFO]     | 17/69 | Top Rated Collection | = | The Vietnam War (2017)                                          |
+[2022-05-21 09:08:16,192] [builder.py:1908]           [INFO]     | 18/69 | Top Rated Collection | = | Life                                                            |
+[2022-05-21 09:08:16,192] [builder.py:1908]           [INFO]     | 19/69 | Top Rated Collection | = | Sherlock                                                        |
+[2022-05-21 09:08:16,193] [builder.py:1908]           [INFO]     | 20/69 | Top Rated Collection | = | Arcane                                                          |
+[2022-05-21 09:08:16,193] [builder.py:1908]           [INFO]     | 21/69 | Top Rated Collection | = | The Twilight Zone                                               |
+[2022-05-21 09:08:16,194] [builder.py:1908]           [INFO]     | 22/69 | Top Rated Collection | = | Frozen Planet                                                   |
+[2022-05-21 09:08:16,194] [builder.py:1908]           [INFO]     | 23/69 | Top Rated Collection | = | Human Planet                                                    |
+[2022-05-21 09:08:16,195] [builder.py:1908]           [INFO]     | 24/69 | Top Rated Collection | = | Clarkson's Farm                                                 |
+[2022-05-21 09:08:16,195] [builder.py:1908]           [INFO]     | 25/69 | Top Rated Collection | = | The Office (US)                                                 |
+[2022-05-21 09:08:16,196] [builder.py:1908]           [INFO]     | 26/69 | Top Rated Collection | = | Firefly                                                         |
+[2022-05-21 09:08:16,196] [builder.py:1908]           [INFO]     | 27/69 | Top Rated Collection | = | The Blue Planet                                                 |
+[2022-05-21 09:08:16,197] [builder.py:1908]           [INFO]     | 28/69 | Top Rated Collection | = | Only Fools and Horses                                           |
+[2022-05-21 09:08:16,198] [builder.py:1908]           [INFO]     | 29/69 | Top Rated Collection | = | Last Week Tonight with John Oliver                              |
+[2022-05-21 09:08:16,198] [builder.py:1908]           [INFO]     | 30/69 | Top Rated Collection | = | Fargo                                                           |
+[2022-05-21 09:08:16,199] [builder.py:1908]           [INFO]     | 31/69 | Top Rated Collection | = | True Detective                                                  |
+[2022-05-21 09:08:16,200] [builder.py:1908]           [INFO]     | 32/69 | Top Rated Collection | = | Nathan for You                                                  |
+[2022-05-21 09:08:16,200] [builder.py:1908]           [INFO]     | 33/69 | Top Rated Collection | = | Heartstopper                                                    |
+[2022-05-21 09:08:16,201] [builder.py:1908]           [INFO]     | 34/69 | Top Rated Collection | = | The West Wing                                                   |
+[2022-05-21 09:08:16,202] [builder.py:1908]           [INFO]     | 35/69 | Top Rated Collection | = | Pride and Prejudice                                             |
+[2022-05-21 09:08:16,202] [builder.py:1908]           [INFO]     | 36/69 | Top Rated Collection | = | Friends                                                         |
+[2022-05-21 09:08:16,203] [builder.py:1908]           [INFO]     | 37/69 | Top Rated Collection | = | Seinfeld                                                        |
+[2022-05-21 09:08:16,203] [builder.py:1908]           [INFO]     | 38/69 | Top Rated Collection | = | Succession                                                      |
+[2022-05-21 09:08:16,204] [builder.py:1908]           [INFO]     | 39/69 | Top Rated Collection | = | Better Call Saul                                                |
+[2022-05-21 09:08:16,204] [builder.py:1908]           [INFO]     | 40/69 | Top Rated Collection | = | Narcos                                                          |
+[2022-05-21 09:08:16,205] [builder.py:1908]           [INFO]     | 41/69 | Top Rated Collection | = | Peaky Blinders                                                  |
+[2022-05-21 09:08:16,205] [builder.py:1908]           [INFO]     | 42/69 | Top Rated Collection | = | Black Mirror                                                    |
+[2022-05-21 09:08:16,205] [builder.py:1908]           [INFO]     | 43/69 | Top Rated Collection | = | 1883                                                            |
+[2022-05-21 09:08:16,206] [builder.py:1908]           [INFO]     | 44/69 | Top Rated Collection | = | Ted Lasso                                                       |
+[2022-05-21 09:08:16,207] [builder.py:1908]           [INFO]     | 45/69 | Top Rated Collection | = | It's Always Sunny in Philadelphia                               |
+[2022-05-21 09:08:16,208] [builder.py:1908]           [INFO]     | 46/69 | Top Rated Collection | = | Chappelle's Show                                                |
+[2022-05-21 09:08:16,208] [builder.py:1908]           [INFO]     | 47/69 | Top Rated Collection | = | Curb Your Enthusiasm                                            |
+[2022-05-21 09:08:16,209] [builder.py:1908]           [INFO]     | 48/69 | Top Rated Collection | = | Freaks and Geeks                                                |
+[2022-05-21 09:08:16,209] [builder.py:1908]           [INFO]     | 49/69 | Top Rated Collection | = | Twin Peaks                                                      |
+[2022-05-21 09:08:16,210] [builder.py:1908]           [INFO]     | 50/69 | Top Rated Collection | = | Fawlty Towers                                                   |
+[2022-05-21 09:08:16,210] [builder.py:1908]           [INFO]     | 51/69 | Top Rated Collection | = | Monty Python's Flying Circus                                    |
+[2022-05-21 09:08:16,211] [builder.py:1908]           [INFO]     | 52/69 | Top Rated Collection | = | The Family Man                                                  |
+[2022-05-21 09:08:16,211] [builder.py:1908]           [INFO]     | 53/69 | Top Rated Collection | = | The Mandalorian                                                 |
+[2022-05-21 09:08:16,212] [builder.py:1908]           [INFO]     | 54/69 | Top Rated Collection | = | Invincible (2021)                                               |
+[2022-05-21 09:08:16,212] [builder.py:1908]           [INFO]     | 55/69 | Top Rated Collection | = | The Marvelous Mrs. Maisel                                       |
+[2022-05-21 09:08:16,213] [builder.py:1908]           [INFO]     | 56/69 | Top Rated Collection | = | Dark                                                            |
+[2022-05-21 09:08:16,213] [builder.py:1908]           [INFO]     | 57/69 | Top Rated Collection | = | The Grand Tour (2016)                                           |
+[2022-05-21 09:08:16,214] [builder.py:1908]           [INFO]     | 58/69 | Top Rated Collection | = | This Is Us                                                      |
+[2022-05-21 09:08:16,214] [builder.py:1908]           [INFO]     | 59/69 | Top Rated Collection | = | Anne with an E                                                  |
+[2022-05-21 09:08:16,215] [builder.py:1908]           [INFO]     | 60/69 | Top Rated Collection | = | The Crown                                                       |
+[2022-05-21 09:08:16,215] [builder.py:1908]           [INFO]     | 61/69 | Top Rated Collection | = | Letterkenny                                                     |
+[2022-05-21 09:08:16,216] [builder.py:1908]           [INFO]     | 62/69 | Top Rated Collection | = | The D'Amelio Show                                               |
+[2022-05-21 09:08:16,216] [builder.py:1908]           [INFO]     | 63/69 | Top Rated Collection | = | The Kardashians                                                 |
+[2022-05-21 09:08:16,217] [builder.py:1908]           [INFO]     | 64/69 | Top Rated Collection | = | Big Time Rush                                                   |
+[2022-05-21 09:08:16,217] [builder.py:1908]           [INFO]     | 65/69 | Top Rated Collection | = | She-Ra and the Princesses of Power                              |
+[2022-05-21 09:08:16,218] [builder.py:1908]           [INFO]     | 66/69 | Top Rated Collection | = | Primal                                                          |
+[2022-05-21 09:08:16,218] [builder.py:1908]           [INFO]     | 67/69 | Top Rated Collection | = | Power Book II: Ghost                                            |
+[2022-05-21 09:08:16,219] [builder.py:1908]           [INFO]     | 68/69 | Top Rated Collection | = | The Umbrella Academy                                            |
+[2022-05-21 09:08:16,219] [builder.py:1908]           [INFO]     | 69/69 | Top Rated Collection | = | Dickinson                                                       |
+[2022-05-21 09:08:16,220] [builder.py:1933]           [INFO]     |                                                                                                    |
+[2022-05-21 09:08:16,220] [builder.py:1934]           [INFO]     | 69 Shows Processed                                                                                 |
+[2022-05-21 09:08:16,221] [builder.py:2171]           [INFO]     |                                                                                                    |
+[2022-05-21 09:08:16,221] [builder.py:2172]           [INFO]     |============================== Missing Movies from Library: TV Shows ===============================|
+[2022-05-21 09:08:16,222] [builder.py:2173]           [INFO]     |                                                                                                    |
+[2022-05-21 09:08:16,303] [builder.py:2179]           [ERROR]    | TMDb Error: No Movie found for TMDb ID 37452: (404 [Not Found]) Requested Item Not Found           |
+[2022-05-21 09:08:16,304] [builder.py:2189]           [INFO]     |                                                                                                    |
+[2022-05-21 09:08:16,304] [builder.py:2190]           [INFO]     | 0 Movie Missing                                                                                    |
+[2022-05-21 09:08:16,304] [builder.py:2213]           [INFO]     |                                                                                                    |
+[2022-05-21 09:08:16,305] [builder.py:2214]           [INFO]     |============================== Missing Shows from Library: Top Rated ===============================|
+[2022-05-21 09:08:16,305] [builder.py:2215]           [INFO]     |                                                                                                    |
+[2022-05-21 09:08:17,193] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | The Heroes (IR) (TVDb: 415450)                                          |
+[2022-05-21 09:08:18,113] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Aspirants (TVDb: 400694)                                                |
+[2022-05-21 09:08:19,002] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Scam 1992 - The Harshad Mehta Story (TVDb: 389680)                      |
+[2022-05-21 09:08:20,092] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Avatar: The Last Airbender (TVDb: 74852)                                |
+[2022-05-21 09:08:20,987] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Cosmos (TVDb: 74995)                                                    |
+[2022-05-21 09:08:21,949] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Kota Factory (TVDb: 362631)                                             |
+[2022-05-21 09:08:22,790] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | TVF Pitchers (TVDb: 298868)                                             |
+[2022-05-21 09:08:23,702] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Leyla and Mecnun (TVDb: 248440)                                         |
+[2022-05-21 09:08:24,751] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Fullmetal Alchemist: Brotherhood (TVDb: 85249)                          |
+[2022-05-21 09:08:25,604] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Yeh Meri Family (TVDb: 350193)                                          |
+[2022-05-21 09:08:26,827] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Attack on Titan (TVDb: 267440)                                          |
+[2022-05-21 09:08:28,184] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Hunter x Hunter (2011) (TVDb: 252322)                                   |
+[2022-05-21 09:08:29,163] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Death Note (TVDb: 79481)                                                |
+[2022-05-21 09:08:30,243] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Batman: The Animated Series (TVDb: 76168)                               |
+[2022-05-21 09:08:31,152] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Flames (TVDb: 342635)                                                   |
+[2022-05-21 09:08:32,157] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | When They See Us (TVDb: 360388)                                         |
+[2022-05-21 09:08:33,129] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Gravity Falls (TVDb: 259972)                                            |
+[2022-05-21 09:08:34,083] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Mumbai Diaries 26/11 (TVDb: 392499)                                     |
+[2022-05-21 09:08:35,246] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Cowboy Bebop (TVDb: 76885)                                              |
+[2022-05-21 09:08:36,154] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Over the Garden Wall (TVDb: 281643)                                     |
+[2022-05-21 09:08:37,449] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Haikyu!! (TVDb: 278157)                                                 |
+[2022-05-21 09:08:38,411] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | BoJack Horseman (TVDb: 282254)                                          |
+[2022-05-21 09:08:39,477] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Steins;Gate (TVDb: 244061)                                              |
+[2022-05-21 09:08:40,370] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Undercover (2011) (TVDb: 248051)                                        |
+[2022-05-21 09:08:41,272] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Behzat Ç.: The Story Of A Rebel Cop (TVDb: 235881)                      |
+[2022-05-21 09:08:42,209] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Panchayat (TVDb: 379446)                                                |
+[2022-05-21 09:08:43,104] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Vinland Saga (TVDb: 359274)                                             |
+[2022-05-21 09:08:46,032] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | One Piece (TVDb: 81797)                                                 |
+[2022-05-21 09:08:47,589] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Dragon Ball Z (TVDb: 81472)                                             |
+[2022-05-21 09:08:48,857] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Demon Slayer: Kimetsu no Yaiba (TVDb: 348545)                           |
+[2022-05-21 09:08:49,799] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | It’s a Sin (TVDb: 378994)                                               |
+[2022-05-21 09:08:50,758] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Fleabag (TVDb: 314614)                                                  |
+[2022-05-21 09:08:51,218] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 100                                 |
+[2022-05-21 09:08:51,691] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 19239                               |
+[2022-05-21 09:08:52,250] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 88040                               |
+[2022-05-21 09:08:52,711] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 106600                              |
+[2022-05-21 09:08:53,171] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 83095                               |
+[2022-05-21 09:08:53,953] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Modern Warfare (TVDb: 80539)                                            |
+[2022-05-21 09:08:54,894] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | The Untouchables (TVDb: 77696)                                          |
+[2022-05-21 09:08:55,361] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 123566                              |
+[2022-05-21 09:08:56,137] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Sword Stained with Royal Blood (TVDb: 80564)                            |
+[2022-05-21 09:08:56,594] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 83097                               |
+[2022-05-21 09:08:57,059] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 61663                               |
+[2022-05-21 09:08:57,517] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 110309                              |
+[2022-05-21 09:08:57,977] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 65648                               |
+[2022-05-21 09:08:58,444] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 79141                               |
+[2022-05-21 09:08:58,998] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 125910                              |
+[2022-05-21 09:08:59,557] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 65930                               |
+[2022-05-21 09:09:00,115] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 117376                              |
+[2022-05-21 09:09:00,585] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 92685                               |
+[2022-05-21 09:09:01,390] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Mei-chan's Butler (TVDb: 91801)                                         |
+[2022-05-21 09:09:02,567] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | The Real Housewives of New York City (TVDb: 84669)                      |
+[2022-05-21 09:09:03,027] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 94796                               |
+[2022-05-21 09:09:03,499] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 68349                               |
+[2022-05-21 09:09:03,964] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 62741                               |
+[2022-05-21 09:09:04,423] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 108261                              |
+[2022-05-21 09:09:04,983] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 68129                               |
+[2022-05-21 09:09:05,441] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 95666                               |
+[2022-05-21 09:09:05,902] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 83121                               |
+[2022-05-21 09:09:06,362] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 45790                               |
+[2022-05-21 09:09:06,924] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 45950                               |
+[2022-05-21 09:09:07,503] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 67389                               |
+[2022-05-21 09:09:07,962] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 95269                               |
+[2022-05-21 09:09:08,522] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 82739                               |
+[2022-05-21 09:09:09,075] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 85990                               |
+[2022-05-21 09:09:09,639] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 32118                               |
+[2022-05-21 09:09:10,099] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 63495                               |
+[2022-05-21 09:09:10,876] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Up Close Classic (TVDb: 73833)                                          |
+[2022-05-21 09:09:11,336] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 30669                               |
+[2022-05-21 09:09:11,799] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 98214                               |
+[2022-05-21 09:09:12,263] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 96316                               |
+[2022-05-21 09:09:12,823] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 90447                               |
+[2022-05-21 09:09:13,284] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 31132                               |
+[2022-05-21 09:09:13,737] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 96150                               |
+[2022-05-21 09:09:14,195] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 67915                               |
+[2022-05-21 09:09:14,660] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 93256                               |
+[2022-05-21 09:09:15,126] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 87432                               |
+[2022-05-21 09:09:15,933] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Kevin McCloud and the Big Town Plan (TVDb: 82684)                       |
+[2022-05-21 09:09:16,775] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Bodyguards (TVDb: 77721)                                                |
+[2022-05-21 09:09:17,567] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Park Place (TVDb: 76121)                                                |
+[2022-05-21 09:09:18,030] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 3854                                |
+[2022-05-21 09:09:18,498] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 97186                               |
+[2022-05-21 09:09:19,379] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | The Contender (2005) (TVDb: 74081)                                      |
+[2022-05-21 09:09:19,844] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 62565                               |
+[2022-05-21 09:09:20,305] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 66433                               |
+[2022-05-21 09:09:21,099] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Sleepers (TVDb: 86031)                                                  |
+[2022-05-21 09:09:21,563] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 65249                               |
+[2022-05-21 09:09:22,122] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 99489                               |
+[2022-05-21 09:09:22,593] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 65844                               |
+[2022-05-21 09:09:23,059] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 72637                               |
+[2022-05-21 09:09:23,520] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 61461                               |
+[2022-05-21 09:09:23,985] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 68188                               |
+[2022-05-21 09:09:24,449] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 90937                               |
+[2022-05-21 09:09:25,017] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 42705                               |
+[2022-05-21 09:09:25,913] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Untold (TVDb: 75214)                                                    |
+[2022-05-21 09:09:26,695] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | King Rollo (TVDb: 72517)                                                |
+[2022-05-21 09:09:27,160] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 45783                               |
+[2022-05-21 09:09:27,628] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 42573                               |
+[2022-05-21 09:09:28,086] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 112160                              |
+[2022-05-21 09:09:29,164] [builder.py:2226]           [INFO]     | Top Rated Collection | ? | Charterfeber (TVDb: 83100)                                              |
+[2022-05-21 09:09:29,723] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 40143                               |
+[2022-05-21 09:09:30,187] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 87461                               |
+[2022-05-21 09:09:30,648] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 37419                               |
+[2022-05-21 09:09:31,102] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 62568                               |
+[2022-05-21 09:09:31,566] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 93019                               |
+[2022-05-21 09:09:32,025] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 57706                               |
+[2022-05-21 09:09:32,490] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 34742                               |
+[2022-05-21 09:09:32,946] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 94664                               |
+[2022-05-21 09:09:33,405] [builder.py:2221]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 35790                               |
+[2022-05-21 09:09:33,406] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-05-21 09:09:33,406] [builder.py:2231]           [INFO]     | 46 Shows Missing                                                                                   |
+[2022-05-21 09:09:33,575] [builder.py:2410]           [INFO]     |                                                                                                    |
+[2022-05-21 09:09:33,575] [builder.py:2411]           [INFO]     |============================= Updating Details of Top Rated Collection =============================|
+[2022-05-21 09:09:33,575] [builder.py:2412]           [INFO]     |                                                                                                    |
+[2022-05-21 09:09:33,576] [builder.py:2418]           [INFO]     | Detail: summary will update Collection Summary                                                     |
+[2022-05-21 09:09:33,576] [builder.py:2473]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | 
+[2022-05-21 09:09:34,338] [builder.py:2477]           [INFO]     | Details: have been updated
+[2022-05-21 09:09:34,338] [builder.py:2480]           [INFO]     | 
+[2022-05-21 09:09:34,339] [builder.py:2568]           [INFO]     | No poster collection detail or asset folder found
+[2022-05-21 09:09:34,339] [builder.py:2601]           [INFO]     | No background collection detail or asset folder found
+[2022-05-21 09:09:34,585] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-21 09:09:34,586] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-21 09:09:34,586] [plex_meta_manager.py:577]  [INFO]     |                                   Finished Top Rated Collection                                    |
+[2022-05-21 09:09:34,586] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:01:30                                    |
+[2022-05-21 09:09:34,587] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

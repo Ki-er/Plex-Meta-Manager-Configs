@@ -1,0 +1,49 @@
+[2022-05-26 01:03:11,435] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-26 01:03:11,435] [plex_meta_manager.py:437]  [INFO]     |                                 Transformers Collection in Movies                                  |
+[2022-05-26 01:03:11,435] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-26 01:03:11,436] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-26 01:03:11,436] [plex_meta_manager.py:443]  [INFO]     |================================ Validating Transformers Attributes ================================|
+[2022-05-26 01:03:11,436] [builder.py:241]            [DEBUG]    |                                                                                                    |
+[2022-05-26 01:03:11,437] [builder.py:242]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-05-26 01:03:11,437] [meta.py:109]               [DEBUG]    | Value: ordereddict([('name', 'Franchise'), ('poster', 'https://theposterdb.com/api/assets/159630')]) |
+[2022-05-26 01:03:11,438] [builder.py:359]            [DEBUG]    |                                                                                                    |
+[2022-05-26 01:03:11,438] [builder.py:360]            [DEBUG]    | Validating Method: delete_not_scheduled                                                            |
+[2022-05-26 01:03:11,438] [builder.py:361]            [DEBUG]    | Value: True                                                                                        |
+[2022-05-26 01:03:11,438] [builder.py:402]            [DEBUG]    |                                                                                                    |
+[2022-05-26 01:03:11,439] [builder.py:403]            [DEBUG]    | Validating Method: run_again                                                                       |
+[2022-05-26 01:03:11,439] [builder.py:404]            [DEBUG]    | Value: True                                                                                        |
+[2022-05-26 01:03:11,439] [builder.py:423]            [DEBUG]    |                                                                                                    |
+[2022-05-26 01:03:11,439] [builder.py:424]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-05-26 01:03:11,440] [builder.py:428]            [DEBUG]    | Value: sync                                                                                        |
+[2022-05-26 01:03:11,440] [builder.py:570]            [DEBUG]    |                                                                                                    |
+[2022-05-26 01:03:11,440] [builder.py:571]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-05-26 01:03:11,441] [builder.py:572]            [DEBUG]    | Value: release                                                                                     |
+[2022-05-26 01:03:11,441] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-26 01:03:11,441] [builder.py:592]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-05-26 01:03:11,441] [builder.py:593]            [DEBUG]    | Value: +++++Transformers                                                                           |
+[2022-05-26 01:03:11,442] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-26 01:03:11,442] [builder.py:592]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-05-26 01:03:11,442] [builder.py:593]            [DEBUG]    | Value: ['hhttps://www.imdb.com/list/ls033452628/']                                                 |
+[2022-05-26 01:03:11,443] [plex_meta_manager.py:566]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 445, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library)
+                                                                 |   File "/modules/builder.py", line 662, in __init__
+                                                                 |     self._imdb(method_name, method_data)
+                                                                 |   File "/modules/builder.py", line 1097, in _imdb
+                                                                 |     for imdb_dict in self.config.IMDb.validate_imdb_lists(self.Type, method_data, self.language):
+                                                                 |   File "/modules/imdb.py", line 48, in validate_imdb_lists
+                                                                 |     raise Failed(f"IMDb Error: {imdb_url} must begin with either:{fails}")
+                                                                 | modules.util.Failed: IMDb Error: hhttps://www.imdb.com/list/ls033452628/ must begin with either:https://www.imdb.com/list/ls (For Lists)
+                                                                 | https://www.imdb.com/search/title/ (For Searches)
+                                                                 | https://www.imdb.com/search/keyword/ (For Keyword Searches)
+                                                                 | https://www.imdb.com/filmosearch/ (For Filmography Searches)
+                                                                 | 
+[2022-05-26 01:03:11,447] [plex_meta_manager.py:567]  [ERROR]    | IMDb Error: hhttps://www.imdb.com/list/ls033452628/ must begin with either:https://www.imdb.com/list/ls (For Lists)
+                                                                 | https://www.imdb.com/search/title/ (For Searches)
+                                                                 | https://www.imdb.com/search/keyword/ (For Keyword Searches)
+                                                                 | https://www.imdb.com/filmosearch/ (For Filmography Searches)
+[2022-05-26 01:03:11,448] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-26 01:03:11,448] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-26 01:03:11,448] [plex_meta_manager.py:577]  [INFO]     |                                  Finished Transformers Collection                                  |
+[2022-05-26 01:03:11,449] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-05-26 01:03:11,449] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

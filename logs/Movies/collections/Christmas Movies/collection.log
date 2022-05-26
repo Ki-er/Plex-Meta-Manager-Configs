@@ -1,0 +1,17 @@
+[2022-05-20 17:35:52,501] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:35:52,501] [plex_meta_manager.py:437]  [INFO]     |                               Christmas Movies Collection in Movies                                |
+[2022-05-20 17:35:52,502] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:35:52,502] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-20 17:35:52,502] [plex_meta_manager.py:443]  [INFO]     |============================== Validating Christmas Movies Attributes ==============================|
+[2022-05-20 17:35:52,503] [builder.py:365]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:35:52,503] [builder.py:366]            [DEBUG]    | Validating Method: schedule                                                                        |
+[2022-05-20 17:35:52,503] [builder.py:370]            [DEBUG]    | Value: yearly(11/30)                                                                               |
+[2022-05-20 17:35:52,504] [plex_meta_manager.py:562]  [INFO]     |                                                                                                    |
+                                                                 | Scheduled yearly on November 30th
+                                                                 | 
+                                                                 | Collection Christmas Movies not scheduled to run
+[2022-05-20 17:35:52,505] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-20 17:35:52,505] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-20 17:35:52,505] [plex_meta_manager.py:577]  [INFO]     |                                Finished Christmas Movies Collection                                |
+[2022-05-20 17:35:52,505] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-05-20 17:35:52,506] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

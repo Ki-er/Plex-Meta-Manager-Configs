@@ -1,0 +1,97 @@
+[2022-05-20 17:27:01,459] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:27:01,460] [plex_meta_manager.py:437]  [INFO]     |                                   Apple TV+ Collection in Movies                                   |
+[2022-05-20 17:27:01,460] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:27:01,461] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-20 17:27:01,461] [plex_meta_manager.py:443]  [INFO]     |================================= Validating Apple TV+ Attributes ==================================|
+[2022-05-20 17:27:01,462] [builder.py:365]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:27:01,462] [builder.py:366]            [DEBUG]    | Validating Method: schedule                                                                        |
+[2022-05-20 17:27:01,462] [builder.py:370]            [DEBUG]    | Value: daily                                                                                       |
+[2022-05-20 17:27:01,463] [builder.py:423]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:27:01,463] [builder.py:424]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-05-20 17:27:01,463] [builder.py:428]            [DEBUG]    | Value: sync                                                                                        |
+[2022-05-20 17:27:01,464] [builder.py:570]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:27:01,464] [builder.py:571]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-05-20 17:27:01,464] [builder.py:572]            [DEBUG]    | Value: release                                                                                     |
+[2022-05-20 17:27:01,465] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:27:01,465] [builder.py:592]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-05-20 17:27:01,466] [builder.py:593]            [DEBUG]    | Value: https://www.imdb.com/list/ls084062897                                                       |
+[2022-05-20 17:27:03,519] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:27:03,523] [builder.py:592]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-05-20 17:27:03,523] [builder.py:593]            [DEBUG]    | Value: default                                                                                     |
+[2022-05-20 17:27:03,524] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:27:03,524] [builder.py:592]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-05-20 17:27:03,524] [builder.py:593]            [DEBUG]    | Value: *600                                                                                        |
+[2022-05-20 17:27:03,567] [plex.py:721]               [DEBUG]    |                                                                                                    |
+[2022-05-20 17:27:03,568] [plex.py:724]               [DEBUG]    | Looking for: Apple TV+                                                                             |
+[2022-05-20 17:27:03,568] [builder.py:749]            [INFO]     |                                                                                                    |
+[2022-05-20 17:27:03,568] [builder.py:750]            [INFO]     | Validation Successful                                                                              |
+[2022-05-20 17:27:03,574] [plex_meta_manager.py:447]  [INFO]     |                                                                                                    |
+[2022-05-20 17:27:03,574] [plex_meta_manager.py:449]  [INFO]     |=================================== Running Apple TV+ Collection ===================================|
+[2022-05-20 17:27:03,575] [plex_meta_manager.py:461]  [INFO]     |                                                                                                    |
+[2022-05-20 17:27:03,575] [plex_meta_manager.py:462]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-05-20 17:27:03,575] [plex_meta_manager.py:472]  [DEBUG]    |                                                                                                    |
+[2022-05-20 17:27:03,575] [plex_meta_manager.py:473]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls084062897', 'limit': 0}                   |
+[2022-05-20 17:27:03,576] [plex_meta_manager.py:474]  [INFO]     |                                                                                                    |
+[2022-05-20 17:27:03,576] [imdb.py:176]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls084062897                                        |
+[2022-05-20 17:27:08,733] [imdb.py:127]               [DEBUG]    | 33 IMDb IDs Found: ['tt6722976', 'tt6348410', 'tt6285944', 'tt11692010', 'tt11615290', 'tt10883124', 'tt6048922', 'tt11095742', 'tt9606374', 'tt13093506', 'tt9203832', 'tt13017992', 'tt5198068', 'tt6857376', 'tt11459366', 'tt9130508', 'tt14372240', 'tt13622130', 'tt14784858', 'tt10366460', 'tt7230750', 'tt7214954', 'tt7638556', 'tt15010478', 'tt3420504', 'tt15353214', 'tt14460998', 'tt13207508', 'tt10095582', 'tt7215232', 'tt15829598', 'tt15553258', 'tt2201261'] |
+[2022-05-20 17:27:08,733] [builder.py:1424]           [DEBUG]    |                                                                                                    |
+[2022-05-20 17:27:08,734] [builder.py:1425]           [DEBUG]    | 33 IDs Found: [('tt6722976', 'imdb'), ('tt6348410', 'imdb'), ('tt6285944', 'imdb'), ('tt11692010', 'imdb'), ('tt11615290', 'imdb'), ('tt10883124', 'imdb'), ('tt6048922', 'imdb'), ('tt11095742', 'imdb'), ('tt9606374', 'imdb'), ('tt13093506', 'imdb'), ('tt9203832', 'imdb'), ('tt13017992', 'imdb'), ('tt5198068', 'imdb'), ('tt6857376', 'imdb'), ('tt11459366', 'imdb'), ('tt9130508', 'imdb'), ('tt14372240', 'imdb'), ('tt13622130', 'imdb'), ('tt14784858', 'imdb'), ('tt10366460', 'imdb'), ('tt7230750', 'imdb'), ('tt7214954', 'imdb'), ('tt7638556', 'imdb'), ('tt15010478', 'imdb'), ('tt3420504', 'imdb'), ('tt15353214', 'imdb'), ('tt14460998', 'imdb'), ('tt13207508', 'imdb'), ('tt10095582', 'imdb'), ('tt7215232', 'imdb'), ('tt15829598', 'imdb'), ('tt15553258', 'imdb'), ('tt2201261', 'imdb')] |
+[2022-05-20 17:27:08,734] [builder.py:1426]           [DEBUG]    |                                                                                                    |
+[2022-05-20 17:27:11,693] [builder.py:1892]           [INFO]     |                                                                                                    |
+[2022-05-20 17:27:11,697] [builder.py:1893]           [INFO]     |================================== Adding to Apple TV+ Collection ==================================|
+[2022-05-20 17:27:11,698] [builder.py:1894]           [INFO]     |                                                                                                    |
+[2022-05-20 17:27:11,698] [builder.py:1908]           [INFO]     |  1/28 | Apple TV+ Collection | + | The Elephant Queen (2018)                                       |
+[2022-05-20 17:27:13,824] [builder.py:1908]           [INFO]     |  2/28 | Apple TV+ Collection | + | Hala (2019)                                                     |
+[2022-05-20 17:27:16,238] [builder.py:1908]           [INFO]     |  3/28 | Apple TV+ Collection | + | The Banker (2020)                                               |
+[2022-05-20 17:27:18,946] [builder.py:1908]           [INFO]     |  4/28 | Apple TV+ Collection | + | Beastie Boys Story (2020)                                       |
+[2022-05-20 17:27:21,764] [builder.py:1908]           [INFO]     |  5/28 | Apple TV+ Collection | + | Dads (2019)                                                     |
+[2022-05-20 17:27:24,535] [builder.py:1908]           [INFO]     |  6/28 | Apple TV+ Collection | + | Greyhound (2020)                                                |
+[2022-05-20 17:27:27,423] [builder.py:1908]           [INFO]     |  7/28 | Apple TV+ Collection | + | Boys State (2020)                                               |
+[2022-05-20 17:27:30,036] [builder.py:1908]           [INFO]     |  8/28 | Apple TV+ Collection | + | On the Rocks (2020)                                             |
+[2022-05-20 17:27:32,514] [builder.py:1908]           [INFO]     |  9/28 | Apple TV+ Collection | + | Bruce Springsteen's Letter to You (2020)                        |
+[2022-05-20 17:27:35,046] [builder.py:1908]           [INFO]     | 10/28 | Apple TV+ Collection | + | Fireball: Visitors from Darker Worlds (2020)                    |
+[2022-05-20 17:27:37,637] [builder.py:1908]           [INFO]     | 11/28 | Apple TV+ Collection | + | Mariah Carey's Magical Christmas Special (2020)                 |
+[2022-05-20 17:27:40,395] [builder.py:1908]           [INFO]     | 12/28 | Apple TV+ Collection | + | Wolfwalkers (2020)                                              |
+[2022-05-20 17:27:43,056] [builder.py:1908]           [INFO]     | 13/28 | Apple TV+ Collection | + | Palmer (2021)                                                   |
+[2022-05-20 17:27:45,873] [builder.py:1908]           [INFO]     | 14/28 | Apple TV+ Collection | + | Billie Eilish: The World's a Little Blurry (2021)               |
+[2022-05-20 17:27:48,564] [builder.py:1908]           [INFO]     | 15/28 | Apple TV+ Collection | + | Cherry (2021)                                                   |
+[2022-05-20 17:27:51,346] [builder.py:1908]           [INFO]     | 16/28 | Apple TV+ Collection | + | The Year Earth Changed (2021)                                   |
+[2022-05-20 17:27:53,671] [builder.py:1908]           [INFO]     | 17/28 | Apple TV+ Collection | + | Fathom (2021)                                                   |
+[2022-05-20 17:27:56,142] [builder.py:1908]           [INFO]     | 18/28 | Apple TV+ Collection | + | CODA (2021)                                                     |
+[2022-05-20 17:27:58,594] [builder.py:1908]           [INFO]     | 19/28 | Apple TV+ Collection | + | The Velvet Underground (2021)                                   |
+[2022-05-20 17:28:01,392] [builder.py:1908]           [INFO]     | 20/28 | Apple TV+ Collection | + | Come from Away (2021)                                           |
+[2022-05-20 17:28:04,487] [builder.py:1908]           [INFO]     | 21/28 | Apple TV+ Collection | + | 9/11: Inside the President's War Room (2021)                    |
+[2022-05-20 17:28:06,973] [builder.py:1908]           [INFO]     | 22/28 | Apple TV+ Collection | + | Finch (2021)                                                    |
+[2022-05-20 17:28:09,686] [builder.py:1908]           [INFO]     | 23/28 | Apple TV+ Collection | + | The Fight Before Christmas (2021)                               |
+[2022-05-20 17:28:12,203] [builder.py:1908]           [INFO]     | 24/28 | Apple TV+ Collection | + | Blush (2021)                                                    |
+[2022-05-20 17:28:15,132] [builder.py:1908]           [INFO]     | 25/28 | Apple TV+ Collection | + | Swan Song (2021)                                                |
+[2022-05-20 17:28:17,881] [builder.py:1908]           [INFO]     | 26/28 | Apple TV+ Collection | + | The Tragedy of Macbeth (2021)                                   |
+[2022-05-20 17:28:20,766] [builder.py:1908]           [INFO]     | 27/28 | Apple TV+ Collection | + | Mariah's Christmas: The Magic Continues (2021)                  |
+[2022-05-20 17:28:23,186] [builder.py:1908]           [INFO]     | 28/28 | Apple TV+ Collection | + | The Sky Is Everywhere (2022)                                    |
+[2022-05-20 17:28:25,936] [builder.py:1933]           [INFO]     |                                                                                                    |
+[2022-05-20 17:28:25,936] [builder.py:1934]           [INFO]     | 28 Movies Processed                                                                                |
+[2022-05-20 17:28:25,937] [builder.py:2171]           [INFO]     |                                                                                                    |
+[2022-05-20 17:28:25,937] [builder.py:2172]           [INFO]     |=============================== Missing Movies from Library: Movies ================================|
+[2022-05-20 17:28:25,937] [builder.py:2173]           [INFO]     |                                                                                                    |
+[2022-05-20 17:28:26,297] [builder.py:2185]           [INFO]     | Apple TV+ Collection | ? | Here We Are: Notes for Living on Planet Earth (2020) (TMDb: 664850)     |
+[2022-05-20 17:28:26,608] [builder.py:2185]           [INFO]     | Apple TV+ Collection | ? | Who Are You, Charlie Brown? (2021) (TMDb: 836919)                       |
+[2022-05-20 17:28:26,958] [builder.py:2185]           [INFO]     | Apple TV+ Collection | ? | Luck (2022) (TMDb: 585511)                                              |
+[2022-05-20 17:28:27,378] [builder.py:2185]           [INFO]     | Apple TV+ Collection | ? | Spellbound (TMDb: 592983)                                               |
+[2022-05-20 17:28:27,785] [builder.py:2185]           [INFO]     | Apple TV+ Collection | ? | Snoopy Presents: For Auld Lang Syne (2021) (TMDb: 881211)               |
+[2022-05-20 17:28:27,786] [builder.py:2189]           [INFO]     |                                                                                                    |
+[2022-05-20 17:28:27,786] [builder.py:2190]           [INFO]     | 5 Movies Missing                                                                                   |
+[2022-05-20 17:28:27,892] [builder.py:2410]           [INFO]     |                                                                                                    |
+[2022-05-20 17:28:27,893] [builder.py:2411]           [INFO]     |============================= Updating Details of Apple TV+ Collection =============================|
+[2022-05-20 17:28:27,893] [builder.py:2412]           [INFO]     |                                                                                                    |
+[2022-05-20 17:28:27,893] [builder.py:2473]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Sort Title | *600
+                                                                 | 
+[2022-05-20 17:28:28,291] [builder.py:2477]           [INFO]     | Details: have been updated
+[2022-05-20 17:28:28,292] [builder.py:2480]           [INFO]     | 
+[2022-05-20 17:28:28,292] [builder.py:2568]           [INFO]     | No poster collection detail or asset folder found
+[2022-05-20 17:28:28,292] [builder.py:2601]           [INFO]     | No background collection detail or asset folder found
+[2022-05-20 17:28:30,346] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-20 17:28:30,347] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-20 17:28:30,347] [plex_meta_manager.py:577]  [INFO]     |                                   Finished Apple TV+ Collection                                    |
+[2022-05-20 17:28:30,347] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:01:28                                    |
+[2022-05-20 17:28:30,347] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

@@ -1,0 +1,79 @@
+[2022-05-26 02:11:28,286] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-26 02:11:28,287] [plex_meta_manager.py:437]  [INFO]     |                           Pirates of the Caribbean Collection in Movies                            |
+[2022-05-26 02:11:28,287] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-26 02:11:28,287] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-26 02:11:28,288] [plex_meta_manager.py:443]  [INFO]     |========================== Validating Pirates of the Caribbean Attributes ==========================|
+[2022-05-26 02:11:28,288] [builder.py:241]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:11:28,288] [builder.py:242]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-05-26 02:11:28,289] [meta.py:109]               [DEBUG]    | Value: ordereddict([('name', 'Franchise'), ('poster', 'https://theposterdb.com/api/assets/53941')]) |
+[2022-05-26 02:11:28,289] [builder.py:359]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:11:28,289] [builder.py:360]            [DEBUG]    | Validating Method: delete_not_scheduled                                                            |
+[2022-05-26 02:11:28,290] [builder.py:361]            [DEBUG]    | Value: True                                                                                        |
+[2022-05-26 02:11:28,290] [builder.py:402]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:11:28,290] [builder.py:403]            [DEBUG]    | Validating Method: run_again                                                                       |
+[2022-05-26 02:11:28,291] [builder.py:404]            [DEBUG]    | Value: True                                                                                        |
+[2022-05-26 02:11:28,291] [builder.py:423]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:11:28,291] [builder.py:424]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-05-26 02:11:28,291] [builder.py:428]            [DEBUG]    | Value: sync                                                                                        |
+[2022-05-26 02:11:28,292] [builder.py:570]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:11:28,292] [builder.py:571]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-05-26 02:11:28,292] [builder.py:572]            [DEBUG]    | Value: release                                                                                     |
+[2022-05-26 02:11:28,292] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:11:28,293] [builder.py:592]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-05-26 02:11:28,293] [builder.py:593]            [DEBUG]    | Value: +++++Pirates                                                                                |
+[2022-05-26 02:11:28,293] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:11:28,293] [builder.py:592]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-05-26 02:11:28,294] [builder.py:593]            [DEBUG]    | Value: ['https://www.imdb.com/list/ls023657263/']                                                  |
+[2022-05-26 02:11:29,233] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:11:29,234] [builder.py:592]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-05-26 02:11:29,234] [builder.py:593]            [DEBUG]    | Value: A series of fantasy swashbuckler films based on Walt Disney's theme park ride of the same name. The films follow the adventures of Captain Jack Sparrow and take place in a fictional historical setting; a world ruled by the British Empire, the East India Trading Company and the Spanish Empire, with pirates representing freedom from the ruling powers. |
+[2022-05-26 02:11:29,234] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:11:29,235] [builder.py:592]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-05-26 02:11:29,235] [builder.py:593]            [DEBUG]    | Value: https://theposterdb.com/api/assets/53941                                                    |
+[2022-05-26 02:11:29,235] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:11:29,236] [builder.py:592]            [DEBUG]    | Validating Method: visible_home                                                                    |
+[2022-05-26 02:11:29,236] [builder.py:593]            [DEBUG]    | Value: True                                                                                        |
+[2022-05-26 02:11:29,236] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:11:29,236] [builder.py:592]            [DEBUG]    | Validating Method: visible_shared                                                                  |
+[2022-05-26 02:11:29,237] [builder.py:593]            [DEBUG]    | Value: True                                                                                        |
+[2022-05-26 02:11:38,344] [builder.py:749]            [INFO]     |                                                                                                    |
+[2022-05-26 02:11:38,345] [builder.py:750]            [INFO]     | Validation Successful                                                                              |
+[2022-05-26 02:11:38,345] [plex_meta_manager.py:447]  [INFO]     |                                                                                                    |
+[2022-05-26 02:11:38,345] [plex_meta_manager.py:449]  [INFO]     |=========================== Running Pirates of the Caribbean Collection ============================|
+[2022-05-26 02:11:38,346] [plex_meta_manager.py:461]  [INFO]     |                                                                                                    |
+[2022-05-26 02:11:38,346] [plex_meta_manager.py:462]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-05-26 02:11:38,346] [plex_meta_manager.py:472]  [DEBUG]    |                                                                                                    |
+[2022-05-26 02:11:38,346] [plex_meta_manager.py:473]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls023657263/', 'limit': 0}                  |
+[2022-05-26 02:11:38,347] [plex_meta_manager.py:474]  [INFO]     |                                                                                                    |
+[2022-05-26 02:11:38,347] [imdb.py:176]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls023657263/                                       |
+[2022-05-26 02:11:42,265] [imdb.py:127]               [DEBUG]    | 5 IMDb IDs Found: ['tt0325980', 'tt0383574', 'tt0449088', 'tt1298650', 'tt1790809']                |
+[2022-05-26 02:11:42,265] [builder.py:1424]           [DEBUG]    |                                                                                                    |
+[2022-05-26 02:11:42,266] [builder.py:1425]           [DEBUG]    | 5 IDs Found: [('tt0325980', 'imdb'), ('tt0383574', 'imdb'), ('tt0449088', 'imdb'), ('tt1298650', 'imdb'), ('tt1790809', 'imdb')] |
+[2022-05-26 02:11:42,266] [builder.py:1426]           [DEBUG]    |                                                                                                    |
+[2022-05-26 02:11:42,829] [builder.py:1892]           [INFO]     |                                                                                                    |
+[2022-05-26 02:11:42,830] [builder.py:1893]           [INFO]     |========================== Adding to Pirates of the Caribbean Collection ===========================|
+[2022-05-26 02:11:42,830] [builder.py:1894]           [INFO]     |                                                                                                    |
+[2022-05-26 02:11:42,830] [builder.py:1908]           [INFO]     | 1/5 | Pirates of the Caribbean Collection | = | Pirates of the Caribbean: The Curse of the Black Pearl (2003) |
+[2022-05-26 02:11:42,831] [builder.py:1908]           [INFO]     | 2/5 | Pirates of the Caribbean Collection | = | Pirates of the Caribbean: Dead Man's Chest (2006)  |
+[2022-05-26 02:11:42,831] [builder.py:1908]           [INFO]     | 3/5 | Pirates of the Caribbean Collection | = | Pirates of the Caribbean: At World's End (2007)    |
+[2022-05-26 02:11:42,831] [builder.py:1908]           [INFO]     | 4/5 | Pirates of the Caribbean Collection | = | Pirates of the Caribbean: On Stranger Tides (2011) |
+[2022-05-26 02:11:42,832] [builder.py:1908]           [INFO]     | 5/5 | Pirates of the Caribbean Collection | = | Pirates of the Caribbean: Dead Men Tell No Tales (2017) |
+[2022-05-26 02:11:42,832] [builder.py:1933]           [INFO]     |                                                                                                    |
+[2022-05-26 02:11:42,832] [builder.py:1934]           [INFO]     | 5 Movies Processed                                                                                 |
+[2022-05-26 02:11:42,874] [builder.py:2410]           [INFO]     |                                                                                                    |
+[2022-05-26 02:11:42,874] [builder.py:2411]           [INFO]     |===================== Updating Details of Pirates of the Caribbean Collection ======================|
+[2022-05-26 02:11:42,875] [builder.py:2412]           [INFO]     |                                                                                                    |
+[2022-05-26 02:11:42,875] [builder.py:2418]           [INFO]     | Detail: summary will update Collection Summary                                                     |
+[2022-05-26 02:11:42,875] [builder.py:2473]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | 
+[2022-05-26 02:11:44,181] [builder.py:2477]           [INFO]     | Details: have been updated
+[2022-05-26 02:11:44,181] [builder.py:2480]           [INFO]     | 
+[2022-05-26 02:11:44,220] [builder.py:2532]           [DEBUG]    | 1 posters found:
+[2022-05-26 02:11:44,220] [builder.py:2534]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/53941
+[2022-05-26 02:11:44,220] [builder.py:2601]           [INFO]     | No background collection detail or asset folder found
+[2022-05-26 02:12:12,141] [library.py:141]            [INFO]     | Detail: url_poster updated poster to [URL] https://theposterdb.com/api/assets/53941
+[2022-05-26 02:12:15,282] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-26 02:12:15,282] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-26 02:12:15,282] [plex_meta_manager.py:577]  [INFO]     |                            Finished Pirates of the Caribbean Collection                            |
+[2022-05-26 02:12:15,283] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:00:46                                    |
+[2022-05-26 02:12:15,283] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

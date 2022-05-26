@@ -1,0 +1,89 @@
+[2022-05-26 02:10:58,420] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-26 02:10:58,420] [plex_meta_manager.py:437]  [INFO]     |                               Fast and Furious Collection in Movies                                |
+[2022-05-26 02:10:58,421] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-26 02:10:58,421] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-26 02:10:58,421] [plex_meta_manager.py:443]  [INFO]     |============================== Validating Fast and Furious Attributes ==============================|
+[2022-05-26 02:10:58,421] [builder.py:241]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:10:58,421] [builder.py:242]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-05-26 02:10:58,422] [meta.py:109]               [DEBUG]    | Value: ordereddict([('name', 'Franchise'), ('poster', 'https://theposterdb.com/api/assets/166162')]) |
+[2022-05-26 02:10:58,422] [builder.py:359]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:10:58,422] [builder.py:360]            [DEBUG]    | Validating Method: delete_not_scheduled                                                            |
+[2022-05-26 02:10:58,422] [builder.py:361]            [DEBUG]    | Value: True                                                                                        |
+[2022-05-26 02:10:58,423] [builder.py:402]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:10:58,423] [builder.py:403]            [DEBUG]    | Validating Method: run_again                                                                       |
+[2022-05-26 02:10:58,423] [builder.py:404]            [DEBUG]    | Value: True                                                                                        |
+[2022-05-26 02:10:58,423] [builder.py:423]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:10:58,423] [builder.py:424]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-05-26 02:10:58,423] [builder.py:428]            [DEBUG]    | Value: sync                                                                                        |
+[2022-05-26 02:10:58,424] [builder.py:570]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:10:58,424] [builder.py:571]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-05-26 02:10:58,424] [builder.py:572]            [DEBUG]    | Value: release                                                                                     |
+[2022-05-26 02:10:58,424] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:10:58,424] [builder.py:592]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-05-26 02:10:58,425] [builder.py:593]            [DEBUG]    | Value: +++++Fast                                                                                   |
+[2022-05-26 02:10:58,425] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:10:58,425] [builder.py:592]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-05-26 02:10:58,425] [builder.py:593]            [DEBUG]    | Value: ['https://www.imdb.com/list/ls068935667/']                                                  |
+[2022-05-26 02:10:59,370] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:10:59,372] [builder.py:592]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-05-26 02:10:59,372] [builder.py:593]            [DEBUG]    | Value: The Fast and the Furious is an American media franchise centered on a series of action films that is largely concerned with illegal street racing, heists and spies. The franchise also includes short films, a television series, live shows, and theme park attractions. |
+[2022-05-26 02:10:59,372] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:10:59,372] [builder.py:592]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-05-26 02:10:59,372] [builder.py:593]            [DEBUG]    | Value: https://theposterdb.com/api/assets/166162                                                   |
+[2022-05-26 02:10:59,372] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:10:59,373] [builder.py:592]            [DEBUG]    | Validating Method: visible_home                                                                    |
+[2022-05-26 02:10:59,373] [builder.py:593]            [DEBUG]    | Value: True                                                                                        |
+[2022-05-26 02:10:59,373] [builder.py:588]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:10:59,373] [builder.py:592]            [DEBUG]    | Validating Method: visible_shared                                                                  |
+[2022-05-26 02:10:59,373] [builder.py:593]            [DEBUG]    | Value: True                                                                                        |
+[2022-05-26 02:11:08,756] [builder.py:749]            [INFO]     |                                                                                                    |
+[2022-05-26 02:11:08,757] [builder.py:750]            [INFO]     | Validation Successful                                                                              |
+[2022-05-26 02:11:08,757] [plex_meta_manager.py:447]  [INFO]     |                                                                                                    |
+[2022-05-26 02:11:08,758] [plex_meta_manager.py:449]  [INFO]     |=============================== Running Fast and Furious Collection ================================|
+[2022-05-26 02:11:08,758] [plex_meta_manager.py:461]  [INFO]     |                                                                                                    |
+[2022-05-26 02:11:08,759] [plex_meta_manager.py:462]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-05-26 02:11:08,759] [plex_meta_manager.py:472]  [DEBUG]    |                                                                                                    |
+[2022-05-26 02:11:08,759] [plex_meta_manager.py:473]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls068935667/', 'limit': 0}                  |
+[2022-05-26 02:11:08,760] [plex_meta_manager.py:474]  [INFO]     |                                                                                                    |
+[2022-05-26 02:11:08,760] [imdb.py:176]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls068935667/                                       |
+[2022-05-26 02:11:12,727] [imdb.py:127]               [DEBUG]    | 10 IMDb IDs Found: ['tt0232500', 'tt0322259', 'tt0463985', 'tt1013752', 'tt1596343', 'tt1905041', 'tt2820852', 'tt4630562', 'tt5433138', 'tt5433140'] |
+[2022-05-26 02:11:12,728] [builder.py:1424]           [DEBUG]    |                                                                                                    |
+[2022-05-26 02:11:12,728] [builder.py:1425]           [DEBUG]    | 10 IDs Found: [('tt0232500', 'imdb'), ('tt0322259', 'imdb'), ('tt0463985', 'imdb'), ('tt1013752', 'imdb'), ('tt1596343', 'imdb'), ('tt1905041', 'imdb'), ('tt2820852', 'imdb'), ('tt4630562', 'imdb'), ('tt5433138', 'imdb'), ('tt5433140', 'imdb')] |
+[2022-05-26 02:11:12,728] [builder.py:1426]           [DEBUG]    |                                                                                                    |
+[2022-05-26 02:11:14,244] [builder.py:1892]           [INFO]     |                                                                                                    |
+[2022-05-26 02:11:14,245] [builder.py:1893]           [INFO]     |============================== Adding to Fast and Furious Collection ===============================|
+[2022-05-26 02:11:14,245] [builder.py:1894]           [INFO]     |                                                                                                    |
+[2022-05-26 02:11:14,246] [builder.py:1908]           [INFO]     | 1/9 | Fast and Furious Collection | = | The Fast and the Furious (2001)                            |
+[2022-05-26 02:11:14,246] [builder.py:1908]           [INFO]     | 2/9 | Fast and Furious Collection | = | 2 Fast 2 Furious (2003)                                    |
+[2022-05-26 02:11:14,246] [builder.py:1908]           [INFO]     | 3/9 | Fast and Furious Collection | = | The Fast and the Furious: Tokyo Drift (2006)               |
+[2022-05-26 02:11:14,247] [builder.py:1908]           [INFO]     | 4/9 | Fast and Furious Collection | = | Fast & Furious (2009)                                      |
+[2022-05-26 02:11:14,247] [builder.py:1908]           [INFO]     | 5/9 | Fast and Furious Collection | = | Fast Five (2011)                                           |
+[2022-05-26 02:11:14,248] [builder.py:1908]           [INFO]     | 6/9 | Fast and Furious Collection | = | Fast & Furious 6 (2013)                                    |
+[2022-05-26 02:11:14,248] [builder.py:1908]           [INFO]     | 7/9 | Fast and Furious Collection | = | Furious 7 (2015)                                           |
+[2022-05-26 02:11:14,248] [builder.py:1908]           [INFO]     | 8/9 | Fast and Furious Collection | = | The Fate of the Furious (2017)                             |
+[2022-05-26 02:11:14,249] [builder.py:1908]           [INFO]     | 9/9 | Fast and Furious Collection | = | F9: The Fast Saga (2021)                                   |
+[2022-05-26 02:11:14,249] [builder.py:1933]           [INFO]     |                                                                                                    |
+[2022-05-26 02:11:14,250] [builder.py:1934]           [INFO]     | 9 Movies Processed                                                                                 |
+[2022-05-26 02:11:14,250] [builder.py:2171]           [INFO]     |                                                                                                    |
+[2022-05-26 02:11:14,250] [builder.py:2172]           [INFO]     |=============================== Missing Movies from Library: Movies ================================|
+[2022-05-26 02:11:14,251] [builder.py:2173]           [INFO]     |                                                                                                    |
+[2022-05-26 02:11:14,630] [builder.py:2185]           [INFO]     | Fast and Furious Collection | ? | Fast X (2023) (TMDb: 385687)                                     |
+[2022-05-26 02:11:14,630] [builder.py:2189]           [INFO]     |                                                                                                    |
+[2022-05-26 02:11:14,631] [builder.py:2190]           [INFO]     | 1 Movie Missing                                                                                    |
+[2022-05-26 02:11:14,682] [builder.py:2410]           [INFO]     |                                                                                                    |
+[2022-05-26 02:11:14,683] [builder.py:2411]           [INFO]     |========================= Updating Details of Fast and Furious Collection ==========================|
+[2022-05-26 02:11:14,683] [builder.py:2412]           [INFO]     |                                                                                                    |
+[2022-05-26 02:11:14,684] [builder.py:2418]           [INFO]     | Detail: summary will update Collection Summary                                                     |
+[2022-05-26 02:11:14,684] [builder.py:2473]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | 
+[2022-05-26 02:11:16,138] [builder.py:2477]           [INFO]     | Details: have been updated
+[2022-05-26 02:11:16,138] [builder.py:2480]           [INFO]     | 
+[2022-05-26 02:11:16,175] [builder.py:2532]           [DEBUG]    | 1 posters found:
+[2022-05-26 02:11:16,176] [builder.py:2534]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/166162
+[2022-05-26 02:11:16,176] [builder.py:2601]           [INFO]     | No background collection detail or asset folder found
+[2022-05-26 02:11:17,970] [library.py:141]            [INFO]     | Detail: url_poster updated poster to [URL] https://theposterdb.com/api/assets/166162
+[2022-05-26 02:11:28,284] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-26 02:11:28,285] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-26 02:11:28,285] [plex_meta_manager.py:577]  [INFO]     |                                Finished Fast and Furious Collection                                |
+[2022-05-26 02:11:28,285] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:00:29                                    |
+[2022-05-26 02:11:28,285] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

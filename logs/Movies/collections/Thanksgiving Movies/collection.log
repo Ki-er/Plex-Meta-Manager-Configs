@@ -1,0 +1,25 @@
+[2022-05-26 02:15:49,766] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-26 02:15:49,766] [plex_meta_manager.py:437]  [INFO]     |                              Thanksgiving Movies Collection in Movies                              |
+[2022-05-26 02:15:49,766] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-26 02:15:49,767] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-26 02:15:49,767] [plex_meta_manager.py:443]  [INFO]     |============================ Validating Thanksgiving Movies Attributes =============================|
+[2022-05-26 02:15:49,767] [builder.py:241]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:15:49,767] [builder.py:242]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-05-26 02:15:49,768] [meta.py:109]               [DEBUG]    | Value: ordereddict([('name', 'Holiday'), ('holiday', 'Thanksgiving'), ('poster', 'https://theposterdb.com/api/assets/112251')]) |
+[2022-05-26 02:15:49,768] [builder.py:359]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:15:49,769] [builder.py:360]            [DEBUG]    | Validating Method: delete_not_scheduled                                                            |
+[2022-05-26 02:15:49,769] [builder.py:361]            [DEBUG]    | Value: True                                                                                        |
+[2022-05-26 02:15:49,769] [builder.py:365]            [DEBUG]    |                                                                                                    |
+[2022-05-26 02:15:49,769] [builder.py:366]            [DEBUG]    | Validating Method: schedule                                                                        |
+[2022-05-26 02:15:49,769] [builder.py:370]            [DEBUG]    | Value: range(10/01-10/31)                                                                          |
+[2022-05-26 02:15:49,808] [plex.py:721]               [DEBUG]    |                                                                                                    |
+[2022-05-26 02:15:49,808] [plex.py:724]               [DEBUG]    | Looking for: Thanksgiving Movies                                                                   |
+[2022-05-26 02:15:49,808] [plex_meta_manager.py:562]  [INFO]     |                                                                                                    |
+                                                                 | Scheduled between October 1st and October 31st
+                                                                 | 
+                                                                 | Collection Thanksgiving Movies not scheduled to run and could not be found to delete
+[2022-05-26 02:15:49,809] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-26 02:15:49,809] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-26 02:15:49,810] [plex_meta_manager.py:577]  [INFO]     |                              Finished Thanksgiving Movies Collection                               |
+[2022-05-26 02:15:49,810] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-05-26 02:15:49,810] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|

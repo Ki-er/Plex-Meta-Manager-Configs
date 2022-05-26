@@ -1,0 +1,17 @@
+[2022-05-20 17:11:43,096] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:11:43,096] [plex_meta_manager.py:437]  [INFO]     |                           Video Games (Live-action) Collection in Movies                           |
+[2022-05-20 17:11:43,097] [plex_meta_manager.py:437]  [INFO]     |====================================================================================================|
+[2022-05-20 17:11:43,097] [plex_meta_manager.py:438]  [INFO]     |                                                                                                    |
+[2022-05-20 17:11:43,097] [plex_meta_manager.py:443]  [INFO]     |========================= Validating Video Games (Live-action) Attributes ==========================|
+[2022-05-20 17:11:43,097] [builder.py:365]            [DEBUG]    |                                                                                                    |
+[2022-05-20 17:11:43,098] [builder.py:366]            [DEBUG]    | Validating Method: schedule                                                                        |
+[2022-05-20 17:11:43,098] [builder.py:370]            [DEBUG]    | Value: monthly(10)                                                                                 |
+[2022-05-20 17:11:43,098] [plex_meta_manager.py:562]  [INFO]     |                                                                                                    |
+                                                                 | Scheduled monthly on the 10th
+                                                                 | 
+                                                                 | Collection Video Games (Live-action) not scheduled to run
+[2022-05-20 17:11:43,099] [plex_meta_manager.py:576]  [INFO]     | 
+[2022-05-20 17:11:43,099] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
+[2022-05-20 17:11:43,099] [plex_meta_manager.py:577]  [INFO]     |                           Finished Video Games (Live-action) Collection                            |
+[2022-05-20 17:11:43,099] [plex_meta_manager.py:577]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-05-20 17:11:43,100] [plex_meta_manager.py:577]  [INFO]     |====================================================================================================|
