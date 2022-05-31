@@ -137,3 +137,9 @@ collections:
     trakt_list:
       - https://trakt.tv/users/wdvhucb/lists/planet-of-the-apes-reboot?sort=rank,asc
     summary: Rick Jaffa & Amanda Silver's reboot/remake of the Planet of the Apes inspired by news articles on apes raised as humans and advances in genetics. Jaffa conceived an idea for a film about a genetically enhanced chimp raised in a human household. The film series focuses on a chimpanzee, Caesar who when given a substance designed to help the brain repair itself, gains advanced intelligence which leads to an ape uprising.
+  The Cornetto Trilogy:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/234}
+    sort_title: +++++CornettoTrilogy
+    imdb_list:
+      - https://www.imdb.com/list/ls068623110/
+    summary: The Three Flavours Cornetto trilogy (also known as the Cornetto trilogy or the Blood and Ice Cream trilogy) is an anthology series of British comedic genre films directed by Edgar Wright, written by Wright and Simon Pegg, produced by Nira Park, and starring Pegg and Nick Frost. The trilogy consists of Shaun of the Dead (2004), Hot Fuzz (2007), and The World's End (2013). 
