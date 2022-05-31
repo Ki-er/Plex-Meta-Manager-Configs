@@ -117,7 +117,7 @@ collections:
     template: {name: Franchise, poster: https://theposterdb.com/api/assets/159630}
     sort_title: +++++Transformers
     imdb_list:
-      - hhttps://www.imdb.com/list/ls033452628/
+      - https://www.imdb.com/list/ls033452628/
     summary: The Transformers series follows the continuing battle between the Autobots and the Decepticons and ultimately, the triumph of good over evil. This collection includes the Theatrically Released Films of the transformers saga only.
   Hunger Games:
     template: {name: Franchise, poster: https://theposterdb.com/api/assets/69294}
