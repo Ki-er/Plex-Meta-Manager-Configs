@@ -71,9 +71,9 @@ collections:
     trakt_list:
       - https://trakt.tv/users/isis-jansen/lists/marvel?sort=rank,desc
     summary: Marvel Comics is the brand name and primary imprint of Marvel Worldwide Inc., formerly Marvel Publishing, Inc. and Marvel Comics Group, a publisher of American comic books and related media. In 2009, The Walt Disney Company acquired Marvel Entertainment, Marvel Worldwide's parent company.
-  Lord of the Rings:
+  Middle Earth:
     template: {name: Franchise, poster: https://theposterdb.com/api/assets/115119}
-    sort_title: +++++Lord
+    sort_title: +++++MiddleEarth
     imdb_list:
       - https://www.imdb.com/list/ls055713151/?sort=release_date,asc&st_dt=&mode=detail&page=1
     summary: The Lord of the Rings is an epic high-fantasy novel by English author and scholar J. R. R. Tolkien. Set in Middle-earth, intended to be Earth at some distant time in the past, the story began as a sequel to Tolkien's 1937 children's book The Hobbit, but eventually developed into a much larger work.
@@ -149,3 +149,4 @@ collections:
     imdb_list:
       - https://www.imdb.com/list/ls021034687/
     summary: Fifty Shades of Grey is a 2011 erotic romance novel by British author E. L. James.[1] It became the first instalment in the Fifty Shades novel series that follows the deepening relationship between a college graduate, Anastasia Steele, and a young business magnate, Christian Grey. It is notable for its explicitly erotic scenes featuring elements of sexual practices involving BDSM (bondage/discipline, dominance/submission, and sadism/masochism). Originally self-published as an ebook and print-on-demand in June 2011, the publishing rights to the novel were acquired by Vintage Books in March 2012.
+
