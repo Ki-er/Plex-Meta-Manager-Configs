@@ -143,3 +143,9 @@ collections:
     imdb_list:
       - https://www.imdb.com/list/ls068623110/
     summary: The Three Flavours Cornetto trilogy (also known as the Cornetto trilogy or the Blood and Ice Cream trilogy) is an anthology series of British comedic genre films directed by Edgar Wright, written by Wright and Simon Pegg, produced by Nira Park, and starring Pegg and Nick Frost. The trilogy consists of Shaun of the Dead (2004), Hot Fuzz (2007), and The World's End (2013). 
+  Fifty Shades of Grey:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/234}
+    sort_title: +++++FiftyShades
+    imdb_list:
+      - https://www.imdb.com/list/ls021034687/
+    summary: Fifty Shades of Grey is a 2011 erotic romance novel by British author E. L. James.[1] It became the first instalment in the Fifty Shades novel series that follows the deepening relationship between a college graduate, Anastasia Steele, and a young business magnate, Christian Grey. It is notable for its explicitly erotic scenes featuring elements of sexual practices involving BDSM (bondage/discipline, dominance/submission, and sadism/masochism). Originally self-published as an ebook and print-on-demand in June 2011, the publishing rights to the novel were acquired by Vintage Books in March 2012.
