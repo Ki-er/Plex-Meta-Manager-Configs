@@ -1,17 +1,3 @@
-######################################################
-#                Movie Collections                   #
-######################################################
-
-############################################
-#            User/Config Credits           #
-#      Give Credit Where Credit is Due     #
-#               JJJonesJr33                #
-# Glasti1, Hiren-Z, OhMyBahGosh, tuxpeople #
-############################################
-
-###########################
-#        Templates        #
-###########################
 templates:
     Franchise:
         url_poster: <<poster>>
@@ -149,4 +135,15 @@ collections:
     imdb_list:
       - https://www.imdb.com/list/ls021034687/
     summary: Fifty Shades of Grey is a 2011 erotic romance novel by British author E. L. James.[1] It became the first instalment in the Fifty Shades novel series that follows the deepening relationship between a college graduate, Anastasia Steele, and a young business magnate, Christian Grey. It is notable for its explicitly erotic scenes featuring elements of sexual practices involving BDSM (bondage/discipline, dominance/submission, and sadism/masochism). Originally self-published as an ebook and print-on-demand in June 2011, the publishing rights to the novel were acquired by Vintage Books in March 2012.
-
+  Divergent:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/5426}
+    sort_title: +++++Divergent
+    imdb_list:
+      - https://www.imdb.com/list/ls079078568/
+    summary: The series consists of three science fiction action films set in a dystopian society.
+  Maze Runner:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/174}
+    sort_title: +++++MazeRunner
+    imdb_list:
+      - https://www.imdb.com/list/ls020767998/
+    summary: Maze Runner is a North American film trilogy, consisting of science-fiction dystopian action adventure films based on The Maze Runner novels by the North American author James Dashner. 

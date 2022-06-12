@@ -8,9 +8,6 @@ templates:
         visible_home: true
         visible_shared: true
         sync_mode: sync
-        ###########################
-#  Holliday Collections   #
-###########################
 collections:
   Christmas:
     schedule: range(12/01-12/31)

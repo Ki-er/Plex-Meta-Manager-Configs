@@ -22,4 +22,7 @@ collections:
     template: {name: Director, person: 138}
   Taika Waititi:
     template: {name: Director, person: 55934}
+  Steven Spielberg:
+    template: {name: Director, person: 488}
+
 
