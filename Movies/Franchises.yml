@@ -159,3 +159,9 @@ collections:
     imdb_list:
       - https://www.imdb.com/list/ls539962985/
     summary: These sport drama films begin by telling the rags to riches American Dream story of Rocky Balboa, an uneducated but kind-hearted working class Italian-American boxer working as a debt collector for a loan shark in the slums of Philadelphia.
+  Oceans:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/64818}
+    sort_title: +++++Oceans
+    imdb_list:
+      - https://www.imdb.com/list/ls068557644/
+    summary: The Ocean's Collection is a star-studded film series about a group of professional robbers who get together to pull off some mind-boggling heists.
