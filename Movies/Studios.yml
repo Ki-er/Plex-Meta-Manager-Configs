@@ -24,3 +24,8 @@ collections:
     sort_title: +++++++Dreamworks
     imdb_list:
       - https://www.imdb.com/list/ls063182572/
+  Pixar:
+    template: {name: Studio, poster: https://theposterdb.com/api/assets/69452}
+    sort_title: +++++++Pixar
+    imdb_list:
+      - https://www.imdb.com/list/ls076436404/
