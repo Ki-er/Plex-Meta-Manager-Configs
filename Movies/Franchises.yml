@@ -153,3 +153,9 @@ collections:
     imdb_list:
       - https://www.imdb.com/list/ls041070228/
     summary: The Matrix is an American media franchise consisting of four feature films, beginning with The Matrix (1999) and continuing with three sequels, The Matrix Reloaded, The Matrix Revolutions (both 2003), and The Matrix Resurrections (2021).
+  Rocky Chronology:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/54535}
+    sort_title: +++++Rocky
+    imdb_list:
+      - https://www.imdb.com/list/ls539962985/
+    summary: These sport drama films begin by telling the rags to riches American Dream story of Rocky Balboa, an uneducated but kind-hearted working class Italian-American boxer working as a debt collector for a loan shark in the slums of Philadelphia.
