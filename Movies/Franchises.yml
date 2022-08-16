@@ -147,3 +147,9 @@ collections:
     imdb_list:
       - https://www.imdb.com/list/ls020767998/
     summary: Maze Runner is a North American film trilogy, consisting of science-fiction dystopian action adventure films based on The Maze Runner novels by the North American author James Dashner. 
+  Matrix:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/6767}
+    sort_title: +++++TheMatrix
+    imdb_list:
+      - https://www.imdb.com/list/ls041070228/
+    summary: The Matrix is an American media franchise consisting of four feature films, beginning with The Matrix (1999) and continuing with three sequels, The Matrix Reloaded, The Matrix Revolutions (both 2003), and The Matrix Resurrections (2021).
