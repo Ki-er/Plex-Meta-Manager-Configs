@@ -171,3 +171,9 @@ collections:
     imdb_list:
       - https://www.imdb.com/list/ls044102039/
     summary: A neo-noir action thriller film series that follows a former assassin, Jonathan 'John' Wick who come outs of retirement seeking vengeance for the theft of his vintage car and the killing of his puppy.
+  Kingsman:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/6634}
+    sort_title: +++++Kingsman
+    imdb_list:
+      - https://www.imdb.com/list/ls041856939/
+    summary: A British-American film series based on the adventures of the agents of Kingsman a fictional secret organisation. That began with the recruitment of an unrefined but promising street kid into the agency's ultra-competitive training program.
