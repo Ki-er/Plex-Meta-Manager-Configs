@@ -177,3 +177,9 @@ collections:
     imdb_list:
       - https://www.imdb.com/list/ls041856939/
     summary: A British-American film series based on the adventures of the agents of Kingsman a fictional secret organisation. That began with the recruitment of an unrefined but promising street kid into the agency's ultra-competitive training program.
+  The Hangover Trilogy:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/40149}
+    sort_title: +++++Hangover
+    imdb_list:
+      - https://www.imdb.com/list/ls051527196/
+    summary: The Hangover is a 2009 American comedy film, co-produced and directed by Todd Phillips and written by Jon Lucas and Scott Moore. It is the first film of The Hangover franchise. The film stars Bradley Cooper, Ed Helms, Zach Galifianakis, Heather Graham, Justin Bartha, and Jeffrey Tambor. The Hangover tells the story of Phil Wenneck, Stu Price and Alan Garner, who travel to Las Vegas for a bachelor party to celebrate their friend Doug Billings' impending marriage. However, Phil, Stu and Alan have no memory of the previous night's events and must find Doug before the wedding can take place. It was followed by 2 sequels.
