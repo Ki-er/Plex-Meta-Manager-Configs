@@ -165,9 +165,9 @@ collections:
     imdb_list:
       - https://www.imdb.com/list/ls068557644/
     summary: The Ocean's Collection is a star-studded film series about a group of professional robbers who get together to pull off some mind-boggling heists.
-  Bond:
-    template: {name: Franchise, poster: https://theposterdb.com/api/assets/126240}
-    sort_title: +++++Bond 
+  John Wick:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/11590}
+    sort_title: +++++JohnWick
     imdb_list:
-      - https://www.imdb.com/list/ls006405458/
-    summary: The James Bond film series is a British series of spy films based on the fictional character of MI6 agent James Bond, codename "007". With all of the action, adventure, gadgetry & film scores that Bond is famous for. (We do not consider the 1954 release of Casino Royale for this series because it was actually a television episode and not a theatrical film.)
+      - https://www.imdb.com/list/ls044102039/
+    summary: A neo-noir action thriller film series that follows a former assassin, Jonathan 'John' Wick who come outs of retirement seeking vengeance for the theft of his vintage car and the killing of his puppy.
