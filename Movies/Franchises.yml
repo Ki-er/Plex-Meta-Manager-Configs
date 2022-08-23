@@ -189,3 +189,9 @@ collections:
     imdb_list:
       - https://www.imdb.com/list/ls060980806/
     summary: An ensemble action film series about a group of elite mercenaries. The series pay tribute to the blockbuster action films of the 1980s and early 1990s, and stars an array of action veterans from those decades.
+  Rambo:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/2611}
+    sort_title: +++++Rambo
+    imdb_list:
+      - https://www.imdb.com/list/ls024001880/
+    summary: A series of action films that follows John Rambo, a US Army veteran, who is traumatized by his experience in the Vietnam War, and uses the skills he gained there to fight corrupt police officers, enemy troops and drug cartels.
