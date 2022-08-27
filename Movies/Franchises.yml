@@ -28,7 +28,7 @@ collections:
       - https://www.imdb.com/list/ls023657263/
     summary: A series of fantasy swashbuckler films based on Walt Disney's theme park ride of the same name. The films follow the adventures of Captain Jack Sparrow and take place in a fictional historical setting; a world ruled by the British Empire, the East India Trading Company and the Spanish Empire, with pirates representing freedom from the ruling powers.
   Star Wars:
-    template: {name: Franchise, poster: https://theposterdb.com/api/assets/58758}
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/41801}
     sort_title: +++++StarWars
     imdb_list:
       - https://www.imdb.com/list/ls046295261/

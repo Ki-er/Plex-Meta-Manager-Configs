@@ -1,12 +1,12 @@
 metadata:
-#### Bck to the Future
+#### Back to the Future
   Back to the Future:
     url_poster: https://theposterdb.com/api/assets/63512
   Back to the Future Part II:
     url_poster: https://theposterdb.com/api/assets/63513
   Back to the Future Part III:
     url_poster: https://theposterdb.com/api/assets/63514
-#####  The Wizarding World 
+#### The Wizarding World 
   Harry Potter and the Philosopher's Stone:
     url_poster: https://theposterdb.com/api/assets/20344
   Harry Potter and the Chamber of Secrets:
@@ -29,7 +29,24 @@ metadata:
     url_poster: https://theposterdb.com/api/assets/20353
   338953:
     url_poster: https://theposterdb.com/api/assets/239160
-
-
-
-
+#### Star Wars
+  11:
+    url_poster: https://theposterdb.com/api/assets/28742
+  1891:
+    url_poster: https://theposterdb.com/api/assets/287423
+  1892:
+    url_poster: https://theposterdb.com/api/assets/287424
+  1893:
+    url_poster: https://theposterdb.com/api/assets/287425
+  1894:
+    url_poster: https://theposterdb.com/api/assets/287426
+  1895:
+    url_poster: https://theposterdb.com/api/assets/287427
+  140607:
+    url_poster: https://theposterdb.com/api/assets/287428
+  181808:
+    url_poster: https://theposterdb.com/api/assets/287429
+  181812:
+    url_poster: https://theposterdb.com/api/assets/287430
+  330459:
+    url_poster: https://theposterdb.com/api/assets/27035
