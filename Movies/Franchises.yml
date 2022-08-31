@@ -201,9 +201,27 @@ collections:
     imdb_list:
       - https://www.imdb.com/list/ls068768438/
     summary: The Conjuring Universe is an American media franchise and shared universe centered on a series of supernatural horror films, produced by New Line Cinema, The Safran Company and Atomic Monster Productions and distributed by Warner Bros. Pictures. The films present a dramatization of the real-life cases of Ed and Lorraine Warren, paranormal investigators and authors associated with prominent yet controversial cases of haunting. The main series follows their attempts to assist people who find themselves possessed by demonic spirits, while the spin-off films focus on the origins of some of the entities the Warrens have encountered.
- Insidious:
+  Insidious:
     template: {name: Franchise, poster: https://theposterdb.com/api/assets/44803}
     sort_title: +++++Insidious
     imdb_list:
       - https://www.imdb.com/list/ls047807044/
     summary: A series of American horror films where the plots are depicted as case files of demonologists. The first two films center on a couple who, after their son mysteriously enters a comatose state and becomes a vessel for ghosts in an astral plane, are continuously haunted by demons of a hellish realm known as the Further until they take from the family what they want most life. The third film, a prequel, focuses on the same psychic that helped the family this time come to the aid of a young girl who calls out to the dead, and the fourth follows her when her own family becomes haunted. All plots are depicted as case files of demonologists.
+  The Purge:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/8515}
+    sort_title: +++++Purge
+    imdb_list:
+      - https://www.imdb.com/list/ls022338172/
+    summary: A horror thriller film series based on a future dystopian America, where all crime is made legal once a year.
+  Saw:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/39487}
+    sort_title: +++++Saw
+    imdb_list:
+      - https://www.imdb.com/list/ls092592239/
+    summary: The extremely successful horror film series about a mysterious murderer who gives his victims macabre riddles they must solve to earn their freedom. After a surprise debut film success Saw would be made into a multimedia franchise, spawning 7 installments.
+
+
+
+
+
+   
