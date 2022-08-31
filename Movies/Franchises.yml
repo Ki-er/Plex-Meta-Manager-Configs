@@ -78,8 +78,8 @@ collections:
   Batman:
     template: {name: Franchise, poster: https://theposterdb.com/api/assets/27394}
     sort_title: +++++Batman
-    trakt_list:
-      - https://trakt.tv/users/maz/lists/batman-anthology-1989-1997?sort=rank,asc
+    imdb_list:
+      - https://www.imdb.com/list/ls027462776/
     summary: Batman is a superhero appearing in American comic books published by DC Comics. 
   The Dark Knight:     
     template: {name: Franchise, poster: https://theposterdb.com/api/assets/44451}
@@ -120,8 +120,8 @@ collections:
   Planet of the apes (Reboot):
     template: {name: Franchise, poster: https://theposterdb.com/api/assets/21735}
     sort_title: +++++PlanetOfTheApesReboot
-    trakt_list:
-      - https://trakt.tv/users/wdvhucb/lists/planet-of-the-apes-reboot?sort=rank,asc
+    imdb_list:
+      - https://www.imdb.com/list/ls041070808/
     summary: Rick Jaffa & Amanda Silver's reboot/remake of the Planet of the Apes inspired by news articles on apes raised as humans and advances in genetics. Jaffa conceived an idea for a film about a genetically enhanced chimp raised in a human household. The film series focuses on a chimpanzee, Caesar who when given a substance designed to help the brain repair itself, gains advanced intelligence which leads to an ape uprising.
   The Cornetto Trilogy:
     template: {name: Franchise, poster: https://theposterdb.com/api/assets/234}
