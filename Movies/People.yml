@@ -12,7 +12,14 @@ templates:
         actor: tmdb
       sort_by: year.asc
     tmdb_person: <<person>>
-    sort_title: +3_1_<<collection_name>>
+    sort_title: +4_1_<<collection_name>>
+  Writer:
+    smart_filter:
+      all:
+        writer: tmdb
+      sort_by: year.asc
+    tmdb_person: <<person>>
+    sort_title: +5_1_<<collection_name>>
 collections:
 ##### Directors
   Bong Joon-Ho:
@@ -35,4 +42,5 @@ collections:
   Tom Hanks:
     template: {name: Actor, person: 31}
 ##### Writing
-
+  Stephen King:
+    template: {name: Writer, person: 3207}
