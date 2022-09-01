@@ -39,6 +39,12 @@ collections:
   Taika Waititi:
     template: {name: Director, person: 55934}
 ##### Actors
+  Adam Sandler:
+    template: {name: Actor, person: 19292}
+  Keira Knightley:
+    template: {name: Actor, person: 116}
+  Robin Williams:
+    template: {name: Actor, person: 2157}
   Tom Hanks:
     template: {name: Actor, person: 31}
 ##### Writing
