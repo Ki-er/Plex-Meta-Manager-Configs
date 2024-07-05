@@ -1,5 +1,5 @@
 templates:
-    Franchise:
+    Franchise:command:workbench.trust.manage
         url_poster: <<poster>>
         sort_title: +++++++_<<collection_name>>
         collection_order: release
@@ -48,8 +48,8 @@ collections:
   Indiana Jones:
     template: {name: Franchise, poster: https://theposterdb.com/api/assets/105678}
     sort_title: +++++Iniana
-    imdb_list:
-      - https://www.imdb.com/list/ls027779939/?sort=release_date,asc&st_dt=&mode=detail&page=1
+    trakt_list:
+      - https://trakt.tv/users/miester433/lists/indianna-jones-collection?sort=released,asc
     summary: The Adventure films series from the Director George Lucas and Steven Spielberg, starring Harrison Ford as the archaeologist Dr. Henry Walton "Indiana" Jones.
   Marvel:
     template: {name: Franchise, poster: https://theposterdb.com/api/assets/164107}
@@ -108,8 +108,8 @@ collections:
   Hunger Games:
     template: {name: Franchise, poster: https://theposterdb.com/api/assets/69294}
     sort_title: +++++HungerGames
-    imdb_list:
-      - https://www.imdb.com/list/ls069064647/
+    trakt_list:
+      - https://trakt.tv/users/totes30/lists/hunger-games?sort=released,asc
     summary: A science fiction film series based on the novel of the same name by Suzanne Collins. The film series takes place in a dystopian post-apocalyptic future in the nation of Panem, featuring the protagonist, Katniss Everdeen.
   Planet of the apes (Originial):
     template: {name: Franchise, poster: https://theposterdb.com/api/assets/21715}
@@ -121,7 +121,7 @@ collections:
     template: {name: Franchise, poster: https://theposterdb.com/api/assets/21735}
     sort_title: +++++PlanetOfTheApesReboot
     imdb_list:
-      - https://www.imdb.com/list/ls041070808/
+      - https://www.imdb.com/list/ls529261054/
     summary: Rick Jaffa & Amanda Silver's reboot/remake of the Planet of the Apes inspired by news articles on apes raised as humans and advances in genetics. Jaffa conceived an idea for a film about a genetically enhanced chimp raised in a human household. The film series focuses on a chimpanzee, Caesar who when given a substance designed to help the brain repair itself, gains advanced intelligence which leads to an ape uprising.
   The Cornetto Trilogy:
     template: {name: Franchise, poster: https://theposterdb.com/api/assets/234}
@@ -219,9 +219,42 @@ collections:
     imdb_list:
       - https://www.imdb.com/list/ls092592239/
     summary: The extremely successful horror film series about a mysterious murderer who gives his victims macabre riddles they must solve to earn their freedom. After a surprise debut film success Saw would be made into a multimedia franchise, spawning 7 installments.
-
-
-
+  John Wick:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/101337}
+    sort_title: +++++John
+    imdb_list:
+      - https://www.imdb.com/list/ls504690685/
+    summary: John Wick is an American neo-noir action thriller media franchise created by screenwriter Derek Kolstad and owned by Lionsgate. Keanu Reeves plays John Wick, a retired hitman who becomes active again in his quest for vengeance.
+  Final Destination:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/4293}
+    sort_title: +++++Final
+    imdb_list:
+      - https://www.imdb.com/list/ls563970158/
+    summary: Final Destination is a series of horror films centered on the themes of fatalism, predestination, and precognition, in relation to death.
+  Underworld:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/571}
+    sort_title: +++++Underworld
+    imdb_list:
+      - https://www.imdb.com/list/ls041117712/
+    summary: A centuries-old war is waged between vampires and lycans (short for lycanthrope, from the Greek 'luk' [wolf] + 'ánthrōpos' [human], or werewolf).
+  Resident Evil:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/11303}
+    sort_title: +++++Resident
+    imdb_list:
+      - https://www.imdb.com/list/ls025503255/s
+    summary: Loosely based upon the Capcom video games of the same name, the Resident Evil film series follows the protagonist Alice, a character created for the films. The Umbrella Corporation acts as the main antagonist, a bio-engineering pharmaceutical company responsible for formulating the T-virus, which results in a zombie infection outbreak.
+  Alien:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/97097}
+    sort_title: +++++Alien
+    trakt_list:
+      - https://trakt.tv/users/digitmaxr/lists/alien?sort=released,desc
+    summary: A science fiction horror film franchise, focusing on Lieutenant Ellen Ripley (Sigourney Weaver) and her battle with an extraterrestrial life-form, commonly referred to as "the Alien". 
+  Jaws:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/8288}
+    sort_title: +++++Jaws
+    imdb_list:
+      - https://www.imdb.com/list/ls057747316/
+    summary: The classic horror films about a great white shark thats been attacking people off the coast of New England and bringing terror to their beach vacations. 
 
 
    
