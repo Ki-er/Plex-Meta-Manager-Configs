@@ -3,7 +3,6 @@ templates:
         url_poster: <<poster>>
         sort_title: +++++++_<<collection_name>>
         collection_order: release
-        delete_not_scheduled: true
         run_again: true
         visible_home: true
         visible_shared: true
@@ -47,7 +46,7 @@ collections:
     summary: Back to the Future is an American science fiction comedy franchise created by Robert Zemeckis and Bob Gale. The franchise follows the adventures of a high school student, Marty McFly, and an eccentric scientist, Dr. Emmett "Doc" Brown, as they use a DeLorean time machine to time travel to different periods in the history of the fictional town of Hill Valley, California.
   Indiana Jones:
     template: {name: Franchise, poster: https://theposterdb.com/api/assets/105678}
-    sort_title: +++++Iniana
+    sort_title: +++++Indiana
     trakt_list:
       - https://trakt.tv/users/miester433/lists/indianna-jones-collection?sort=released,asc
     summary: The Adventure films series from the Director George Lucas and Steven Spielberg, starring Harrison Ford as the archaeologist Dr. Henry Walton "Indiana" Jones.
@@ -165,12 +164,6 @@ collections:
     imdb_list:
       - https://www.imdb.com/list/ls068557644/
     summary: The Ocean's Collection is a star-studded film series about a group of professional robbers who get together to pull off some mind-boggling heists.
-  John Wick:
-    template: {name: Franchise, poster: https://theposterdb.com/api/assets/11590}
-    sort_title: +++++JohnWick
-    imdb_list:
-      - https://www.imdb.com/list/ls044102039/
-    summary: A neo-noir action thriller film series that follows a former assassin, Jonathan 'John' Wick who come outs of retirement seeking vengeance for the theft of his vintage car and the killing of his puppy.
   Kingsman:
     template: {name: Franchise, poster: https://theposterdb.com/api/assets/6634}
     sort_title: +++++Kingsman
